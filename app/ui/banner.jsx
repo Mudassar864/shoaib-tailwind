@@ -1,7 +1,7 @@
 import React from "react";
 export default function Banner() {
   return (
-    <section className="w-full  relative bg-white">
+    <section className="w-full  relative bg-black">
       <video muted autoPlay loop playsInline className="w-full">
         <source src="/assets/intro.mp4" type="video/mp4" />
         Your browser does not support the video tag.

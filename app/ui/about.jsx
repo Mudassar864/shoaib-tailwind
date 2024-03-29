@@ -31,7 +31,7 @@ export default function About() {
             Explore
           </Link>
         </div>
-        <div className="w-[400px] h-[600px] relative mx-auto">
+        <div className="w-[400px] h-[600px] relative mx-auto overflow-hidden">
           <Image
             className="absolute left-0 top-0 w-full h-full object-contain"
             src={about}

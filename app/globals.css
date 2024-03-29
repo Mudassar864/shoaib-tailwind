@@ -66,4 +66,9 @@
   .btn-border-white:hover{
     @apply bg-white text-black;
   }
+  .banner-content{
+    @apply absolute hidden md:block max-w-96;
+    bottom: 20%;
+    left: 5%;
+  }
 }

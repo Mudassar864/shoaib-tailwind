@@ -16,7 +16,7 @@ export default function Featured1() {
           alt="featured"
         />
       </div>
-      <div className="max-w-5xl py-16 flex flex-col lg:flex-row items-center  gap-8 lg:absolute lg:bottom-0 lg:left-0 bg-white">
+      <div className="border-b  max-w-5xl py-16 flex flex-col lg:flex-row items-center  gap-8 lg:absolute lg:bottom-0 lg:left-0 bg-white">
         <div className="">
           <Image
             src={feature}
@@ -26,7 +26,7 @@ export default function Featured1() {
             alt="featured"
           />
         </div>
-        <div className="flex flex-col gap-8 items-center lg:px-8 justify-center">
+        <div className="flex flex-col gap-8 items-center lg:px-8 justify-center ">
           <Baccarat />
           <p className="text-sm">Excellence that endures</p>
           <Link className="btn-border" href="#">

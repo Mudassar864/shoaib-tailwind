@@ -18,8 +18,8 @@ export default function Developments() {
             redefining modern living.
           </span>
         </div>
-        <div className="grid grid-cols-1 pt-7 gap-8 md:grid-cols-2 lg:grid-cols-3">
-          <div>
+        <div className="grid grid-cols-1 pt-7 gap-8 md:grid-cols-2 lg:grid-cols-3 ">
+          <div className="flex flex-col">
             <div className="w-full h-[300px] overflow-hidden relative">
               <Image
                 src={project1}
@@ -29,7 +29,7 @@ export default function Developments() {
                 placeholder="blur"
               />
             </div>
-            <div className="flex flex-col flex-grow flex-shrink pt-4 gap-3">
+            <div className="flex flex-col flex-grow flex-shrink pt-4 gap-3 justify-between ">
               <h3 className="text-base">
                 <span className="font-semibold">Discover Palm Jabal Ali:</span>{" "}
                 The Ultimate Destination for High-Profile Luxury
@@ -46,7 +46,7 @@ export default function Developments() {
               </Link>
             </div>
           </div>
-          <div>
+          <div className="flex flex-col">
             <div className="w-full h-[300px] overflow-hidden relative">
               <Image
                 src={project2}
@@ -57,7 +57,7 @@ export default function Developments() {
                 priority
               />
             </div>
-            <div className="flex flex-col flex-grow flex-shrink pt-4 gap-3">
+            <div className="flex flex-col flex-grow flex-shrink pt-4 gap-3 justify-between ">
               <h3 className="text-base">
                 <span className="font-semibold">
                   Atlantis, The Royal Residences:
@@ -77,7 +77,7 @@ export default function Developments() {
               </Link>
             </div>
           </div>
-          <div>
+          <div className="flex flex-col">
             <div className="w-full h-[300px] overflow-hidden relative">
               <Image
                 src={project3}
@@ -88,7 +88,7 @@ export default function Developments() {
                 alt="project three"
               />
             </div>
-            <div className="flex flex-col flex-grow flex-shrink pt-4 gap-3">
+            <div className="flex flex-col flex-grow flex-shrink pt-4 gap-3 justify-between ">
               <h3 className="text-base">
                 <span className="font-semibold">Baccarat Residences:</span>{" "}
                 Exquisite Luxury Living in Downtown Dubai

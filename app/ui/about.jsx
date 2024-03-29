@@ -7,7 +7,7 @@ export default function About() {
     <section className="bg-gray-100 py-8 px-4 ">
       <div className="max-w-7xl mx-auto flex flex-col gap-4 lg:flex-row md:gap-16 md:px-16 overflow-hidden">
         <div className="md:basis-3/4  border-y-[1px] py-8 flex flex-col gap-4 items-center justify-center border-[#302d2d] mx-auto">
-          <h2 className="text-xl uppercase text-center">About Shoaib Shahid</h2>
+          <h2 className="text-xl uppercase text-center font-bold">About Shoaib Shahid</h2>
           <p className="text-sm">
             Shoaib Sahid is a highly esteemed global real estate consultant who
             has over fifteen years experience in international sales, business

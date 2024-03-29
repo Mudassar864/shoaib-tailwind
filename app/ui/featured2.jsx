@@ -14,9 +14,9 @@ export default function Featured2() {
           alt="beach"
         />
       </div>
-      <div className="absolute top-6 left-6">
+      <div className="absolute top-12 right-8 flex  flex-col justify-center items-center ">
         <Bvlgari />
-        <p className="mt-4 text-sm">The height of luxury living elevated above island and sea.</p>
+        <p className="mt-4 text-sm text-white">The height of luxury living elevated above island and sea.</p>
       </div>
     </section>
   );

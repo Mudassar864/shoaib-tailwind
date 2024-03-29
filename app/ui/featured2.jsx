@@ -10,7 +10,6 @@ export default function Featured2() {
           src={beach}
           className="object-cover"
           placeholder="blur"
-          priority
           fill={true}
           alt="beach"
         />

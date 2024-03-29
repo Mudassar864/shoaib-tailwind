@@ -19,7 +19,6 @@ export default function Featured() {
               src={service1}
               fill={true}
               placeholder="blur"
-              priority
             />
           </div>
         </div>
@@ -29,7 +28,6 @@ export default function Featured() {
               className="w-full h-[400px] object-cover relative"
               src={services2}
               placeholder="blur"
-              priority
               fill={true}
               alt="service"
             />

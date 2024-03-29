@@ -27,7 +27,6 @@ export default function Developments() {
                 fill={true}
                 alt="project one"
                 placeholder="blur"
-                priority
               />
             </div>
             <div className="flex flex-col flex-grow flex-shrink pt-4 gap-3">

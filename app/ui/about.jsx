@@ -38,7 +38,6 @@ export default function About() {
             width={1000}
             height={1000}
             placeholder="blur"
-            priority
             alt="about"
           />
         </div>

@@ -11,7 +11,6 @@ export default function Featured1() {
         <Image
           src={featureBack}
           placeholder="blur"
-          priority
           fill={true}
           className="object-cover"
           alt="featured"
@@ -22,7 +21,6 @@ export default function Featured1() {
           <Image
             src={feature}
             placeholder="blur"
-            priority
             width={1080}
             height={900}
             alt="featured"

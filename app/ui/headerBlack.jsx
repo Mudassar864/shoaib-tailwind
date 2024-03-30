@@ -6,10 +6,10 @@ import { MdOutlineMailOutline } from "react-icons/md";
 import { FaWhatsapp } from "react-icons/fa";
 import { ActaDisplay } from "../fonts";
 
-export default function HeaderSection() {
+export default function HeaderBlack() {
   const [menu, setMenu] = useState(false);
   return (
-    <header className="header">
+    <header className="header-black">
       <div className="w-full flex items-center justify-between pt-4 py-2">
         <Link
           href="/"

@@ -10,16 +10,20 @@ export default function Banner() {
         <source src="/assets/intro.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video> */}
-      <CldVideoPlayer
-        className="absolute top-0 left-0 w-full"
-        src="pahizwbjznyu3rdd6koh"
-        controls={false}
-        autoplay={true}
-        playsinline={true}
-        loop
-        muted
-        posterOptions={{ publicId: "gzphvg7gj7pybifcmdib", effect: ["sepia"] }}
-      />
+      <div className="absolute top-0 left-0 w-full">
+        <CldVideoPlayer
+          src="pahizwbjznyu3rdd6koh"
+          controls={false}
+          autoplay={true}
+          playsinline={true}
+          loop
+          muted
+          posterOptions={{
+            publicId: "gzphvg7gj7pybifcmdib",
+            effect: ["sepia"],
+          }}
+        />
+      </div>
       <div className="absolute bottom-[12%] left-[5%] max-w-96 hidden lg:block">
         <h2 className="md:text-lg text-white font-normal mb-4">
           <span className="font-semibold">Pioneering Prestige:</span> Where

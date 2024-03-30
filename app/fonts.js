@@ -26,6 +26,7 @@ const ActaDisplay = localFont({
       style: "normal",
     },
   ],
+  variable:"--acta-display"
 });
 
 const BentonSans = localFont({
@@ -55,5 +56,7 @@ const BentonSans = localFont({
       style: "normal",
     },
   ],
+  variable:"--benton-sans"
+
 });
 export { ActaDisplay, BentonSans };

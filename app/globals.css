@@ -14,9 +14,26 @@
   padding: 0px;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-feature-settings: normal;
+  font-variation-settings: normal;
+}
+
 @layer base {
   body {
-   letter-spacing: 2px;
+    letter-spacing: 2px;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    line-height: inherit;
   }
 }
 @layer components {
@@ -38,6 +55,26 @@
   .btn {
     @apply px-6 py-2 text-xs bg-white border-transparent text-black uppercase cursor-pointer border-[1px];
   }
+
+  .header-black {
+    @apply w-full bg-transparent  px-8  text-black;
+  }
+  .header-black .btn {
+    @apply px-6 py-2 text-xs bg-white border-transparent text-black uppercase cursor-pointer border-[1px];
+  }
+  .header-black:hover {
+    @apply bg-white text-black;
+  }
+  .header-black:hover .btn {
+    @apply bg-black text-white;
+  }
+  .header-black .btn:hover {
+    @apply bg-transparent border-black text-black !important;
+  }
+  .header-black .btn {
+    @apply px-6 py-2 text-xs bg-white border-transparent text-black uppercase cursor-pointer border-[1px];
+  }
+
   .btn-underline {
     @apply text-xs font-medium uppercase relative max-w-max transition-all;
   }
@@ -57,18 +94,28 @@
   .btn-border {
     @apply max-w-max px-10 py-3 text-xs border-black text-black uppercase cursor-pointer border-[1px] font-medium transition-all;
   }
-  .btn-border:hover{
+  .btn-border:hover {
     @apply bg-black text-white;
   }
   .btn-border-white {
     @apply max-w-max px-10 py-3 text-xs border-white text-white uppercase cursor-pointer border-[1px] font-medium transition-all;
   }
-  .btn-border-white:hover{
+  .btn-border-white:hover {
     @apply bg-white text-black;
   }
-  .banner-content{
+  .banner-content {
     @apply absolute hidden md:block max-w-96;
     bottom: 20%;
     left: 5%;
+  }
+  .font-acta {
+    font-family: var(--acta-display), sans-serif;
+  }
+  .font-benton {
+    font-family: var(--benton-sans), sans-serif;
+  }
+
+  p {
+    font-family: var(--benton-sans), sans-serif;
   }
 }

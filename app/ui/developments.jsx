@@ -12,11 +12,11 @@ export default function Developments() {
           <h2 className="text-xl md:text-3xl mb-4 uppercase">
             New Developments
           </h2>
-          <span className="text-sm">
+          <p className="text-sm">
             Discover meticulously crafted homes exuding luxury and
             sophistication. Explore urban residences and countryside retreats
             redefining modern living.
-          </span>
+          </p>
         </div>
         <div className="grid grid-cols-1 pt-7 gap-8 md:grid-cols-2 lg:grid-cols-3 ">
           <div className="flex flex-col">

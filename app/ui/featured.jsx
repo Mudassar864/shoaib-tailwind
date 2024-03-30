@@ -23,9 +23,9 @@ export default function Featured() {
           </div>
         </div>
         <div className="basis-2/6 flex flex-col gap-4">
-          <div className="hidden md:block">
+          <div className="hidden md:block relative w-full h-[400px] ">
             <Image
-              className="w-full h-[400px] object-cover relative"
+              className="object-cover"
               src={services2}
               placeholder="blur"
               fill={true}

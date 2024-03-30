@@ -24,7 +24,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${BentonSans.variable} ${ActaDisplay.variable}`}>
-      <body class="font-acta">
+      <body className="font-acta">
         {children}
         <Footer />
       </body>

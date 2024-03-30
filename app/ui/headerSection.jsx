@@ -41,7 +41,7 @@ export default function HeaderSection() {
         <div className="max-w-max mx-auto flex gap-8">
           <Link
             className="text-sm uppercase hover:text-gray-400 transition-all"
-            href="#"
+            href="/"
           >
             Home
           </Link>
@@ -53,19 +53,19 @@ export default function HeaderSection() {
           </Link>
           <Link
             className="text-sm uppercase hover:text-gray-400 transition-all"
-            href="#"
+            href="/"
           >
             About
           </Link>
           <Link
             className="text-sm uppercase hover:text-gray-400 transition-all"
-            href="#"
+            href="/"
           >
             Services
           </Link>
           <Link
             className="text-sm uppercase hover:text-gray-400 transition-all"
-            href="#"
+            href="/"
           >
             Achievements
           </Link>
@@ -83,11 +83,11 @@ export default function HeaderSection() {
           close
         </button>
         <div className="flex items-center justify-center flex-col gap-16 w-full h-full">
-          <Link href="#">Home</Link>
-          <Link href="#">Developments</Link>
-          <Link href="#">About</Link>
-          <Link href="#">Services</Link>
-          <Link href="#">Achievements</Link>
+          <Link href="/">Home</Link>
+          <Link href="/">Developments</Link>
+          <Link href="/">About</Link>
+          <Link href="/">Services</Link>
+          <Link href="/">Achievements</Link>
         </div>
       </nav>
     </header>

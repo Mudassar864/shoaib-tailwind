@@ -193,7 +193,7 @@ export default async function page({ params }) {
                     </div>
                   </div>
                   <div className="w-full h-[1px] my-10 lg:my-16 bg-slate-300" />
-                  {data.features.length > 0 && (
+                  {data.features?.length > 0 && (
                     <div className="w-full">
                       <div>
                         <div className="hidden lg:block">
@@ -207,7 +207,7 @@ export default async function page({ params }) {
                           </span>
                         </div>
                         <div className="grid grid-cols-1 gap-x-3 mt-4 md:mt-10 font-normal text-base sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-y-6 md:gap-y-10 ">
-                          {data.features.map((feature) => (
+                          {data.features?.map((feature) => (
                             <span key={feature} className="font-acta flex items-center gap-x-3 capitalize">
                               {feature}
                             </span>

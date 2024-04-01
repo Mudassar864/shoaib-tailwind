@@ -397,3 +397,8 @@ html {
 .content p{
   margin-block: .5rem; /* Add margin to <p> elements containing <strong> tags */
 }
+.content ul{
+  list-style: disc;
+  margin-inline: 1rem;
+  font-family: var(--benton-sans);
+}

@@ -11,7 +11,7 @@ async function getData() {
   const data = await client.fetch(query);
   return data;
 }
-export const revalidate = 0 // revalidate at most every minute
+export const revalidate = 0; // revalidate at most every minute
 export default async function page() {
   const data = await getData();
   return (
@@ -41,19 +41,16 @@ export default async function page() {
                     href={`/off-plan-projects/${project.slug.current}`}
                   >
                     <div className="absolute ml-4 mt-5 z-10 flex flex-col items-start gap-y-2">
-                      <div className="bg-white px-2 py-1 text-xs font-normal rounded-[4px] font-benton">
-                        2026 Q4 H/O
-                      </div>
-                      <div className="bg-sothebys-blue text-white px-2 py-1 text-xs font-medium rounded-[4px] font-benton">
-                        Off-Plan
-                      </div>
+                      {project.handover > 0 && (
+                        <div  className="bg-white px-2 py-1 text-xs font-normal rounded-[4px] font-benton">
+                          {project.handover}
+                        </div>
+                      )}
                     </div>
 
                     <div className="swiper swiper-virtual swiper-initialized swiper-horizontal swiper-watch-progress w-full ">
-                      <div >
-                        <div
-                          
-                        >
+                      <div>
+                        <div>
                           <Image
                             className="w-full h-full object-cover aspect-video"
                             src={urlForImage(project.images[0])}
@@ -108,7 +105,6 @@ export default async function page() {
                           <div className="flex items-center gap-1">
                             <span>{project.beds}</span>
                           </div>
-                          Beds
                           <button data-state="closed">
                             <img
                               src="/assets/icons/info.svg"

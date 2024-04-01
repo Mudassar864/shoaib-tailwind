@@ -50,12 +50,11 @@ export default async function page({ params }) {
                             <img
                               src="/assets/icons/bed.svg"
                               className="w-5 aspect-square"
-                              alt="beds 3,4,5"
+                              alt={data.beds}
                             />
                             <div className="flex items-center gap-1">
                               <span>{data.beds}</span>
                             </div>
-                            Beds
                             <button data-state="closed">
                               <img
                                 src="/assets/icons/info.svg"
@@ -194,88 +193,31 @@ export default async function page({ params }) {
                     </div>
                   </div>
                   <div className="w-full h-[1px] my-10 lg:my-16 bg-slate-300" />
-                  <div className="w-full">
-                    <div>
-                      <div className="hidden lg:block">
-                        <span className="text-[32px] leading-[38px] tracking-wide font-normal">
-                          Features &amp; Amenities
-                        </span>
+                  {data.features.length > 0 && (
+                    <div className="w-full">
+                      <div>
+                        <div className="hidden lg:block">
+                          <span className="text-[32px] leading-[38px] tracking-wide font-normal">
+                            Features &amp; Amenities
+                          </span>
+                        </div>
+                        <div className="lg:hidden mt-5">
+                          <span className="text-2xl leading-[38px] tracking-wide font-normal">
+                            Features &amp; Amenities
+                          </span>
+                        </div>
+                        <div className="grid grid-cols-1 gap-x-3 mt-4 md:mt-10 font-normal text-base sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-y-6 md:gap-y-10 ">
+                          {data.features.map((feature) => (
+                            <span key={feature} className="font-acta flex items-center gap-x-3 capitalize">
+                              {feature}
+                            </span>
+                          ))}
+                        </div>
+                        <div className="w-full h-[1px] bg-gray-600 my-10 lg:my-16" />
                       </div>
-                      <div className="lg:hidden mt-5">
-                        <span className="text-2xl leading-[38px] tracking-wide font-normal">
-                          Features &amp; Amenities
-                        </span>
-                      </div>
-                      <div className="grid grid-cols-1 gap-x-3 mt-4 md:mt-10 font-normal text-base sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-y-6 md:gap-y-10 ">
-                        <span className="font-acta flex items-center gap-x-3">
-                          <img
-                            alt="icon"
-                            loading="lazy"
-                            width={20}
-                            height={20}
-                            decoding="async"
-                            data-nimg={1}
-                            style={{ color: "transparent" }}
-                            src="/assets/icons/amenities/Concierge.svg"
-                          />{" "}
-                          {/* */}24 Hour porter
-                        </span>
-                        <span className="font-acta flex items-center gap-x-3">
-                          <img
-                            alt="icon"
-                            loading="lazy"
-                            width={20}
-                            height={20}
-                            decoding="async"
-                            data-nimg={1}
-                            style={{ color: "transparent" }}
-                            src="/assets/icons/amenities/Parking.svg"
-                          />{" "}
-                          {/* */}Covered Parking
-                        </span>
-                        <span className="font-acta flex items-center gap-x-3">
-                          <img
-                            alt="icon"
-                            loading="lazy"
-                            width={20}
-                            height={20}
-                            decoding="async"
-                            data-nimg={1}
-                            style={{ color: "transparent" }}
-                            src="/assets/icons/amenities/Gym.svg"
-                          />{" "}
-                          {/* */}Shared Gym
-                        </span>
-                        <span className="font-acta flex items-center gap-x-3">
-                          <img
-                            alt="icon"
-                            loading="lazy"
-                            width={20}
-                            height={20}
-                            decoding="async"
-                            data-nimg={1}
-                            style={{ color: "transparent" }}
-                            src="/assets/icons/amenities/SPA.svg"
-                          />{" "}
-                          {/* */}Shared Spa
-                        </span>
-                        <span className="font-acta flex items-center gap-x-3">
-                          <img
-                            alt="icon"
-                            loading="lazy"
-                            width={20}
-                            height={20}
-                            decoding="async"
-                            data-nimg={1}
-                            style={{ color: "transparent" }}
-                            src="/assets/icons/amenities/Concierge.svg"
-                          />{" "}
-                          {/* */}Concierge Service
-                        </span>
-                      </div>
-                      <div className="w-full h-[1px] bg-gray-600 my-10 lg:my-16" />
                     </div>
-                  </div>
+                  )}
+
                   <div className="flex md:items-center flex-col md:flex-row justify-between gap-y-10">
                     <div>
                       <div className="hidden lg:block">
@@ -413,7 +355,7 @@ export default async function page({ params }) {
                 </div>
               </section>
               <section className="pt-10 lg:pt-0 flex justify-start items-center flex-col lg:h-full lg:col-span-3 gap-y-10">
-                <div className="lg:hidden text-xl">CONTACT AGENT</div>
+                <div className="lg:hidden text-xl">CONTACT SHOAIB SHAHID</div>
                 <div className="sticky top-[120px] space-y-5">
                   <div className=" max-w-md p-5 border border-gray-200 shadow-sm rounded-sm">
                     <div className="font-normal text-center pb-5 text-xl ">

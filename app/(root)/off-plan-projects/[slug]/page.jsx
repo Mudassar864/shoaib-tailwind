@@ -6,7 +6,7 @@ import { PortableText } from "@portabletext/react";
 import { client } from "@/sanity/lib/client";
 import Link from "next/link";
 import { AddForm } from "@/components/AddForm";
-export const revalidate = 30; // revalidate at most 30 seconds
+export const revalidate = 5; // revalidate at most 30 seconds
 
 async function getData(slug) {
   const query = `

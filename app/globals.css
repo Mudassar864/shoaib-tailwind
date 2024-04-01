@@ -391,3 +391,9 @@ html {
     content: "next";
   }
 }
+.content p:has(> strong) {
+  margin-block: 1rem; /* Add margin to <p> elements containing <strong> tags */
+}
+.content p{
+  margin-block: .5rem; /* Add margin to <p> elements containing <strong> tags */
+}

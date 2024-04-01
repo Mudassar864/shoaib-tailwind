@@ -1,3 +1,4 @@
+import { Toaster } from "@/components/ui/toaster";
 import { ActaDisplay, BentonSans } from "./fonts";
 import "./globals.css";
 import Footer from "./ui/footer";
@@ -23,9 +24,13 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${BentonSans.variable} ${ActaDisplay.variable}`}>
+    <html
+      lang="en"
+      className={`${BentonSans.variable} ${ActaDisplay.variable}`}
+    >
       <body className="font-acta">
         {children}
+        <Toaster />
         <Footer />
       </body>
     </html>

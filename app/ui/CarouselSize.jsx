@@ -8,8 +8,9 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import Image from "next/image";
+import { urlForImage } from "@/sanity/lib/image";
 
-export function CarouselSize() {
+export function CarouselSize({images}) {
 
   return (
     <Carousel
@@ -19,11 +20,12 @@ export function CarouselSize() {
       className="flex flex-col"
     >
       <CarouselContent>
-        {Array.from({ length: 5 }).map((_, index) => (
+        {images.map((image, index) => (
+          
           <CarouselItem key={index} className="basis-full pt-[52%] relative">
             <div className="absolute top-0 left-0 w-full h-full">
               <Image
-                src="/assets/slider-1.jpg"
+                src={urlForImage(image)}
                 alt="image"
                 className="object-cover"
                 fill={true}

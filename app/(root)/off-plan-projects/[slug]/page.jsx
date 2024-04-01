@@ -24,7 +24,7 @@ export default async function page({ params }) {
       <HeaderBlack />
 
       {data ? (
-        <div className="single-property max-w-7xl mx-auto font-acta my-8">
+        <div className="single-property max-w-7xl mx-auto font-acta my-3 md:my-8">
           <div>
             <div style={{ height: 30 }} />
             <div className="top-property-info ">

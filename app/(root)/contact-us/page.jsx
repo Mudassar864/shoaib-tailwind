@@ -1,5 +1,7 @@
 import HeaderBlack from "@/app/ui/headerBlack";
 import { AddForm } from "@/components/AddForm";
+import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 export default function page() {
@@ -31,20 +33,18 @@ export default function page() {
                   member who will contact you in the next 24 hours. <br />
                   <br />
                   If you require immediate assistance, please don't hesitate to
-                  call us on +971 527 180606 or WhatsApp us on +971 527 180606.
+                  call or WhatsApp on +971 527 180606.
                 </div>
-               <AddForm id="no" />
+                <AddForm id="no" />
               </div>
             </div>
             <div className="w-full lg:w-1/2 pt-0 lg:pt-12 pb-9 lg:pb-12">
               <div className="container lg:no-container w-full font-normal flex flex-col sm:items-center">
-                <div className="mb-5 lg:mb-6 text-2xl xl:pl-5">Our offices</div>
-                <div className="font-benton sm:grid lg:pr-5 xl:pr-[200px] xl:pl-5 md:py-5">
+                <div className="mb-5 lg:mb-6 text-2xl ">Office</div>
+                <div className="font-benton sm:grid  md:py-5">
                   <div className=" w-full">
-                    <p className="font-acta text-lg leading-[22px] mb-4">
-                      Head Office &amp; Retail
-                    </p>
-                    <p className="tracking-[0.375px] text-[15px] leading-[22px] mb-0">
+                    <Image src="/assets/logo_ae.svg" width={300} height={400} alt="sothebys logo" />
+                    <p className="tracking-[0.375px] text-[15px] leading-[22px] mb-0 mt-4">
                       EMAAR Business Park,{" "}
                     </p>
                     <p className="mb-0">Building. 4, </p>
@@ -56,12 +56,12 @@ export default function page() {
                     <p className="mb-0" />
                     <p className="mb-0" />
                     <p className="mt-4 font-medium text-[15px]">
-                      <a
+                      <Link
                         href="https://maps.app.goo.gl/aPSaSjuVsK4tvdWR9"
                         target="_blank"
                       >
                         View map
-                      </a>
+                      </Link>
                     </p>
                   </div>
                 </div>

@@ -11,7 +11,7 @@ const initialState = {
   message: "",
 };
 
-function SubmitButton() {
+function SubmitButton({text}) {
   const { pending } = useFormStatus();
   return (
     <button
@@ -20,12 +20,12 @@ function SubmitButton() {
       className="button w-fit px-7 py-3 !border-[#888888] border bg-black text-white"
       disabled={pending}
     >
-      {pending ? "Sending Enquiry" : "  Submit enquiry"}
+      {text}
     </button>
   );
 }
 
-export function AddForm({ id }) {
+export function AddForm({ id,text }) {
   const [state, formAction] = useFormState(createEnquiry, initialState);
   const { toast } = useToast();
   const formRef = useRef(null);
@@ -72,7 +72,7 @@ export function AddForm({ id }) {
         placeholder="How can we help?"
       />
       <div className="w-full flex items-center justify-center">
-        <SubmitButton />
+        <SubmitButton text={text} />
       </div>
     </form>
   );

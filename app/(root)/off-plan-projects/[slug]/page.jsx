@@ -368,7 +368,7 @@ export default async function page({ params }) {
                       Enquiry about {/* */}
                       {data.title}
                     </div>
-                    <AddForm id={data._id} />
+                    <AddForm id={data._id} text="Submit enquiry" />
                   </div>
                 </div>
               </section>

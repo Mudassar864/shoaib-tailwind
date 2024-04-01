@@ -36,7 +36,7 @@ export default function page() {
                   If you require immediate assistance, please don't hesitate to
                   call or WhatsApp on <strong>+971 527 180606</strong>.
                 </div>
-                <AddForm id="no" />
+                <AddForm id="no" text="Get in Touch" />
               </div>
             </div>
             <div className="w-full lg:w-1/2 pt-0 lg:pt-12 pb-9 lg:pb-12">

@@ -30,8 +30,8 @@ export default function page() {
                 <div className="mb-6 text-2xl">Get in Touch</div>
                 <div className="mb-5 font-benton text-[15px] leading-[22px] tracking-[0.375px]">
                   Please complete the form below, and your message will be
-                  promptly delivered to the appropriate department and staff
-                  member who will contact you in the next 24 hours. <br />
+                  promptly attended to. You can expect a response within the
+                  next 24 hours. <br />
                   <br />
                   If you require immediate assistance, please don't hesitate to
                   call or WhatsApp on <strong>+971 527 180606</strong>.
@@ -58,9 +58,7 @@ export default function page() {
                     <p className="mb-0">Sheikh Zayed Road,</p>
                     <p className="mb-0">Dubai, </p>
                     <p className="mb-0">United Arab Emirates.</p>
-                    <p className="mb-0" />
-                    <p className="mb-0" />
-                    <p className="mb-0" />
+
                     <p className="mt-4 font-medium text-[15px]">
                       <Link
                         href="https://maps.app.goo.gl/aPSaSjuVsK4tvdWR9"

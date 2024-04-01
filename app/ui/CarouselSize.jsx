@@ -22,7 +22,7 @@ export function CarouselSize({images}) {
       <CarouselContent>
         {images.map((image, index) => (
           
-          <CarouselItem key={index} className="basis-full pt-[52%] relative">
+          <CarouselItem key={index} className="basis-full pt-[40%] relative">
             <div className="absolute top-0 left-0 w-full h-full">
               <Image
                 src={urlForImage(image)}

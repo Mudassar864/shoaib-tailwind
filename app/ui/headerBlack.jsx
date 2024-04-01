@@ -55,7 +55,7 @@ export default function HeaderBlack() {
             className="text-sm uppercase hover:text-gray-400 transition-all"
             href="/off-plan-projects"
           >
-            off plan projects
+            projects
           </Link>
           <Link
             className="text-sm uppercase hover:text-gray-400 transition-all"
@@ -96,7 +96,7 @@ export default function HeaderBlack() {
             Developments
           </Link>
           <Link href="/off-plan-projects" className="uppercase">
-            off plan projects
+            projects
           </Link>
           <Link href="/" className="uppercase">
             About

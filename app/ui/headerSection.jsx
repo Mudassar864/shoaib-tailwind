@@ -55,7 +55,7 @@ export default function HeaderSection() {
             className="text-sm uppercase hover:text-gray-400 transition-all"
             href="/off-plan-projects"
           >
-            off plan projects
+            projects
           </Link>
           <Link
             className="text-sm uppercase hover:text-gray-400 transition-all"
@@ -91,7 +91,7 @@ export default function HeaderSection() {
         <div className="flex items-center justify-center flex-col gap-16 w-full h-full">
           <Link href="/">Home</Link>
           <Link href="/">Developments</Link>
-          <Link href="/off-plan-projects">off plan projects</Link>
+          <Link href="/off-plan-projects">projects</Link>
           <Link href="/">About</Link>
           <Link href="/">Services</Link>
           <Link href="/">Achievements</Link>

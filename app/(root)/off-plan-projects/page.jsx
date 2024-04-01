@@ -41,7 +41,7 @@ export default async function page() {
                     href={`/off-plan-projects/${project.slug.current}`}
                   >
                     <div className="absolute ml-4 mt-5 z-10 flex flex-col items-start gap-y-2">
-                      {project.handover > 0 && (
+                      {project?.handover > 0 && (
                         <div  className="bg-white px-2 py-1 text-xs font-normal rounded-[4px] font-benton">
                           {project.handover}
                         </div>

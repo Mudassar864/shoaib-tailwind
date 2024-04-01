@@ -39,7 +39,7 @@ export default async function page({ params }) {
                     <div className="flex justify-between mt-[6px] lg:mt-0">
                       <div>
                         <div className="flex flex-wrap gap-x-5 gap-y-1 lg:gap-x-7 leading-5 lg:leading-[22px] font-benton font-normal text-black capitalize tracking-[1.5px] text-[14px] mb-[12px] lg:mb-[3px] justify-center lg:justify-start">
-                          {data.price > 0 && (
+                          {data?.price && (
                             <div>
                               <span className="text-xs">price from </span>{" "}
                               {data.price}
@@ -63,16 +63,19 @@ export default async function page({ params }) {
                               />
                             </button>
                           </div>
-                          {data.area > 0 && (
-                            <div className="flex items-center gap-x-3.5">
-                              <img
-                                src="/assets/icons/area.svg"
-                                className="w-4 ml-[2px] aspect-square"
-                                alt="area"
-                              />
-                              <div className="leading-6">{data.area}</div>
-                            </div>
-                          )}
+
+                          <div className="flex items-center gap-x-3.5">
+                            {data?.area && (
+                              <>
+                                <img
+                                  src="/assets/icons/area.svg"
+                                  className="w-4 ml-[2px] aspect-square"
+                                  alt="area"
+                                />
+                                <div className="leading-6">{data?.area}</div>
+                              </>
+                            )}
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -208,7 +211,10 @@ export default async function page({ params }) {
                         </div>
                         <div className="grid grid-cols-1 gap-x-3 mt-4 md:mt-10 font-normal text-base sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-y-6 md:gap-y-10 ">
                           {data.features?.map((feature) => (
-                            <span key={feature} className="font-acta flex items-center gap-x-3 capitalize">
+                            <span
+                              key={feature}
+                              className="font-acta flex items-center gap-x-3 capitalize"
+                            >
                               {feature}
                             </span>
                           ))}

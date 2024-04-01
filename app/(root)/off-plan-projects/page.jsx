@@ -49,18 +49,15 @@ export default async function page() {
                       </div>
                     </div>
 
-                    <div className="swiper swiper-virtual swiper-initialized swiper-horizontal swiper-watch-progress w-full h-[350px]">
+                    <div className="swiper swiper-virtual swiper-initialized swiper-horizontal swiper-watch-progress w-full h-[250px]">
                       <div className="swiper-wrapper">
                         <div
-                          className="swiper-slide swiper-slide-visible swiper-slide-active"
-                          data-swiper-slide-index={0}
-                          style={{ left: 0, width: 500 }}
+                          className="swiper-slide"
                         >
                           <Image
                             className="w-full h-full object-cover"
                             src={urlForImage(project.images[0])}
-                            width={500}
-                            height={500}
+                            fill={true}
                             alt="slider"
                           />
                         </div>

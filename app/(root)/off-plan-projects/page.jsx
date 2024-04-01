@@ -11,6 +11,7 @@ async function getData() {
   const data = await client.fetch(query);
   return data;
 }
+export const revalidate = 5 // revalidate at most every minute
 export default async function page() {
   const data = await getData();
   return (

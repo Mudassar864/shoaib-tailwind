@@ -8,17 +8,17 @@ export default function page() {
   return (
     <>
       <HeaderSection />
-      <div className=" w-full pt-[50%] md:pt-[40%] relative">
+      <div className=" w-full pt-[50%] md:pt-[48%] relative">
         <Image
-          src="/assets/bacc.png"
+          src="/assets/servicebg.jpg"
           className="object-cover"
           fill={true}
           alt="banner"
         />
       </div>
-      <div className="max-w-3xl mx-auto my-16 flex flex-col gap-4">
+      <div className="max-w-3xl mx-auto my-16 flex flex-col gap-4 px-4">
         <h2 className="font-medium text-2xl text-center tracking-widest">
-          SPACIOUS RETREATS
+          It's about the journey, not just about the destination
         </h2>
         <p className="text-sm text-center font-normal">
           Gaze across the uninterrupted horizon from your private water villa,
@@ -53,10 +53,9 @@ export default function page() {
           </div>
         </div>
       </div>
-     
-      <Developments />
-      <About />
 
+      <Developments />
+      {/* <About /> */}
     </>
   );
 }

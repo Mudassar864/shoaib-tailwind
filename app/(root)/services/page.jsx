@@ -8,7 +8,8 @@ export default function page() {
   return (
     <>
       <HeaderSection />
-      <div className=" w-full pt-[50%] md:pt-[48%] relative">
+      <div className=" w-full pt-[50%] md:pt-[35%] relative">
+        <div className="absolute left-0 top-0 w-full h-full bg-black z-[5] opacity-20"></div>
         <Image
           src="/assets/servicebg.jpg"
           className="object-cover"

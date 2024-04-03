@@ -53,12 +53,12 @@ export default function page() {
                   <section className="pt-8 md:py-12 text-center flex items-center">
                     <div className="container mx-auto">
                       <div className="text-center z-10 mx-auto max-w-screen-lg">
-                        <h1 className="text-4xl md:text-5xl font-normal mb-4 md:mb-10 text-sothebys-blue">
-                          Dubai Sotheby's International Realty ®
+                        <h1 className="text-4xl md:text-5xl font-normal !mb-4 md:!mb-10 text-sothebys-blue">
+                          Dubai Sotheby's International Realty
                         </h1>
                       </div>
                       <div className="flex items-center md:justify-left">
-                        <hr className="hidden md:block mr-8 w-[200px] border-sothebys-blue border-b-1" />
+                        <hr className="hidden md:block !mr-8 w-[200px] border-sothebys-blue border-b-1" />
                         <div className="font-acta text-md md:text-xl text-left font-normal md:max-w-4xl p-2 md:p-0">
                           Founded in 1976, <i>Sotheby's International Realty</i>{" "}
                           has always been a highly sought-after name for the
@@ -74,9 +74,9 @@ export default function page() {
                     </div>
                   </section>
                   <section className="md:py-12 text-center m-auto">
-                    <div className="container mx-auto flex justify-center items-center py-12 md:py-2">
-                      <div className="w-1/2 pl-2 md:pl-0 md:pr-8">
-                        <h2 className="text-2xl md:text-3xl  mb-4 text-left font-normal text-sothebys-blue">
+                    <div className="container mx-auto flex justify-center items-center !py-12 !md:py-2">
+                      <div className="w-1/2 pl-2 !md:pl-0 md:!pr-8">
+                        <h2 className="text-2xl md:text-3xl  !mb-4 text-left font-normal text-sothebys-blue">
                           Global Reach, Local Expertise
                         </h2>
                         <div className="font-acta font-normal text-md md:text-lg text-gray-700 text-left md:max-w-lg">
@@ -98,7 +98,7 @@ export default function page() {
                               OFFICES WORLDWIDE
                             </div>
                           </div>
-                          <div className="mb-4">
+                          <div className="!mb-4">
                             <div className="text-2xl md:text-4xl font-acta font-normal">
                               26,500
                             </div>
@@ -106,7 +106,7 @@ export default function page() {
                               SALES ASSOCIATES
                             </div>
                           </div>
-                          <div className="mb-4">
+                          <div className="!mb-4">
                             <div className="text-2xl md:text-4xl font-acta font-normal">
                               84
                             </div>
@@ -114,7 +114,7 @@ export default function page() {
                               COUNTRIES &amp; TERRITORIES
                             </div>
                           </div>
-                          <div className="mb-4">
+                          <div className="!mb-4">
                             <div className="text-2xl md:text-4xl font-acta font-normal">
                               $143 Billion
                             </div>
@@ -127,10 +127,10 @@ export default function page() {
                     </div>
                   </section>
                   <section className="py-2">
-                    <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 bg-[#212121]">
+                    <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 bg-[#112548]">
                       <div className="md:col-span-2">
                         <img
-                          src="/assets/aabout.jpg"
+                          src="https://d196t24mb8gljn.cloudfront.net/sothebys-assets/about-us-a.jpg"
                           alt="Image"
                           className="w-full h-auto"
                         />
@@ -142,7 +142,7 @@ export default function page() {
                         </h2>
                         <div className="p-2 md:p-0 font-benton my-2 text-left text-white text-sm">
                           <i>Dubai Sotheby's International Realty</i> is part of
-                          one of the world’s most respected luxury real estate
+                          one of the world's most respected luxury real estate
                           brands and is committed to delivering extraordinary
                           results through our local expertise, global footprint
                           and exclusive network.
@@ -159,7 +159,40 @@ export default function page() {
                     </div>
                   </section>
                   <section className="py-2">
-                    <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 bg-[#212121]">
+                    <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 border border-sothebys-blue">
+                      <div className="md:col-span-1 flex flex-col justify-center text-center md:text-left">
+                        <h2 className="text-3xl md:text-4xl font-normal mb-2 ">
+                          Provenance To Be <br /> Proud Of
+                        </h2>
+                        <div className="p-2 md:p-0 font-benton my-2 text-left text-sm">
+                          As part of the global powerhouse brand of Sotheby's,
+                          the world's preeminent auction house, and
+                          <i>Sotheby's International Realty</i>, our reputation
+                          for excellence is unsurpassed. Our singular pedigree
+                          assures clients that they are working with a trusted
+                          partner who can provide best-in-class exposure and
+                          unmatched service.
+                        </div>
+                      </div>
+                      <div className="md:col-span-2">
+                        <img
+                          src="https://d196t24mb8gljn.cloudfront.net/sothebys-assets/about-us-1.jpg"
+                          alt="Image"
+                          className="w-full h-auto"
+                        />
+                      </div>
+                    </div>
+                  </section>
+
+                  <section className="py-2">
+                    <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 bg-[#112548]">
+                      <div className="md:col-span-2">
+                        <img
+                          src="https://d196t24mb8gljn.cloudfront.net/sothebys-assets/about-us-b.png"
+                          alt="Image"
+                          className="w-full h-auto"
+                        />
+                      </div>
                       <div className="md:col-span-1 flex flex-col justify-center text-center md:text-left">
                         <h2 className="text-3xl md:text-4xl font-normal mb-2 text-[#ffffff]">
                           Expertise You Can Trust. Setting standards.
@@ -182,13 +215,6 @@ export default function page() {
                           everything we do. We won't give up until you are
                           completely happy.
                         </div>
-                      </div>
-                      <div className="md:col-span-2">
-                        <img
-                          src="https://d196t24mb8gljn.cloudfront.net/sothebys-assets/about-us-b.png"
-                          alt="Image"
-                          className="w-full h-auto"
-                        />
                       </div>
                     </div>
                   </section>

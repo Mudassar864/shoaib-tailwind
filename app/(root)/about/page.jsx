@@ -357,7 +357,7 @@ export default function page() {
                       <div className="sec-col left">
                         <div className="sec-photo">
                           <Image
-                            src="/assets/about-img.jpg"
+                            src="/assets/family.jpg"
                             width={500}
                             alt="image"
                             height={500}

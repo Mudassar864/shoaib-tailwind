@@ -29,7 +29,7 @@ export default function HeaderBlack() {
             <Link href="https://wa.me/+971527180606">
               <FaWhatsapp size={20} />
             </Link>
-            <Link href="mailto:ss@theshoaibshahid.com">
+            <Link href="mailto:mss@sothebysrealty.ae">
               <MdOutlineMailOutline size={20} />
             </Link>
             <Link href="tel:+971527180606">

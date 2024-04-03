@@ -20,24 +20,18 @@ export default function HeaderBlack() {
         <div className="flex gap-4 items-center">
           <div className="hidden md:flex gap-4">
             <Link href="https://wa.me/+971527180606">
-              <FaWhatsapp />
+              <FaWhatsapp size={20} />
             </Link>
             <Link href="mailto:ss@theshoaibshahid.com">
-              <MdOutlineMailOutline />
+              <MdOutlineMailOutline size={20} />
             </Link>
             <Link href="tel:+971527180606">
-              <LuPhone />
+              <LuPhone size={20} />
             </Link>
           </div>
           <button className="btn md:hidden" onClick={() => setMenu(true)}>
             menu
           </button>
-          <Link
-            href="/contact-us"
-            className="btn hidden md:block md:px-8 md:py-4"
-          >
-            contact now
-          </Link>
         </div>
       </div>
       <nav className="border-t py-4 hidden md:block">
@@ -50,21 +44,9 @@ export default function HeaderBlack() {
           </Link>
           <Link
             className="text-sm uppercase hover:text-gray-400 transition-all"
-            href="/development"
-          >
-            Developments
-          </Link>
-          <Link
-            className="text-sm uppercase hover:text-gray-400 transition-all"
             href="/off-plan-projects"
           >
             projects
-          </Link>
-          <Link
-            className="text-sm uppercase hover:text-gray-400 transition-all"
-            href="/about"
-          >
-            About
           </Link>
           <Link href="/services" className="uppercase">
             servicess
@@ -74,6 +56,18 @@ export default function HeaderBlack() {
             href="/"
           >
             Achievements
+          </Link>
+          <Link
+            className="text-sm uppercase hover:text-gray-400 transition-all"
+            href="/about"
+          >
+            About
+          </Link>
+          <Link
+            className="text-sm uppercase hover:text-gray-400 transition-all"
+            href="/contact"
+          >
+            contact
           </Link>
         </div>
       </nav>
@@ -92,20 +86,21 @@ export default function HeaderBlack() {
           <Link href="/" className="uppercase">
             Home
           </Link>
-          <Link href="/" className="uppercase">
-            Developments
-          </Link>
+
           <Link href="/off-plan-projects" className="uppercase">
             projects
-          </Link>
-          <Link href="/about" className="uppercase">
-            About
           </Link>
           <Link href="/services" className="uppercase">
             servicess
           </Link>
           <Link href="/" className="uppercase">
             Achievements
+          </Link>
+          <Link href="/about" className="uppercase">
+            About
+          </Link>
+          <Link href="/contact" className="uppercase">
+            contact
           </Link>
         </div>
       </nav>

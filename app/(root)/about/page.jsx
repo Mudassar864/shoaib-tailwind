@@ -208,7 +208,7 @@ export default function page() {
                     </div>
                     <div className="ip-about-sec2-col col-right">
                       <div className="ip-about-sec2-text">
-                        <div className="ip-about-sec2-text-heading wow fadeInUp">
+                        <div className="ip-about-sec2-text-heading wow fadeInUp !text-sothebys-blue">
                           Global Real Estate Consultant
                         </div>
                         <div
@@ -257,7 +257,7 @@ export default function page() {
                     <div className="ip-about-sec3-inner-wrap flex flex-col md:flex-row">
                       <div className="ip-about-sec3-inner-col col-left">
                         <div className="ip-about-sec3-text">
-                          <div className="ip-about-sec3-text-heading wow fadeInUp">
+                          <div className="ip-about-sec3-text-heading wow fadeInUp !text-sothebys-blue">
                             Media Mogul
                           </div>
                           <div className="ip-about-sec3-text-excerpt wow fadeInLeft">
@@ -304,7 +304,7 @@ export default function page() {
                         </div>
                       </div>
                       <div className="sec-col right">
-                        <div className="ip-about-sec4-text-heading wow fadeInUp">
+                        <div className="ip-about-sec4-text-heading wow fadeInUp !text-sothebys-blue">
                           Community Leader
                         </div>
                         <div className="ip-about-sec4-text-excerpt wow fadeInLeft">
@@ -342,7 +342,7 @@ export default function page() {
                   <div className="new-ip-about-sec5">
                     <div className="sec-inner-wrapper">
                       <div className="sec-col right">
-                        <div className="ip-about-sec5-text-heading wow fadeInUp">
+                        <div className="ip-about-sec5-text-heading wow fadeInUp !text-sothebys-blue">
                           Personal Life
                         </div>
                         <div className="ip-about-sec5-text-excerpt wow fadeInLeft">

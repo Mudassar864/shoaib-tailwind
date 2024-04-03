@@ -136,7 +136,7 @@ export default function page() {
                         />
                       </div>
                       <div className="md:col-span-1 flex flex-col justify-center text-center md:text-left">
-                        <h2 className="text-3xl md:text-4xl font-normal mb-2 text-[#ffffff]">
+                        <h2 className="text-3xl md:text-4xl font-normal !mb-2 text-[#ffffff]">
                           Unrivalled <span className="">Expertise</span>{" "}
                           Wherever In The World You Need It To Be
                         </h2>
@@ -168,10 +168,10 @@ export default function page() {
                         />
                       </div>
                       <div className="md:col-span-1 flex flex-col justify-center text-center md:text-left">
-                        <h2 className="text-3xl md:text-4xl font-normal mb-2 ">
+                        <h2 className="text-3xl md:text-4xl font-normal !mb-2 ">
                           Provenance To Be <br /> Proud Of
                         </h2>
-                        <div className="p-2 md:p-0 font-benton my-2 text-left text-sm">
+                        <div className="!p-2 md:p-0 font-benton !my-2 text-left text-sm">
                           As part of the global powerhouse brand of Sotheby's,
                           the world's preeminent auction house, and
                           <i>Sotheby's International Realty</i>, our reputation
@@ -253,7 +253,7 @@ export default function page() {
                     </div>
                   </div>
                   <div className="ip-about-sec3 ">
-                    <div className="ip-about-sec3-inner-wrap flex">
+                    <div className="ip-about-sec3-inner-wrap flex flex-col md:flex-row">
                       <div className="ip-about-sec3-inner-col col-left">
                         <div className="ip-about-sec3-text">
                           <div className="ip-about-sec3-text-heading wow fadeInUp">

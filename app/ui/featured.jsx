@@ -8,9 +8,9 @@ export default function Featured() {
     <section className="px-4 py-16 bg-white">
       <div className="lg:max-w-4xl mx-auto flex flex-col gap-4 md:flex-row justify-between">
         <div className="basis-3/5">
-          <h2 className="text-lg mb-8">
-            <span className="font-semibold text-sothebys-blue">DISCOVER THE ACRES:</span> WHERE
-            NATURE EMBRACES YOUR HOME
+          <h2 className="text-lg font-normal mb-8 font-benton">
+           <span className=""> Global Reach, Local Expertise:</span> <b>We're International</b>, Everywhere You
+            Need Us
           </h2>
           <div className="">
             <Image

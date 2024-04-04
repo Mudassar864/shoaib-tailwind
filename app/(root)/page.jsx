@@ -23,7 +23,7 @@ export default function Home() {
       <Featured1 />
       <section className="w-full bg-white overflow-hidden relative ">
         <div className="w-full h-[600px] aspect-video overflow-hidden">
-          <div className="absolute top-[50%] -translate-y-[50%] p-8 left-4 w-[40%] font-benton bg-sothebys-blue text-white">
+          <div className="absolute top-[50%] -translate-y-[50%] p-8 left-4 w-[35%] font-benton bg-sothebys-blue text-white">
             <div className="flex flex-col gap-4">
               <h3 className="text-4xl font-bold">
                 Global Real Estate Consultant
@@ -56,7 +56,7 @@ export default function Home() {
 
           <Image
             src="/assets/meeting.jpg"
-            className="w-full h-full object-cover group-hover:scale-125 transition-all duration-300"
+            className="w-full h-full ml-40 object-cover group-hover:scale-125 transition-all duration-300"
             width={1900}
             height={600}
             alt="image"

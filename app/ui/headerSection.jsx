@@ -19,8 +19,8 @@ export default function HeaderSection() {
           >
             Shoaib <span className="font-semibold">Shahid.</span>
           </Link>
-          <span className="text-sm flex items-center">
-            Associate director at Sotheby's
+          <span className="text-sm flex items-center font-benton">
+            Associate director at <strong className="ml-1">Dubai Sotheby's </strong>
           </span>
         </div>
         <div className="flex gap-4 items-center">

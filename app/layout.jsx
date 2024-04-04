@@ -2,6 +2,8 @@ import { Toaster } from "@/components/ui/toaster";
 import { ActaDisplay, BentonSans } from "./fonts";
 import "./globals.css";
 import Footer from "./ui/footer";
+import NextTopLoader from "nextjs-toploader";
+
 export const metadata = {
   title: "Shoaib Shahid - Global Real Estate Consultant",
   description:
@@ -29,6 +31,10 @@ export default function RootLayout({ children }) {
       className={`${BentonSans.variable} ${ActaDisplay.variable}`}
     >
       <body className="font-acta">
+        <NextTopLoader
+        
+        color="#112548"
+        />
         {children}
         <Toaster />
       </body>

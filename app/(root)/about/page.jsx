@@ -19,14 +19,17 @@ export default function page() {
                         <div className="ip-about-sec1-text-title wow fadeInRight">
                           Shoaib
                           <div className="!text-sothebys-blue">Shahid</div>
-                          <div className="!text-xs !m-0 !p-0 max-w-md !font-normal">
-                            Bringing Expertise to World's Elite with Dubai
-                            Sotheby's International Realty
+                          <div className="!text-xs !m-0 !p-0 max-w-md !font-normal !capitalize font-benton">
+                            Bringing Expertise to World's Elite with{" "}
+                            <strong>
+                              {" "}
+                              Dubai Sotheby's International Realty
+                            </strong>
                           </div>
                         </div>
 
                         <div className="ip-about-sec1-text-excerpt wow fadeInRight">
-                          <h1>About Shoaib Shahid</h1>
+                          <h1 className="text-3xl !mb-3 font-bold">About Shoaib Shahid</h1>
                           Shoaib Sahid is a highly esteemed global real estate
                           consultant who has over fifteen years experience in
                           international sales, business development and has
@@ -35,7 +38,7 @@ export default function page() {
                           achievements has resulted in multiple awards, and saw
                           him rank as the top earner for Christie's
                           International Real Estate for three consecutive years.
-                          <h2>
+                          <h2 className="text-2xl !mt-3">
                             <strong>Expansion. Always, in all ways.</strong>
                           </h2>
                         </div>

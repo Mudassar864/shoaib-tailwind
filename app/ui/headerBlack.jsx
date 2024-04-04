@@ -21,7 +21,7 @@ export default function HeaderBlack() {
             Shoaib <span className="font-semibold ">Shahid.</span>
           </Link>
           <span className="text-xs flex items-center font-bold font-benton">
-            Associate director at Dubai Sotheby's
+            Associate Director at Dubai Sotheby's
           </span>
         </div>
         <div className="flex gap-4 items-center">

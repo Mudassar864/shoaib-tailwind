@@ -23,7 +23,7 @@ export default function Home() {
       <Featured1 />
       <section className="w-full bg-white overflow-hidden relative ">
         <div className="w-full h-[600px] aspect-video overflow-hidden">
-          <div className="absolute top-[50%] -translate-y-[50%] p-8 left-4 w-[50%] font-benton bg-sothebys-blue text-white">
+          <div className="absolute top-[50%] -translate-y-[50%] p-8 left-10 w-[50%] font-benton bg-sothebys-blue text-white">
             <div className="flex flex-col gap-4">
               <h3 className="text-4xl font-bold">
                 Global Real Estate Consultant

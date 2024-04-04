@@ -296,7 +296,7 @@ export default function page() {
                     </div>
                   </div>
                   <div className="new-ip-about-sec4">
-                    <div className="sec-inner-wrapper">
+                    <div className="sec-inner-wrapper flex ">
                       <div className="sec-col left">
                         <div className="sec-photo">
                           <canvas
@@ -363,7 +363,7 @@ export default function page() {
                       <div className="sec-col left">
                         <div className="sec-photo">
                           <Image
-                            src="/assets/family.jpg"
+                            src="/assets/family1.jpg"
                             width={500}
                             alt="image"
                             height={500}

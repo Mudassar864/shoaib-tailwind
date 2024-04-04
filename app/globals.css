@@ -431,7 +431,7 @@ p#breadcrumbs {
 
 .header .header-inner-wrap {
   padding: 50px 62px 50px 82px;
-  padding: 3.125vw 3.875vw 3.125vw 5.125vw;
+  padding: 3.125rem 3.875rem 3.125rem 5.125rem;
   max-width: 100%;
   position: relative;
   width: 55.12%
@@ -459,7 +459,7 @@ p#breadcrumbs {
 #ip-about {
   display: block;
   position: relative;
-  padding-top: 8.563vw;
+  padding-top: 8.563rem;
 }
 
 .ip-about-sec1 {
@@ -477,12 +477,12 @@ p#breadcrumbs {
 }
 
 .ip-about-sec1-text {
-  padding: 6.688vw 0 0 4.938vw
+  padding: 6.688rem 0 0 4.938rem
 }
 
 .ip-about-sec1-text-title {
   font-family: var(--acta-display);
-  font-size: 4.375vw;
+  font-size: 4.375rem;
   font-weight: 400;
   color: #949494;
   text-transform: uppercase;
@@ -490,23 +490,23 @@ p#breadcrumbs {
 }
 
 .ip-about-sec1-text-title div {
-  font-size: 6.375vw;
+  font-size: 6.375rem;
   font-weight: 800;
   color: #212121;
-  margin-top: -.375vw;
-  margin-left: 4vw
+  margin-top: -.375rem;
+  margin-left: 4rem
 }
 
 .ip-about-sec1-text-excerpt {
   position: relative;
   font-family: var(--acta-display);
-  font-size: 1vw;
+  font-size: 1rem;
   font-weight: 400;
   color: #333;
   line-height: 1.7;
-  margin-top: 2.438vw;
-  padding-left: 3.375vw;
-  padding-right: 7.875vw
+  margin-top: 2.438rem;
+  padding-left: 3.375rem;
+  padding-right: 7.875rem
 }
 
 .ip-about-sec1-text-excerpt::before {
@@ -517,8 +517,8 @@ p#breadcrumbs {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  width: .625vw;
-  height: 13.938vw;
+  width: .625rem;
+  height: 13.938rem;
   background-color: #212121;
   pointer-events: none;
   z-index: -1
@@ -530,8 +530,8 @@ p#breadcrumbs {
 
 .ip-about-sec1-image {
   position: relative;
-  margin-top: -8.563vw;
-  padding-left: 1.5vw;
+  margin-top: -8.563rem;
+  padding-left: 1.5rem;
   z-index: 1
 }
 
@@ -541,7 +541,7 @@ p#breadcrumbs {
   top: 0;
   left: 0;
   width: 100%;
-  height: calc(100% - 1.25vw);
+  height: calc(100% - 1.25rem);
   background-image: url(../public/assets/about-img.jpg);
   background-size: cover;
   background-position: top center;
@@ -563,7 +563,7 @@ p#breadcrumbs {
   background-size: cover;
   background-position: bottom center;
   background-repeat: no-repeat;
-  padding-top: 4.188vw
+  padding-top: 4.188rem
 }
 
 .ip-about-sec2-col {
@@ -577,8 +577,8 @@ p#breadcrumbs {
 }
 
 .ip-about-sec2-image {
-  padding-left: 3.125vw;
-  padding-right: .625vw;
+  padding-left: 3.125rem;
+  padding-right: .625rem;
   position: absolute;
   bottom: 0;
   height: 100%
@@ -593,36 +593,36 @@ p#breadcrumbs {
 }
 
 .ip-about-sec2-text {
-  padding-top: 2.125vw
+  padding-top: 2.125rem
 }
 
 .ip-about-sec2-text-heading {
   font-family: var(--acta-display);
-  font-size: 5vw;
+  font-size: 5rem;
   font-weight: 800;
   color: #212121;
   line-height: 1.1
 }
 
 .ip-about-sec2-text-excerpt {
-  max-width: 59.125vw;
-  padding-top: 3.063vw
+  max-width: 59.125rem;
+  padding-top: 3.063rem
 }
 
 .ip-about-sec2-text-excerpt p {
   font-family: var(--acta-display);
-  font-size: 1vw!important;
+  font-size: 1rem!important;
   font-weight: 400;
   color: #333;
   line-height: 1.9!important;
   letter-spacing: .02em;
-  margin-bottom: 1.875vw!important
+  margin-bottom: 1.875rem!important
 }
 
 .ip-about-sec3 {
   font-size: 0;
   position: relative;
-  padding-top: 8.313vw
+  padding-top: 8.313rem
 }
 
 .ip-about-sec3::before {
@@ -630,8 +630,8 @@ p#breadcrumbs {
   position: absolute;
   top: 0;
   left: 0;
-  width: 14.375vw;
-  height: 53.625vw;
+  width: 14.375rem;
+  height: 53.625rem;
   background-image: url(../public/assets/images/ip-about-sec3-overlay.jpg);
   background-size: cover;
   background-position: center;
@@ -659,30 +659,30 @@ p#breadcrumbs {
 }
 
 .ip-about-sec3-text {
-  padding-top: 4.875vw;
-  padding-left: 8vw
+  padding-top: 4.875rem;
+  padding-left: 8rem
 }
 
 .ip-about-sec3-text-heading {
   font-family: var(--acta-display);
-  font-size: 5.625vw!important;
+  font-size: 5.625rem!important;
   font-weight: 800;
   color: #212121
 }
 
 .ip-about-sec3-text-excerpt {
-  padding-top: .688vw;
-  padding-right: 2.938vw
+  padding-top: .688rem;
+  padding-right: 2.938rem
 }
 
 .ip-about-sec3-text-excerpt p {
   font-family: var(--acta-display);
-  font-size: 1vw!important;
+  font-size: 1rem!important;
   font-weight: 400;
   color: #333;
   letter-spacing: .02em;
   line-height: 1.9!important;
-  margin-bottom: 2vw!important
+  margin-bottom: 2rem!important
 }
 
 .ip-about-sec3-inner-col.col-right {
@@ -691,8 +691,8 @@ p#breadcrumbs {
 }
 
 .ip-about-sec3-image {
-  margin-top: -4.75vw;
-  height: calc(100% + 4.75vw);
+  margin-top: -4.75rem;
+  height: calc(100% + 4.75rem);
   display: block;
   position: absolute;
   top: 0;
@@ -715,8 +715,8 @@ p#breadcrumbs {
   position: absolute;
   top: 0;
   right: 0;
-  width: 12.75vw;
-  height: 116.5vw;
+  width: 12.75rem;
+  height: 116.5rem;
   background-image: url(../public/assets/images/ip-about-sec4-overlay.jpg);
   background-size: cover;
   background-position: center;
@@ -735,31 +735,31 @@ p#breadcrumbs {
 }
 
 .ip-about-sec4-text {
-  padding-top: 6.125vw;
-  padding-left: 10.813vw
+  padding-top: 6.125rem;
+  padding-left: 10.813rem
 }
 
 .ip-about-sec4-text-heading {
   font-family: var(--acta-display);
-  font-size: 5.625vw!important;
+  font-size: 5.625rem!important;
   font-weight: 800;
   color: #212121;
   line-height: 1.1
 }
 
 .ip-about-sec4-text-excerpt {
-  padding-top: 3vw;
-  max-width: 40.063vw
+  padding-top: 3rem;
+  max-width: 40.063rem
 }
 
 .ip-about-sec4-text-excerpt p {
   font-family: var(--acta-display);
-  font-size: 1vw!important;
+  font-size: 1rem!important;
   font-weight: 400;
   color: #333;
   letter-spacing: .02em;
   line-height: 1.9!important;
-  margin-bottom: 2vw!important
+  margin-bottom: 2rem!important
 }
 
 .ip-about-sec4-col.col-right {
@@ -767,8 +767,8 @@ p#breadcrumbs {
 }
 
 .ip-about-sec4-image {
-  padding-top: 10.438vw;
-  margin-left: 1.125vw
+  padding-top: 10.438rem;
+  margin-left: 1.125rem
 }
 
 .ip-about-sec4-image img {
@@ -779,7 +779,7 @@ p#breadcrumbs {
 .ip-about-sec5 {
   font-size: 0;
   position: relative;
-  padding-top: 9.375vw;
+  padding-top: 9.375rem;
   z-index: 1
 }
 
@@ -801,7 +801,7 @@ p#breadcrumbs {
 }
 
 .ip-about-sec5-image {
-  margin-top: -2.375vw
+  margin-top: -2.375rem
 }
 
 .ip-about-sec5-image img {
@@ -813,31 +813,31 @@ p#breadcrumbs {
 }
 
 .ip-about-sec5-text {
-  padding-top: 2.625vw;
-  padding-left: 4.188vw
+  padding-top: 2.625rem;
+  padding-left: 4.188rem
 }
 
 .ip-about-sec5-text-heading {
   font-family: var(--acta-display);
-  font-size: 5.625vw!important;
+  font-size: 5.625rem!important;
   font-weight: 800;
   color: #212121;
   line-height: 1.1;
-  max-width: 29.375vw
+  max-width: 29.375rem
 }
 
 .ip-about-sec5-text-excerpt {
-  padding-top: 3.063vw
+  padding-top: 3.063rem
 }
 
 .ip-about-sec5-text-excerpt p {
   font-family: var(--acta-display);
-  font-size: 1vw!important;
+  font-size: 1rem!important;
   font-weight: 400;
   color: #333;
   letter-spacing: .02em;
   line-height: 1.9!important;
-  margin-bottom: 2vw!important
+  margin-bottom: 2rem!important
 }
 
 @media only screen and (max-width: 1199px) {
@@ -1161,8 +1161,8 @@ p#breadcrumbs {
   position: absolute;
   top: 0;
   right: 0;
-  width: 12.75vw;
-  height: 116.5vw;
+  width: 12.75rem;
+  height: 116.5rem;
   background-image: url(../public/assets/images/ip-about-sec4-overlay.jpg);
   background-size: cover;
   background-position: center;
@@ -1172,13 +1172,13 @@ p#breadcrumbs {
 }
 
 .new-ip-about-sec4 .sec-inner-wrapper {
-  padding-top: 4.688vw;
+  padding-top: 4.688rem;
   position: relative
 }
 
 .new-ip-about-sec4 .sec-inner-wrapper:after {
   content: '';
-  width: calc(100% - 2.813vw);
+  width: calc(100% - 2.813rem);
   height: 100%;
   background: #fff;
   position: absolute;
@@ -1196,14 +1196,14 @@ p#breadcrumbs {
 }
 
 .new-ip-about-sec4 .sec-col.right {
-  padding-left: 1.875vw
+  padding-left: 1.875rem
 }
 
 .new-ip-about-sec4 .sec-photo {
   position: relative;
-  padding-top: 1.875vw;
-  padding-left: 2.688vw;
-  width: calc(100% - 2.500vw)
+  padding-top: 1.875rem;
+  padding-left: 2.688rem;
+  width: calc(100% - 2.500rem)
 }
 
 .new-ip-about-sec4 .sec-photo::before {
@@ -1211,8 +1211,8 @@ p#breadcrumbs {
   position: absolute;
   top: 0;
   left: 0;
-  width: calc(100% - 2.813vw);
-  height: calc(100% - 1.875vw);
+  width: calc(100% - 2.813rem);
+  height: calc(100% - 1.875rem);
   background-image: url(../public/assets/about-img.jpg);
   background-size: cover;
   background-position: top center;
@@ -1234,7 +1234,7 @@ p#breadcrumbs {
 .new-ip-about-sec5 {
   font-size: 0;
   position: relative;
-  padding-top: 6.313vw
+  padding-top: 6.313rem
 }
 
 .new-ip-about-sec5 .sec-inner-wrapper {
@@ -1251,11 +1251,11 @@ p#breadcrumbs {
 }
 
 .new-ip-about-sec5 .sec-photo {
-  padding-left: 2.5vw
+  padding-left: 2.5rem
 }
 
 .ip-about-sec5-text-heading.wow.fadeInUp,.ip-about-sec5-text-excerpt.wow.fadeInLeft {
-  max-width: 34.188vw;
+  max-width: 34.188rem;
   margin: 0 auto
 }
 

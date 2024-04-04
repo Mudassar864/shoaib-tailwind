@@ -51,8 +51,8 @@ export default function page() {
                       </div>
                     </div>
                   </div>
-                  <section className="pt-8 md:py-12  flex items-center">
-                    <div className="max-w-7xl flex flex-col ">
+                  <section className="pt-8 md:py-12 bg-red-50  flex items-center">
+                    <div className="container flex flex-col ">
                       <div className="flex items-center md:justify-left   ">
                         <hr className="hidden lg:block !mr-8 w-[200px] border-none" />
 
@@ -76,8 +76,8 @@ export default function page() {
                       </div>
                     </div>
                   </section>
-                  <section className="md:py-12 text-center mx-auto ">
-                    <div className="max-w-7xl  flex justify-center items-center py-12 md:!py-2 pr-4">
+                  <section className="md:py-12 text-center ">
+                    <div className="container bg-red-50  flex justify-center items-center py-12 md:!py-2 pr-4">
                       <div className="w-1/2 pl-2 md:!pl-0 md:!pr-8">
                         <h2 className="text-2xl md:text-3xl tracking-normal  !mb-4 text-left font-normal text-sothebys-blue">
                           Global Reach, Local Expertise
@@ -130,7 +130,7 @@ export default function page() {
                     </div>
                   </section>
                   <section className="py-2 tracking-normal">
-                    <div className="max-w-7xl  grid grid-cols-1 md:grid-cols-3 gap-8 bg-[#112548]">
+                    <div className="contaier lg:mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 bg-[#112548]">
                       <div className="md:col-span-2">
                         <img
                           src="https://d196t24mb8gljn.cloudfront.net/sothebys-assets/about-us-a.jpg"
@@ -162,7 +162,7 @@ export default function page() {
                     </div>
                   </section>
                   <section className="py-2 tracking-normal">
-                    <div className="max-w-7xl grid grid-cols-1 md:grid-cols-3 gap-8 border border-sothebys-blue">
+                    <div className="contaier lg:mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 border border-sothebys-blue">
                       <div className="md:col-span-2">
                         <img
                           src="https://d196t24mb8gljn.cloudfront.net/sothebys-assets/about-us-1.jpg"
@@ -187,7 +187,7 @@ export default function page() {
                   </section>
 
                   <section className="py-2 tracking-normal">
-                    <div className="max-w-7xl  bg-[#112548]">
+                    <div className="contaier lg:mx-auto  bg-[#112548]">
                       <Image
                         src="/assets/aabout.jpg"
                         width="1800"

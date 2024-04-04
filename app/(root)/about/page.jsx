@@ -51,19 +51,21 @@ export default function page() {
                       </div>
                     </div>
                   </div>
-                  <section className="pt-8 md:py-12 text-center flex items-center">
-                    <div className="container mx-auto">
-                      <div className="text-center z-10 mx-auto max-w-screen-lg">
-                        <h1 className="text-4xl md:text-5xl font-normal !mb-4 md:!mb-10 text-sothebys-blue">
+                  <section className="pt-8 md:py-12  flex items-center">
+                    <div className="max-w-7xl flex flex-col ">
+                      <div className="flex items-center md:justify-left   ">
+                        <hr className="hidden lg:block !mr-8 w-[200px] border-none" />
+
+                        <h1 className="text-4xl tracking-normal text-center    md:text-5xl font-normal !mb-4 md:!mb-10 text-sothebys-blue">
                           Dubai Sotheby's International Realty
                         </h1>
                       </div>
                       <div className="flex items-center md:justify-left">
                         <hr className="hidden md:block !mr-8 w-[200px] border-sothebys-blue border-b-1" />
-                        <div className="font-acta text-md md:text-xl text-left font-normal md:max-w-4xl p-2 md:p-0">
-                          Founded in 1976, <i>Sotheby's International Realty</i>{" "}
-                          has always been a highly sought-after name for the
-                          world's wealthiest individuals when it comes to luxury
+                        <div className="font-acta tracking-normal text-md md:text-xl text-left font-normal md:max-w-4xl p-2 md:p-0">
+                          Founded in 1976, Sotheby's International Realty has
+                          always been a highly sought-after name for the world's
+                          wealthiest individuals when it comes to luxury
                           property and today our ever-expanding network includes
                           over 26,500 property consultants in 1,115 offices
                           across 84 countries and territories. With our
@@ -74,14 +76,14 @@ export default function page() {
                       </div>
                     </div>
                   </section>
-                  <section className="md:py-12 text-center m-auto">
-                    <div className="container mx-auto flex justify-center items-center !py-12 !md:py-2 pr-4">
-                      <div className="w-1/2 pl-2 !md:pl-0 md:!pr-8">
-                        <h2 className="text-2xl md:text-3xl  !mb-4 text-left font-normal text-sothebys-blue">
+                  <section className="md:py-12 text-center ">
+                    <div className="max-w-7xl flex justify-center items-center py-12 md:!py-2 pr-4">
+                      <div className="w-1/2 pl-2 md:!pl-0 md:!pr-8">
+                        <h2 className="text-2xl md:text-3xl tracking-normal  !mb-4 text-left font-normal text-sothebys-blue">
                           Global Reach, Local Expertise
                         </h2>
                         <div className="font-acta font-normal text-md md:text-lg text-gray-700 text-left md:max-w-lg">
-                          <div className="">
+                          <div className="tracking-normal">
                             Offering unrivalled access to distinctive properties
                             and qualified people around the world. Delivering
                             exceptional service in the luxury real estate market
@@ -89,37 +91,37 @@ export default function page() {
                           </div>
                         </div>
                       </div>
-                      <div className="w-1/2 pl-8">
+                      <div className="w-1/2 pl-8 tracking-normal">
                         <div className="grid md:grid-cols-2 gap-2 md:gap-4 text-left text-sothebys-blue">
                           <div className="mb-4">
                             <div className="text-2xl md:text-4xl font-acta font-normal">
                               1,115
                             </div>
-                            <div className="text-xs md:text-md ">
+                            <div className="text-xs md:text-md font-benton ">
                               OFFICES WORLDWIDE
                             </div>
                           </div>
-                          <div className="!mb-4">
+                          <div className="mb-4">
                             <div className="text-2xl md:text-4xl font-acta font-normal">
                               26,500
                             </div>
-                            <div className="text-xs md:text-md ">
+                            <div className="text-xs md:text-md font-benton">
                               SALES ASSOCIATES
                             </div>
                           </div>
-                          <div className="!mb-4">
+                          <div className="mb-4">
                             <div className="text-2xl md:text-4xl font-acta font-normal">
                               84
                             </div>
-                            <div className="text-xs md:text-md ">
+                            <div className="text-xs md:text-md font-benton">
                               COUNTRIES &amp; TERRITORIES
                             </div>
                           </div>
-                          <div className="!mb-4">
+                          <div className="mb-4">
                             <div className="text-2xl md:text-4xl font-acta font-normal">
                               $143 Billion
                             </div>
-                            <div className="text-xs md:text-md ">
+                            <div className="text-xs md:text-md font-benton">
                               ANNUAL SALES
                             </div>
                           </div>
@@ -127,8 +129,8 @@ export default function page() {
                       </div>
                     </div>
                   </section>
-                  <section className="py-2">
-                    <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 bg-[#112548]">
+                  <section className="py-2 tracking-normal">
+                    <div className="max-w-7xl  grid grid-cols-1 md:grid-cols-3 gap-8 bg-[#112548]">
                       <div className="md:col-span-2">
                         <img
                           src="https://d196t24mb8gljn.cloudfront.net/sothebys-assets/about-us-a.jpg"
@@ -159,8 +161,8 @@ export default function page() {
                       </div>
                     </div>
                   </section>
-                  <section className="py-2">
-                    <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 border border-sothebys-blue">
+                  <section className="py-2 tracking-normal">
+                    <div className="max-w-7xl grid grid-cols-1 md:grid-cols-3 gap-8 border border-sothebys-blue">
                       <div className="md:col-span-2">
                         <img
                           src="https://d196t24mb8gljn.cloudfront.net/sothebys-assets/about-us-1.jpg"
@@ -174,19 +176,18 @@ export default function page() {
                         </h2>
                         <div className="!p-2 md:p-0 font-benton !my-2 text-left text-sm">
                           As part of the global powerhouse brand of Sotheby's,
-                          the world's preeminent auction house, and
-                          <i>Sotheby's International Realty</i>, our reputation
-                          for excellence is unsurpassed. Our singular pedigree
-                          assures clients that they are working with a trusted
-                          partner who can provide best-in-class exposure and
-                          unmatched service.
+                          the world's preeminent auction house, and Sotheby's
+                          International Realty, our reputation for excellence is
+                          unsurpassed. Our singular pedigree assures clients
+                          that they are working with a trusted partner who can
+                          provide best-in-class exposure and unmatched service.
                         </div>
                       </div>
                     </div>
                   </section>
 
-                  <section className="py-2">
-                    <div className="container mx-auto  bg-[#112548]">
+                  <section className="py-2 tracking-normal">
+                    <div className="max-w-7xl mx-auto  bg-[#112548]">
                       <Image
                         src="/assets/aabout.jpg"
                         width="1800"

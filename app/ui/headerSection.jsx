@@ -19,9 +19,9 @@ export default function HeaderSection() {
           >
             Shoaib <span className="font-semibold">Shahid.</span>
           </Link>
-          <span className="text-xs flex items-center font-bold font-benton gap-1">
+          <span className="text-xs flex items-center  font-benton gap-1">
             <div>Associate Director at</div>{" "}
-            <div className="svg">
+            <div className="svg mt-[2px]">
               <Sothebys  width="100" />
             </div>
           </span>

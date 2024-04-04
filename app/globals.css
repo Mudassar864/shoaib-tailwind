@@ -43,14 +43,16 @@ html {
     @apply px-6 py-2 text-xs bg-white border-transparent text-black uppercase cursor-pointer border-[1px];
   }
   .svg svg path,
-  .svg svg rect {
+  .svg svg rect,.svg svg polygon {
     fill: #ffffff;
   }
   .header:hover {
     @apply bg-white text-black;
   }
   .header:hover .svg svg path,
-  .svg svg rect {
+  .header:hover .svg svg rect,
+  .header:hover .svg svg polygon
+   {
     fill: #000;
   }
   .header:hover .btn {
@@ -480,7 +482,6 @@ p#breadcrumbs {
 
 .ip-about-sec1-col {
   display: inline-block;
-  vertical-align: top;
 }
 
 .ip-about-sec1-col.col-left {

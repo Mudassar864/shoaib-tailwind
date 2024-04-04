@@ -7,29 +7,25 @@ export default function page() {
   return (
     <>
       <HeaderBlack />
-      <div id="inner-page-wrapper">
+      <div className="">
         <div className="container">
           <div id="content-full">
             <article id="content" className="hfeed">
-              <div id="ip-about">
+              <div>
                 <div className="ip-about-inner-wrap">
-                  <div className="ip-about-sec1">
-                    <div className="ip-about-sec1-col col-left">
+                  <div className="flex">
+                    <div className="basis-1/2">
                       <div className="ip-about-sec1-text">
-                        <div className="ip-about-sec1-text-title wow fadeInRight">
+                        <div className="!text-sm !mb-4 !m-0 !p-0 max-w-md !font-normal !capitalize font-benton">
+                          Bringing Expertise to World's Elite with{" "}
+                          <strong> Dubai Sotheby's International Realty</strong>
+                        </div>
+                        <div className="ip-about-sec1-text-title wow fadeInRight !capitalize">
                           Shoaib
                           <div className="!text-sothebys-blue">Shahid</div>
-                          <div className="!text-xs !m-0 !p-0 max-w-md !font-normal !capitalize font-benton">
-                            Bringing Expertise to World's Elite with{" "}
-                            <strong>
-                              {" "}
-                              Dubai Sotheby's International Realty
-                            </strong>
-                          </div>
                         </div>
 
                         <div className="ip-about-sec1-text-excerpt wow fadeInRight">
-                          <h1 className="text-3xl !mb-3 font-bold">About Shoaib Shahid</h1>
                           Shoaib Sahid is a highly esteemed global real estate
                           consultant who has over fifteen years experience in
                           international sales, business development and has
@@ -44,8 +40,8 @@ export default function page() {
                         </div>
                       </div>
                     </div>
-                    <div className="ip-about-sec1-col col-right">
-                      <div className="ip-about-sec1-image wow fadeInUp">
+                    <div className="basis-1/2">
+                      <div className="">
                         <img
                           alt="Shaoib Shahid"
                           className=" lazyloaded"

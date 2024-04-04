@@ -20,9 +20,9 @@ export default function HeaderBlack() {
           >
             Shoaib <span className="font-semibold ">Shahid.</span>
           </Link>
-          <div className="text-xs flex items-center gap-1 font-bold font-benton">
+          <div className="text-xs flex items-center gap-1 font-benton">
             <div>Associate Director at</div>{" "}
-            <div  >
+            <div className="svg-black mt-[2px]" >
               <Sothebys width="100" />
             </div>
           </div>

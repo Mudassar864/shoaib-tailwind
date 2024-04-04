@@ -20,7 +20,7 @@ export default async function page() {
       <HeaderBlack />
       <section className="container">
         <div className="max-w-3xl">
-          <h2 className="text-3xl font-medium font-benton mb-4">
+          <h2 className="text-xl font-medium font-benton mb-4">
             Welcome to Extra Ordinary Living
           </h2>
           <p className="text-base">

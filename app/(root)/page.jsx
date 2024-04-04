@@ -19,6 +19,24 @@ export default function Home() {
       <Banner />
       <Developments />
       <About />
+      {/* <section className="flex w-full h-[600px] overflow-hidden bg-sothebys-blue relative">
+        <div className="w-[800px] h-full bg-red-300">
+          <Image
+            src="/assets/c1.jpg"
+            className="object-cover w-full h-full"
+            width={400}
+            height={600}
+            alt="chairman"
+          />
+        </div>
+        <div
+          className="w-full h-full  absolute top-0 right-0 "
+          style={{
+            backgroundImage:
+              "linear-gradient(to right, rgba(17, 37, 72, 0.1),rgba(17, 37, 72, 0.6),rgba(17, 37, 72, 1), rgba(17, 37, 72, 1))",
+          }}
+        ></div>
+      </section> */}
       <Featured />
       <Featured1 />
       <section className="w-full bg-white overflow-hidden relative ">

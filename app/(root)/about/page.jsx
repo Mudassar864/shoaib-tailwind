@@ -348,11 +348,15 @@ export default function page() {
                         </div>
                         <div className="ip-about-sec5-text-excerpt wow fadeInLeft">
                           <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Eveniet repellendus explicabo enim non, labore
-                            vero voluptates molestiae porro, natus repudiandae
-                            provident quasi magni molestias veritatis maxime ex
-                            laborum autem sunt.
+                            Shoaib Shahid's life is enriched by the presence of
+                            his three beloved sons, Aayyan, Shayyan, and Arhaan.
+                            Blessed with boundless energy and mischief, they
+                            bring joy and laughter to every corner of their
+                            home. Together, they navigate life's adventures,
+                            creating cherished memories and forming unbreakable
+                            bonds. In the midst of his professional endeavors,
+                            Shoaib finds solace and fulfillment in the warmth of
+                            his family life
                           </p>
                         </div>
                       </div>

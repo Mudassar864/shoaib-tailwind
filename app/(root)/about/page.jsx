@@ -61,7 +61,7 @@ export default function page() {
                       <div className="flex items-center md:justify-left">
                         <hr className="hidden md:block !mr-8 w-[200px] border-sothebys-blue border-b-1" />
                         <div className="font-acta text-md md:text-xl text-left font-normal md:max-w-4xl p-2 md:p-0">
-                          Founded in 1976, Sotheby's International Realty{" "}
+                          Founded in 1976, <i>Sotheby's International Realty</i>{" "}
                           has always been a highly sought-after name for the
                           world's wealthiest individuals when it comes to luxury
                           property and today our ever-expanding network includes
@@ -142,11 +142,11 @@ export default function page() {
                           Wherever In The World You Need It To Be
                         </h2>
                         <div className="p-2 md:p-0 font-benton my-2 text-left text-white text-sm">
-                          <i>Dubai Sotheby's International Realty</i> is part of
-                          one of the world's most respected luxury real estate
-                          brands and is committed to delivering extraordinary
-                          results through our local expertise, global footprint
-                          and exclusive network.
+                          Dubai Sotheby's International Realty is part of one of
+                          the world's most respected luxury real estate brands
+                          and is committed to delivering extraordinary results
+                          through our local expertise, global footprint and
+                          exclusive network.
                         </div>
                         <div className="p-2 md:p-0 font-benton text-left text-white text-sm">
                           As well as a distinguished service and our commitment

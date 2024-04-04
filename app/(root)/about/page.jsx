@@ -51,7 +51,7 @@ export default function page() {
                       </div>
                     </div>
                   </div>
-                  <section className="pt-8 md:py-12 bg-red-50  flex items-center">
+                  <section className="pt-8 md:py-12   flex items-center">
                     <div className="container flex flex-col ">
                       <div className="flex items-center md:justify-left   ">
                         <hr className="hidden lg:block !mr-8 w-[200px] border-none" />
@@ -77,7 +77,7 @@ export default function page() {
                     </div>
                   </section>
                   <section className="md:py-12 text-center ">
-                    <div className="container bg-red-50  flex justify-center items-center py-12 md:!py-2 pr-4">
+                    <div className="container   flex justify-center items-center py-12 md:!py-2 pr-4">
                       <div className="w-1/2 pl-2 md:!pl-0 md:!pr-8">
                         <h2 className="text-2xl md:text-3xl tracking-normal  !mb-4 text-left font-normal text-sothebys-blue">
                           Global Reach, Local Expertise

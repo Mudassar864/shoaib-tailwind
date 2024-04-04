@@ -20,14 +20,11 @@ export default async function page() {
       <HeaderBlack />
       <section className="container">
         <div className="max-w-3xl">
-          <h2 className="text-xl font-medium font-benton mb-4">
-            Welcome to Extra Ordinary Living
-          </h2>
           <p className="text-base">
             Discover the pinnacle of luxury living with <b>Shoaib Shahid</b>.
             Explore our handpicked selection of prestigious properties,
             elevating you to a level above the rest. Experience the privilege of
-            owning a truly exceptional home. Welcome to extraordinary living.
+            owning a truly exceptional home. <span className="font-medium">Welcome to extraordinary living</span>.
           </p>
         </div>
       </section>

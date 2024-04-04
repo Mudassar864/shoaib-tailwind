@@ -16,8 +16,8 @@ export default function page() {
                   <div className="flex">
                     <div className="basis-1/2">
                       <div className="ip-about-sec1-text">
-                        <div className="!text-sm !mb-4 !m-0 !p-0 max-w-md !font-normal !capitalize font-benton">
-                          Bringing Expertise to World's Elite with{" "}
+                        <div className="!text-sm !mb-4 !m-0 !p-0 max-w-md !font-normal  font-benton">
+                          Bringing expertise to world's elite with{" "}
                           <strong> Dubai Sotheby's International Realty</strong>
                         </div>
                         <div className="ip-about-sec1-text-title wow fadeInRight !capitalize">

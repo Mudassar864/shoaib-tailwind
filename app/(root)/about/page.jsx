@@ -76,8 +76,8 @@ export default function page() {
                       </div>
                     </div>
                   </section>
-                  <section className="md:py-12 text-center ">
-                    <div className="max-w-7xl flex justify-center items-center py-12 md:!py-2 pr-4">
+                  <section className="md:py-12 text-center mx-auto ">
+                    <div className="max-w-7xl  flex justify-center items-center py-12 md:!py-2 pr-4">
                       <div className="w-1/2 pl-2 md:!pl-0 md:!pr-8">
                         <h2 className="text-2xl md:text-3xl tracking-normal  !mb-4 text-left font-normal text-sothebys-blue">
                           Global Reach, Local Expertise

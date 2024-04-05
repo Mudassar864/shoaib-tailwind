@@ -64,7 +64,7 @@ export function CarouselSize({ images }) {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <div className="absolute top-0 left-0 w-full h-full flex">
+        <div className="absolute top-0 left-0 w-full h-full hidden md:flex">
           <CarouselPrevious
             variant="none"
             show={false}

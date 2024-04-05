@@ -177,7 +177,7 @@ const CarouselPrevious = React.forwardRef(
       >
         {show && (
           <>
-            <ChevronRight className="h-10 w-10" strokeWidth="1px" />
+            <ChevronLeft className="h-10 w-10" strokeWidth="1px" />
             <span className="sr-only">Next slide</span>
           </>
         )}

@@ -18,7 +18,7 @@ export default async function page() {
   return (
     <>
       <HeaderBlack />
-      <section className="container">
+      <section className="container px-4">
         <div className="max-w-3xl">
           <p className="text-base">
             Discover the pinnacle of luxury living with <b>Shoaib Shahid</b>.
@@ -28,7 +28,7 @@ export default async function page() {
           </p>
         </div>
       </section>
-      <section className="container !mx-auto my-4">
+      <section className="container !mx-auto my-4 px-4">
         <div className="py-3 md:py-6 flex items-center justify-between font-benton">
           <div className="flex items-center text-sm font-normal text-sothebys-blue">
             <h1 className="font-benton font-medium text-lg text-sothebys-blue">

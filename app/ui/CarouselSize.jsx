@@ -51,7 +51,7 @@ export function CarouselSize({ images }) {
       >
         <CarouselContent>
           {images.map((image, index) => (
-            <CarouselItem key={index} className="basis-full lg:basis-4/6">
+            <CarouselItem key={index} className="basis-full ">
               <div className="w-full h-full">
                 <Image
                   src={urlForImage(image)}

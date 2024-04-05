@@ -8,6 +8,7 @@ import { ActaDisplay } from "../fonts";
 import Image from "next/image";
 import Sothebys from "../icons/Sothebys";
 import { cn } from "@/lib/utils";
+import { usePathname } from "next/navigation";
 
 export default function HeaderBlack() {
   const [menu, setMenu] = useState(false);

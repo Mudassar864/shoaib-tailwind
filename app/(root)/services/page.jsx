@@ -4,7 +4,7 @@ import Footer from "@/app/ui/footer";
 import HeaderSection from "@/app/ui/headerSection";
 import Image from "next/image";
 import React from "react";
-
+import image1 from "@/public/assets/a.png"
 export default function page() {
   return (
     <>
@@ -46,11 +46,12 @@ export default function page() {
           </div>
           <div className="basis-[40%] overflow-hidden -mt-16">
             <Image
-              src="/assets/services-white.jpg"
+              src={image1}
               className="object-contain"
               width={800}
               height={600}
               alt="shaoib shahid"
+              placeholder="blur"
             />
           </div>
         </div>

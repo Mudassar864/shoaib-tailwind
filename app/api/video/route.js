@@ -6,7 +6,7 @@ function getVideoStream(req) {
   if (!range) {
     return new Response("Ruquires Range Header", { status: 400 });
   }
-  const filePath = "./public/assets/intro.mp4"; // Replace with your actual file path
+  const filePath = "./video/intro.mp4"; // Replace with your actual file path
   const videoSize = fs.statSync(filePath).size;
   const CHUNK_SIZE = 10 ** 6; //1 MB
   const start = Number(range.replace(/\D/g, ""));

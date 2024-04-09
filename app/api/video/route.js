@@ -7,6 +7,7 @@ function getVideoStream(req) {
     return new Response("Ruquires Range Header", { status: 400 });
   }
   const filePath = "./public/assets/intro.mp4"; // Replace with your actual file path
+
   const videoSize = fs.statSync(filePath).size;
   const CHUNK_SIZE = 10 ** 6; //1 MB
   const start = Number(range.replace(/\D/g, ""));
@@ -17,6 +18,7 @@ function getVideoStream(req) {
     "Accept-Ranges": "bytes",
     "Content-Length": contentLength.toString(),
     "Content-Type": "video/mp4",
+    "Access-Control-Allow-Origin": "*", // Replace with your domain
   };
   const videoStram = fs.createReadStream(filePath, {
     start,

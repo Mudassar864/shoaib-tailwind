@@ -6,7 +6,10 @@ function getVideoStream(req) {
   if (!range) {
     return new Response("Ruquires Range Header", { status: 400 });
   }
-  const filePath = `/video/intro.mp4`; // Replace with your actual file path
+  const moduleDir = path.dirname(new URL(import.meta.url).pathname);
+  const filePath = path.join(moduleDir, "intro.mp4"); // Use absolute file path
+
+
   const videoSize = fs.statSync(filePath).size;
   const CHUNK_SIZE = 10 ** 6; //1 MB
   const start = Number(range.replace(/\D/g, ""));

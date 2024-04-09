@@ -81,11 +81,11 @@ export default async function page() {
                             {key != 0 && (
                               <div className="bg-gray-400 h-3 w-[1px]" />
                             )}
-                            <span>{item}</span>
+                            <span className="capitalize">{item}</span>
                           </div>
                         ))}
                       </div>
-                      <h3 className="text-3xl h-[72px] line-clamp-2 font-normal text-sothebys-blue">
+                      <h3 className="text-3xl capitalize h-[72px] line-clamp-2 font-normal text-sothebys-blue">
                         {project.title}
                       </h3>
                       {project?.price && (
@@ -102,7 +102,7 @@ export default async function page() {
                           className="w-5 aspect-square"
                           alt={project.location}
                         />
-                        <div className="line-clamp-1 leading-6">
+                        <div className="line-clamp-1 capitalize leading-6">
                           {project.location}
                         </div>
                       </div>
@@ -125,7 +125,7 @@ export default async function page() {
                           </button>
                         </div>
                         <div className="bg-gray-300 h-3 w-[1px] rounded-full" />
-                        <div className="flex items-center gap-x-3.5">
+                        <div className="flex items-center gap-x-3.5 capitalize">
                           {project.lifestyle}
                         </div>
                       </section>

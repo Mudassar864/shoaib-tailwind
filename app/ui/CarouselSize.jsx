@@ -68,7 +68,7 @@ export function CarouselSize({ images }) {
           <CarouselPrevious
             variant="none"
             show={false}
-            className="basis-1/2 h-full"
+            className="basis-1/2 h-full !border-none"
             style={{
               cursor: "url(/assets/icons/slider_cursor_prev.svg), auto",
             }}
@@ -76,7 +76,7 @@ export function CarouselSize({ images }) {
           <CarouselNext
             variant="none"
             show={false}
-            className="basis-1/2 h-full"
+            className="basis-1/2 h-full !border-none"
             style={{
               cursor: "url(/assets/icons/slider_cursor_next.svg), auto",
             }}

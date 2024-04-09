@@ -61,37 +61,37 @@ export default function HeaderSection() {
         </div>
       </div>
       <nav className="border-t py-4 hidden md:block">
-        <div className="max-w-max mx-auto flex gap-8 items-center">
+        <div className="max-w-max mx-auto flex gap-8 items-center font-benton">
           <Link
-            className="text-sm uppercase hover:text-gray-400 transition-all"
+            className="text-sm capitalize hover:text-gray-400 transition-all"
             href="/"
           >
             Home
           </Link>
           <Link
-            className="text-sm uppercase hover:text-gray-400 transition-all"
+            className="text-sm capitalize hover:text-gray-400 transition-all"
             href="/off-plan-projects"
           >
             projects
           </Link>
-          <Link href="/services" className="uppercase">
+          <Link href="/services" className="capitalize">
             services
           </Link>
 
           <Link
-            className="text-sm uppercase hover:text-gray-400 transition-all"
+            className="text-sm capitalize hover:text-gray-400 transition-all"
             href="/"
           >
             Achievements
           </Link>
           <Link
-            className="text-sm uppercase hover:text-gray-400 transition-all"
+            className="text-sm capitalize hover:text-gray-400 transition-all"
             href="/about"
           >
             About
           </Link>
           <Link
-            className="text-sm uppercase hover:text-gray-400 transition-all"
+            className="text-sm capitalize hover:text-gray-400 transition-all"
             href="/contact"
           >
             contact
@@ -110,37 +110,37 @@ export default function HeaderSection() {
           close
         </button>
         <div className="flex items-center justify-center flex-col  w-full h-screen gap-4">
-          <Link href="/" className="uppercase" onClick={() => setMenu(false)}>
+          <Link href="/" className="capitalize" onClick={() => setMenu(false)}>
             Home
           </Link>
 
           <Link
             href="/off-plan-projects"
-            className="uppercase"
+            className="capitalize"
             onClick={() => setMenu(false)}
           >
             projects
           </Link>
           <Link
             href="/services"
-            className="uppercase"
+            className="capitalize"
             onClick={() => setMenu(false)}
           >
             services
           </Link>
-          <Link href="/" className="uppercase" onClick={() => setMenu(false)}>
+          <Link href="/" className="capitalize" onClick={() => setMenu(false)}>
             Achievements
           </Link>
           <Link
             href="/about"
-            className="uppercase"
+            className="capitalize"
             onClick={() => setMenu(false)}
           >
             About
           </Link>
           <Link
             href="/contact"
-            className="uppercase"
+            className="capitalize"
             onClick={() => setMenu(false)}
           >
             contact

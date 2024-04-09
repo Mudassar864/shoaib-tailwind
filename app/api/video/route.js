@@ -6,7 +6,7 @@ function getVideoStream(req) {
   if (!range) {
     return new Response("Ruquires Range Header", { status: 400 });
   }
-  const filePath = "https://www.theshoaibshahid.com/assets/intro.mp4"; // Replace with your actual file path
+  const filePath = "./public/assets/intro.mp4"; // Replace with your actual file path
   const videoSize = fs.statSync(filePath).size;
   const CHUNK_SIZE = 10 ** 6; //1 MB
   const start = Number(range.replace(/\D/g, ""));
@@ -17,8 +17,6 @@ function getVideoStream(req) {
     "Accept-Ranges": "bytes",
     "Content-Length": contentLength.toString(),
     "Content-Type": "video/mp4",
-    "Access-Control-Allow-Origin": "https://www.theshoaibshahid.com/", // Replace with your domain
-    "Access-Control-Allow-Methods": "GET", // Allow only GET method
   };
   const videoStram = fs.createReadStream(filePath, {
     start,

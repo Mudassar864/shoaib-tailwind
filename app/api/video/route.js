@@ -6,6 +6,7 @@ function getCachedVideo() {
     const cachedFilePath = path.resolve('./public/assets/optimized_video.mp4');
 
     if (fs.existsSync(cachedFilePath)) {
+        console.log("working with cache")
         return cachedFilePath;
     } else {
         const originalFilePath = path.resolve('./public/assets/intro.mp4');

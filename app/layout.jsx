@@ -3,6 +3,7 @@ import { ActaDisplay, BentonSans } from "./fonts";
 import "./globals.css";
 import Footer from "./ui/footer";
 import NextTopLoader from "nextjs-toploader";
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 export const metadata = {
   title: "Shoaib Shahid - Global Real Estate Consultant",

@@ -40,10 +40,10 @@ export default function Home() {
       <Featured />
       <Featured1 />
       <section className="w-full bg-white overflow-hidden relative ">
-        <div className="w-full h-[600px] aspect-video overflow-hidden">
-          <div className="absolute top-[50%] -translate-y-[50%] p-8 left-10 w-[50%] font-benton bg-sothebys-blue text-white">
+        <div className="w-full lg:h-[600px] overflow-hidden">
+          <div className="md:absolute md:top-[50%] md:-translate-y-[50%] p-8 left-10 w-full md:w-[50%] font-benton bg-sothebys-blue text-white">
             <div className="flex flex-col gap-4">
-              <h3 className="text-4xl font-bold font-acta">
+              <h3 className="text-2xl md:text-4xl font-bold font-acta">
                 Global Real Estate Consultant
               </h3>
               <p className="text-sm">
@@ -54,16 +54,16 @@ export default function Home() {
               </p>
               <span className="font-medium text-lg">Property Sold</span>
               <div className="flex gap-4 border-b pb-3">
-                <span className="text-4xl basis-1/2 font-bold">
+                <span className="text-2xl md:text-4xl basis-1/2 font-bold">
                   $1.5 Billion
                 </span>
-                <span className="basis-1/2 font-bold">
+                <span className="text-sm md:text-base basis-1/2 font-bold">
                 Serving 70+ HNWIs and Top Companies with Distinction
                 </span>
               </div>
               <div>
                 <div className="flex flex-col">
-                  <span className="text-sm font-bold">
+                  <span className="text-xs md:text-sm font-bold">
                     Consistently Ranked #1 Top Earner Previously at Christie's
                     International Real Estate
                   </span>
@@ -74,7 +74,7 @@ export default function Home() {
 
           <Image
             src="/assets/meeting.jpg"
-            className="w-full h-full ml-40 object-cover group-hover:scale-125 transition-all duration-300"
+            className="hidden md:block w-full h-full ml-40 object-cover group-hover:scale-125 transition-all duration-300"
             width={1900}
             height={600}
             alt="image"

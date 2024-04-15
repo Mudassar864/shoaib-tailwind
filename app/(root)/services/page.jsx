@@ -19,8 +19,8 @@ export default function page() {
           alt="banner"
         />
       </div>
-      <div className="max-w-3xl mx-auto my-16 flex flex-col gap-4">
-        <h2 className="text-4xl text-center  text-sothebys-blue font-bold">
+      <div className="max-w-3xl mx-auto my-16 flex flex-col gap-4 px-4">
+        <h2 className="text-2xl md:text-4xl text-center  text-sothebys-blue font-bold">
           Rise above the crowed.
         </h2>
         <p className="text-base text-center font-normal font-benton">
@@ -32,9 +32,9 @@ export default function page() {
         </p>
       </div>
       <div className="py-16">
-        <div className="max-w-6xl  mx-auto  flex  ">
-          <div className="basis-[70%] p-16 bg-sothebys-blue text-white relative after:content-[''] after:absolute after:-right-36 after:-z-10 after:top-0 after:w-36 after:h-full after:bg-sothebys-blue">
-            <h2 className="text-4xl mb-4 font-medium">EXCLUSIVELY YOURS</h2>
+        <div className="max-w-6xl  mx-auto  flex flex-col md:flex-row ">
+          <div className="basis-full md:basis-1/2 lg:basis-[70%] p-16 bg-sothebys-blue text-white relative after:content-[''] after:absolute after:-right-36 after:-z-10 after:top-0 after:md:w-36 after:h-full after:bg-sothebys-blue">
+            <h2 className="text-2xl md:text-4xl mb-4 font-medium">EXCLUSIVELY YOURS</h2>
             <p className="font-benton font-light text-base">
               <span className="font-acta font-light ">
                 Shoaib <span className="font-semibold text-white">Shahid</span>.
@@ -47,7 +47,7 @@ export default function page() {
               real estate endeavors.
             </p>
           </div>
-          <div className="basis-[30%] overflow-hidden -mt-16">
+          <div className="basis-full md:basis-1/2 lg:basis-[30%] overflow-hidden -mt-16">
             <Image
               src={image1}
               className="object-contain"

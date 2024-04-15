@@ -24,7 +24,7 @@ export default function HeaderBlack() {
     };
   }, []); 
   return (
-    <header className={cn("header-black", { "sticky top-0 left-0 z-30 shadow-md bg-white text-black": isSticky })}>
+    <header className={cn("header-black", { "fixed w-full top-0 left-0 z-30 shadow-md bg-white text-black": isSticky })}>
       <div className="w-full flex items-center justify-between pt-4 py-2">
         <div className="flex flex-col">
           <Link

@@ -9,7 +9,7 @@ export default function ServicsDetails() {
     <section className="py-6 px-4 bg-white">
       <div className="md:px-16 mx-auto">
         <div className="px-5 text-center  mx-auto">
-          <h2 className="text-xl md:text-4xl mb-4  text-sothebys-blue md:max-w-2xl mx-auto">
+          <h2 className="text-xl md:text-4xl mb-4 font-medium text-sothebys-blue md:max-w-2xl mx-auto">
             Our exclusive services aren't for everyone, but they could be for
             you.
           </h2>

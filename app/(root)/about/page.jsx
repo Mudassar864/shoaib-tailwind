@@ -13,7 +13,7 @@ export default function page() {
             <article id="content" className="hfeed">
               <div>
                 <div className="ip-about-inner-wrap">
-                  <div className="flex">
+                  <div className="flex flex-col-reverse md:flex-row">
                     <div className="basis-1/2">
                       <div className="ip-about-sec1-text">
                         <div className="!text-sm !mb-4 !m-0 !p-0 max-w-md !font-normal  font-benton">

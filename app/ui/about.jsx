@@ -6,9 +6,9 @@ export default function About() {
   return (
     <section className="bg-sothebys-blue py-20 px-4">
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
-        <div className="col-span-1 flex flex-col items-center justify-center gap-8 py-4 md:py-0 border-t border-b">
+        <div className="col-span-1 flex flex-col items-center justify-center gap-8 py-4 md:py-2 border-t border-b">
           <h2 className="text-white text-xl md:text-4xl">About Shoaib <span className="font-bold">Shahid.</span></h2>
-          <p className="text-lg font-benton text-white">
+          <p className="text-base font-benton text-white">
             Shoaib Sahid is a highly esteemed global real estate consultant who
             has over fifteen years experience in international sales, business
             development and has overseen a staggering 1.5 billion USD worth of
@@ -27,7 +27,7 @@ export default function About() {
             inception to completion resulting in a lasting impact in the world
             of luxury real estate.
           </p>
-          <Link className="text-white border py-4 px-8 hover:bg-white hover:text-sothebys-blue font-bold transition-all duration-300" href="#">
+          <Link className="text-white border py-4 px-8  hover:bg-white hover:text-sothebys-blue font-bold transition-all duration-300" href="#">
             Explore
           </Link>
         </div>

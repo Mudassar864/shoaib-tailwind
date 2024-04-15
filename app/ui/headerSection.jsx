@@ -109,7 +109,7 @@ export default function HeaderSection() {
         >
           close
         </button>
-        <div className="flex items-center justify-center flex-col  w-full h-screen gap-4">
+        <div className="flex items-center justify-center flex-col  gap-16  w-full h-full ">
           <Link href="/" className="capitalize" onClick={() => setMenu(false)}>
             Home
           </Link>

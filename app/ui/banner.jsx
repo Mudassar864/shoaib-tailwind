@@ -4,14 +4,14 @@ import Image from "next/image";
 import image1 from "@/public/assets/beach.jpg";
 import Link from "next/link";
 
-// import { CldVideoPlayer } from "next-cloudinary";
-// import "next-cloudinary/dist/cld-video-player.css";
+import { CldVideoPlayer } from "next-cloudinary";
+import "next-cloudinary/dist/cld-video-player.css";
 export default function Banner() {
   return (
-    <section className="w-full relative  pt-[48%] overflow-hidden">
-      <Image src={image1} placeholder="blur" alt="first iamge" fill  />
-      <div className="absolute top-0 left-0 w-full">
-        {/* <CldVideoPlayer
+    <section className="w-full relative  pt-[48%] overflow-hidden bg-black">
+      {/* <Image src={image1} placeholder="blur" alt="first iamge" fill  /> */}
+      <div className="absolute top-0 left-0 w-full   bg-[url('/assets/beach.jpg')] bg-cover bg-center bg-no-repeat ">
+        <CldVideoPlayer
           src="pahizwbjznyu3rdd6koh"
           controls={false}
           autoplay={true}
@@ -20,11 +20,11 @@ export default function Banner() {
           muted
           posterOptions={{
             publicId: "gzphvg7gj7pybifcmdib",
-            effect: ["sepia"],
           }}
-        /> */}
+          className=""
+        />
 
-        <video
+        {/* <video
           className="w-full h-full object-cover"
           autoPlay
           loop
@@ -32,7 +32,7 @@ export default function Banner() {
           playsInline
         >
           <source type="video/mp4" src="/api/video" />
-        </video>
+        </video> */}
       </div>
       <div className="absolute bottom-[12%] left-[5%] max-w-96 hidden lg:block">
         <h2 className="md:text-lg text-white font-normal mb-4">

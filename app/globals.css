@@ -1294,3 +1294,7 @@ p#breadcrumbs {
   max-width: 34.188rem;
   margin: 0 auto;
 }
+/* banner video  */
+.video-js{
+  background: transparent !important;
+}

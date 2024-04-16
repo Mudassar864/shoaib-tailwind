@@ -10,26 +10,36 @@ export default function page() {
     <>
       <HeaderBlack />
       <div className="flex min-h-[500px] flex-col-reverse lg:flex-row">
-        <div className="basis-full lg:basis-[55%] px-20 py-10">
-          <span className="text-3xl lg:text-6xl uppercase text-sothebys-blue">
-            Contact
-          </span>
-          <h1 className="text-[#949494] mt-4 text-3xl lg:text-6xl capitalize font-normal flex flex-col max-w-max ml-auto">
-            Shoaib
-            <span className="ml-[20%] font-bold text-sothebys-blue text-4xl lg:text-7xl">
-              Shahid
-            </span>
-          </h1>
+        <div className="basis-full lg:basis-[55%] px-4 md:px-20 py-10">
+          {/* <div className="flex gap-1"> */}
+            
+            <h1 className="text-[#949494] text-3xl lg:text-6xl capitalize font-normal flex flex-row gap-1 max-w-max">
+            <span className="text-3xl lg:text-6xl capitalize text-sothebys-blue">
+              Contact 
+            </span> Shoaib{" "}
+              <span className="font-bold text-sothebys-blue text-3xl lg:text-6xl">
+                Shahid.
+              </span>
+            </h1>
+          {/* </div> */}
           <div className="flex flex-col gap-4 mt-8">
-            <h3 className="text-5xl text-sothebys-blue"> Get in touch</h3>
+            <h3 className="text-2xl md:text-5xl text-sothebys-blue"> Get in touch</h3>
             <p>
               Please complete the form below, and your message will be promptly
               delivered to the appropriate personnel who will respond within the
               next 5 to 10 minutes.
             </p>
             <p>
-              If you require immediate assistance, please don't hesitate to <b>call
-              or whatsapp</b> us on <span className="inline-block"><Link href="tel:+971527180606"><strong className="text-sothebys-blue">+971 52 7180606</strong></Link></span>.
+              If you require immediate assistance, please don't hesitate to{" "}
+              <b>call or whatsapp</b> us on{" "}
+              <span className="inline-block">
+                <Link href="tel:+971527180606">
+                  <strong className="text-sothebys-blue">
+                    +971 52 7180606
+                  </strong>
+                </Link>
+              </span>
+              .
             </p>
           </div>
           <form action="#">
@@ -73,14 +83,13 @@ export default function page() {
           </form>
         </div>
         <div className="basis-full lg:basis-[45%] relative ">
-         
-            <Image
-              className="w-full object-cover"
-              src="/assets/about-img.jpg"
-              width={900}
-              height={1200}
-              alt="image"
-            />
+          <Image
+            className="w-full object-cover"
+            src="/assets/about-img.jpg"
+            width={900}
+            height={1200}
+            alt="image"
+          />
         </div>
       </div>
       <Footer />

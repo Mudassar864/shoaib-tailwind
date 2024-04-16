@@ -47,7 +47,7 @@ export default function page() {
               real estate endeavors.
             </p>
           </div>
-          <div className="basis-full md:basis-1/2 lg:basis-[30%] overflow-hidden -mt-16">
+          <div className="basis-full md:basis-1/2 lg:basis-[30%] overflow-hidden md:-mt-16">
             <Image
               src={image1}
               className="object-contain"

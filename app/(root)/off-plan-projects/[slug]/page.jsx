@@ -132,7 +132,7 @@ export default async function page({ params }) {
          
           </div>
           <div className="flex justify-center container">
-            <div className="w-full max-w-[1634px] grid grid-cols-1 lg:grid-cols-10 items-center lg:items-start justify-between mt-[50px]">
+            <div className="w-full max-w-[1634px]  px-4 grid grid-cols-1 lg:grid-cols-10 items-center lg:items-start justify-between mt-[50px]">
               <section className="!mx-auto w-full col-span-1 lg:col-span-7 flex justify-center lg:justify-start lg:pr-8">
                 <div className="w-full">
                   <div className="flex items-center pb-5">

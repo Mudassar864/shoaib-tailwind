@@ -17,7 +17,7 @@ export default function page() {
             </span>
             <h1 className="text-[#949494] text-3xl md:text-6xl capitalize font-normal flex flex-row gap-1 max-w-max">
               Shoaib{" "}
-              <span className="font-bold text-sothebys-blue text-3xl md:text-6xl">
+              <span className="font-semibold text-sothebys-blue ">
                 Shahid.
               </span>
             </h1>

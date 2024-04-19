@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 function Footer() {
@@ -39,7 +40,7 @@ function Footer() {
                   className="contact-item py-2.5 px-6 mx-1.5 text-[15px] hover:font-medium flex flex-col w-[75px]"
                   data-title={+971527180606}
                 >
-                  <a href="tel:+971527180606" area-label="phone">
+                  <Link href="tel:+971527180606" area-label="phone">
                     <img
                       alt="Phone Icon"
                       loading="lazy"
@@ -51,14 +52,14 @@ function Footer() {
                       style={{ color: "transparent" }}
                       src="/assets/icons/phone_footer.svg"
                     />
-                  </a>
+                  </Link>
                 </span>
                 <span
                   id="email-click"
                   className="contact-item py-2.5 mx-1.5 text-[15px] hover:font-medium flex flex-col w-[60px]"
                   data-title="E-mail"
                 >
-                  <a
+                  <Link
                     href="mailto:mss@sothebysrealty.ae"
                     area-label="email"
                     className="w-[30px]"
@@ -71,9 +72,9 @@ function Footer() {
                       className="aspect-auto"
                       quality={50}
                     />
-                  </a>
+                  </Link>
                 </span>
-                <a
+                <Link
                   id="whatsapp-click"
                   href="https://api.whatsapp.com/send?phone=971527180606&text=Hi Shoaib Shahid, I am looking for more information"
                   className="cursor-pointer contact-item py-2.5  mx-1.5 text-[15px] hover:font-medium flex flex-col w-[75px]"
@@ -90,13 +91,13 @@ function Footer() {
                     style={{ color: "transparent" }}
                     src="/assets/icons/whatsapp_footer.svg"
                   />
-                </a>
+                </Link>
               </div>
             </div>
             <div className="w-full md:w-2/3 xl:w-1/2 text-right flex flex-col md:flex-row flex-wrap items-center justify-end tracking-[0.375px]">
-              <div className=" flex">
-                <a
-                  href="#"
+              <div className="flex items-center">
+                <Link
+                  href="https://www.linkedin.com/in/shoaibshahid1/"
                   target="_blank"
                   className="mx-3"
                   aria-label="[object Object]"
@@ -112,9 +113,9 @@ function Footer() {
                     src="https://sothebysrealty.ae/assets/icons/linkedin.svg"
                     style={{ color: "transparent" }}
                   />
-                </a>
-                <a
-                  href="#"
+                </Link>
+                <Link
+                  href="https://www.youtube.com/channel/UC-WmTnUG3PTE1Et7tsEW-sQ"
                   target="_blank"
                   className="mx-3"
                   aria-label="[object Object]"
@@ -130,9 +131,9 @@ function Footer() {
                     src="https://sothebysrealty.ae/assets/icons/youtube.svg"
                     style={{ color: "transparent" }}
                   />
-                </a>
-                <a
-                  href="#"
+                </Link>
+                <Link
+                  href="https://www.facebook.com/shoaib.shahid.90"
                   target="_blank"
                   className="mx-3"
                   aria-label="[object Object]"
@@ -148,9 +149,9 @@ function Footer() {
                     src="https://sothebysrealty.ae/assets/icons/facebook.svg"
                     style={{ color: "transparent" }}
                   />
-                </a>
-                <a
-                  href="#"
+                </Link>
+                <Link
+                  href="https://www.instagram.com/shoaibshahidofficial/"
                   target="_blank"
                   className="mx-3"
                   aria-label="[object Object]"
@@ -166,7 +167,7 @@ function Footer() {
                     src="https://sothebysrealty.ae/assets/icons/instagram.svg"
                     style={{ color: "transparent" }}
                   />
-                </a>
+                </Link>
               </div>
             </div>
           </div>

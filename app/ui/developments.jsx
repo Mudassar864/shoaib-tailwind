@@ -43,7 +43,7 @@ export default function Developments() {
                 renowned Palm Jumeirah, boasting a host of cutting-edge features
                 and amenities
               </p>
-              <Link className="btn-underline" href="#">
+              <Link className="btn-underline" href="/off-plan-projects/palm-jebel-ali">
                 Explore
               </Link>
             </div>
@@ -74,7 +74,7 @@ export default function Developments() {
                 Atlantis The Royal Residences redefine opulence with iconic
                 architecture and lavish amenities.
               </p>
-              <Link className="btn-underline" href="#">
+              <Link className="btn-underline" href="off-plan-projects">
                 Explore
               </Link>
             </div>
@@ -103,7 +103,7 @@ export default function Developments() {
                 four-bedroom apartments and penthouses with breathtaking city
                 vistas.
               </p>
-              <Link className="btn-underline" href="#">
+              <Link className="btn-underline" href="/off-plan-projects/baccarat-hotel-and-residences">
                 Explore
               </Link>
             </div>

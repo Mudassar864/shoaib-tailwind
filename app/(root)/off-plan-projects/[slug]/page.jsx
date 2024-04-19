@@ -83,24 +83,7 @@ export default async function page({ params }) {
                     </div>
                   </div>
                   <div className="flex md:ml-[30px] items-center property-bottom-links">
-                    <div
-                      data-hidden="false"
-                      className="data-[hidden=true]:hidden flex hover:opacity-80 transition-opacity duration-300 ease-in-out pr-4 cursor-pointer"
-                    >
-                      <img
-                        alt="gallery"
-                        loading="lazy"
-                        width={21}
-                        height={21}
-                        decoding="async"
-                        data-nimg={1}
-                        className="mr-2.5"
-                        style={{ color: "transparent" }}
-                        src="/assets/icons/gallery.svg"
-                      />
-                      <span className="hidden sm:block">Gallery</span> (
-                      <div>{data.images.length}</div>)
-                    </div>
+                 
                     <Link
                       href="#contact"
                       className="text-sm py-3 px-9 max-w-max font-benton text-bkack border border-black transition-all duration-300 hover:bg-sothebys-blue hover:border-sothebys-blue hover:text-white"
@@ -129,7 +112,6 @@ export default async function page({ params }) {
             <div className="max-w-full xl:max-w-[1440px] mx-auto mt-4 relative">
               <CarouselSize images={data.images} />
             </div>
-         
           </div>
           <div className="flex justify-center container">
             <div className="w-full max-w-[1634px]  px-4 grid grid-cols-1 lg:grid-cols-10 items-center lg:items-start justify-between mt-[50px]">
@@ -285,82 +267,6 @@ export default async function page({ params }) {
                       </div>
                     )}
                   </div>
-                  <div className="w-full h-[1px] my-10 lg:my-16 bg-slate-300" />
-                  <div className="flex flex-col gap-y-8">
-                    <div className="hidden lg:block">
-                      <span className="text-[32px] leading-[38px] tracking-wide font-normal">
-                        In Details
-                      </span>
-                    </div>
-                    <div className="mt-5 lg:hidden">
-                      <span className="text-2xl leading-[38px] tracking-wide font-normal">
-                        In Details
-                      </span>
-                    </div>
-                    <div className="flex items-center  gap-x-10 scrollbar-hide">
-                      <div className="flex flex-col items-center gap-y-5">
-                        <div className="relative flex items-center justify-center w-24 overflow-hidden rounded-full cursor-pointer aspect-square">
-                          <img
-                            alt="Gallery"
-                            loading="lazy"
-                            width={120}
-                            height={120}
-                            decoding="async"
-                            data-nimg={1}
-                            className="object-cover h-24"
-                            style={{ color: "transparent" }}
-                          />
-                          <div className="absolute top-0 left-0 z-10 w-24 transition-all duration-300 ease-in-out rounded-full aspect-square bg-black/60 hover:bg-black/10">
-                            <div className="flex items-center justify-center w-full h-full transition-opacity ease-in-out hover:opacity-0 duration-800">
-                              <img
-                                src="/assets/icons/gallery-project.svg"
-                                alt="Gallery"
-                                className="w-10 aspect-square"
-                              />
-                            </div>
-                          </div>
-                        </div>
-                        <div className="flex flex-col items-center text-center">
-                          Gallery
-                        </div>
-                      </div>
-                      <div className="flex flex-col items-center gap-y-5">
-                        <div className="relative flex items-center justify-center w-24 overflow-hidden rounded-full cursor-pointer aspect-square">
-                          <img
-                            alt="Floorplan"
-                            loading="lazy"
-                            width={120}
-                            height={120}
-                            decoding="async"
-                            data-nimg={1}
-                            className="object-cover h-24"
-                            style={{ color: "transparent" }}
-                          />
-                          <div className="absolute top-0 left-0 z-10 w-24 transition-all duration-300 ease-in-out rounded-full aspect-square bg-black/60 hover:bg-black/10">
-                            <div className="flex items-center justify-center w-full h-full transition-opacity ease-in-out hover:opacity-0 duration-800">
-                              <img
-                                src="/assets/icons/floorplan-project.svg"
-                                alt="Floorplan"
-                                className="w-10 aspect-square"
-                              />
-                            </div>
-                          </div>
-                        </div>
-                        <div className="flex flex-col items-center text-center">
-                          Floorplan
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <button
-                    type="button"
-                    aria-haspopup="dialog"
-                    aria-expanded="false"
-                    aria-controls="radix-:R9r96m:"
-                    data-state="closed"
-                    id="project-in-details-id"
-                    className="hidden"
-                  />
                 </div>
               </section>
               <section className="pt-10 lg:pt-0 flex justify-start items-center flex-col lg:h-full lg:col-span-3 gap-y-10">
@@ -371,7 +277,7 @@ export default async function page({ params }) {
                       Enquiry about {/* */}
                       {data.title}
                     </div>
-                    <AddForm id={data._id} text="Submit enquiry" />
+                    <AddForm id={data.title} text="Submit enquiry" />
                   </div>
                 </div>
               </section>

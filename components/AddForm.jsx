@@ -4,6 +4,7 @@ import { useFormState, useFormStatus } from "react-dom";
 import { useToast } from "@/components/ui/use-toast";
 import { createEnquiry } from "@/app/actions";
 import { useEffect, useRef } from "react";
+import { sendEmail } from "@/actions/sendEmail";
 const initialState = {
   fullName: "",
   email: "",
@@ -11,7 +12,7 @@ const initialState = {
   message: "",
 };
 
-function SubmitButton({text}) {
+function SubmitButton({ text }) {
   const { pending } = useFormStatus();
   return (
     <button
@@ -25,7 +26,7 @@ function SubmitButton({text}) {
   );
 }
 
-export function AddForm({ id,text }) {
+export function AddForm({ id, text }) {
   const [state, formAction] = useFormState(createEnquiry, initialState);
   const { toast } = useToast();
   const formRef = useRef(null);
@@ -42,7 +43,23 @@ export function AddForm({ id,text }) {
   }, [state.message]);
   return (
     <form
-      action={formAction}
+      action={async (formData) => {
+        const { data, error } = await sendEmail(formData);
+
+        if (error) {
+          toast({
+            title: "Error",
+            description: error
+          });
+          return;
+        }
+
+        toast({
+          title: "Enquiry",
+          description:
+            "Thank you for your interest! Your enquiry has been successfully submitted. We'll get back to you shortly.",
+        });
+      }}
       className="w-full max-w-[461px] text-[#2A2A2A]"
       ref={formRef}
       id="contact"
@@ -56,7 +73,7 @@ export function AddForm({ id,text }) {
       />
       <input
         type="email"
-        name="email"
+        name="senderEmail"
         className="request-information-field w-full h-[58px] rounded mb-4 pl-3 border"
         placeholder="E-mail address"
       />

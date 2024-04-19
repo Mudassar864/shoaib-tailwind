@@ -27,7 +27,7 @@ export default function About() {
             inception to completion resulting in a lasting impact in the world
             of luxury real estate.
           </p>
-          <Link className="text-white border py-4 px-8  hover:bg-white hover:text-sothebys-blue font-bold transition-all duration-300" href="#">
+          <Link className="text-white border py-4 px-8  hover:bg-white hover:text-sothebys-blue font-bold transition-all duration-300" href="/about">
             Explore
           </Link>
         </div>

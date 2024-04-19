@@ -23,10 +23,10 @@ export default function HeaderSection() {
   }, []);
   return (
     <header
-      className={cn(
-        "header",
-        { "fixed w-full top-0 left-0 bg-white z-30 shadow-md text-black": isSticky }
-      )}
+      className={cn("header", {
+        "fixed w-full top-0 left-0 bg-white z-30 shadow-md text-black":
+          isSticky,
+      })}
     >
       <div className="w-full flex items-center justify-between pt-4 py-2">
         <div className="flex flex-col">
@@ -45,7 +45,7 @@ export default function HeaderSection() {
         </div>
         <div className="flex gap-4 items-center">
           <div className="hidden md:flex gap-4">
-            <Link href="https://wa.me/+971527180606">
+            <Link href="https://api.whatsapp.com/send?phone=971527180606&text=Hi Shoaib Shahid, I am looking for more information">
               <FaWhatsapp size={20} />
             </Link>
             <Link href="mailto:mss@sothebysrealty.ae">

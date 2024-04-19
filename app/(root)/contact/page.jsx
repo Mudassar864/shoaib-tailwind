@@ -1,6 +1,7 @@
 import Footer from "@/app/ui/footer";
 import HeaderBlack from "@/app/ui/headerBlack";
 import { AddForm } from "@/components/AddForm";
+import ContactForm from "@/components/ContactForm";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -41,45 +42,7 @@ export default function page() {
               .
             </p>
           </div>
-          <form action="#">
-            <div className="w-full flex flex-col pt-8 gap-3">
-              <div className="flex gap-2 flex-col md:flex-row">
-                <input
-                  type="text"
-                  className="basis-full md:basis-1/2 border placeholder-black py-2 px-6 font-benton text-base hover:outline-none focus:outline-none"
-                  placeholder="First Name"
-                />
-                <input
-                  type="text"
-                  className="basis-full md:basis-1/2 border placeholder-black py-2 px-6 font-benton text-base hover:outline-none focus:outline-none"
-                  placeholder="Last Name"
-                />
-              </div>
-              <div className="flex gap-2 flex-col md:flex-row">
-                <input
-                  type="tel"
-                  className="basis-full md:basis-1/2 border placeholder-black py-2 px-6 font-benton text-base hover:outline-none focus:outline-none"
-                  placeholder="Phone"
-                />
-                <input
-                  type="text"
-                  className="basis-full md:basis-1/2 border placeholder-black py-2 px-6 font-benton text-base hover:outline-none focus:outline-none"
-                  placeholder="Email"
-                />
-              </div>
-              <div className="flex gap-2 flex-col md:flex-row">
-                <textarea
-                  placeholder="Your Message"
-                  className="basis-full border placeholder-black py-2 px-6 font-benton text-base hover:outline-none focus:outline-none"
-                ></textarea>
-              </div>
-              <input
-                type="submit"
-                className="py-3 px-12 uppercase cursor-pointer max-w-max font-benton text-bkack border  transition-all duration-300 hover:bg-sothebys-blue hover:border-sothebys-blue hover:text-white"
-                value="submit"
-              />
-            </div>
-          </form>
+          <ContactForm />
         </div>
         <div className="basis-full lg:basis-[45%] relative ">
           <Image

@@ -10,7 +10,7 @@ export default function ContactForm() {
     <form
       action={async (formData) => {
         const { data, error } = await sendEmailContact(formData);
-
+            
         if (error) {
           toast({
             title: "Error",

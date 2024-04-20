@@ -49,11 +49,10 @@ export function AddForm({ id, text }) {
         if (error) {
           toast({
             title: "Error",
-            description: error
+            description: error,
           });
           return;
         }
-
         toast({
           title: "Enquiry",
           description:

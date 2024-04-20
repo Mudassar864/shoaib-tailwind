@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import Bvlgari from "../icons/Bvlgari";
-import beach from "@/public/assets/beach.jpg"
+import beach from "@/public/assets/beach.jpg";
 export default function Featured2() {
   return (
     <section className="w-full h-screen relative">
@@ -16,7 +16,12 @@ export default function Featured2() {
       </div>
       <div className="absolute top-12  w-full flex  flex-col justify-center items-center ">
         <Bvlgari />
-        <p className="mt-4 text-sm text-white">The height of luxury living elevated above island and sea.</p>
+        <p className="mt-4 text-sm text-white">
+          The height of luxury living elevated above island and sea. The Bvlgari
+          community, including The Lighthouse, provides a balanced lifestyle,
+          offering diverse opportunities for fitness, dining, shopping, and
+          well-being.
+        </p>
       </div>
     </section>
   );

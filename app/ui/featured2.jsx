@@ -16,11 +16,13 @@ export default function Featured2() {
       </div>
       <div className="absolute top-12  w-full flex  flex-col justify-center items-center ">
         <Bvlgari />
-        <p className="mt-4 text-sm text-white">
-          The height of luxury living elevated above island and sea. The Bvlgari
-          community, including The Lighthouse, provides a balanced lifestyle,
-          offering diverse opportunities for fitness, dining, shopping, and
-          well-being.
+        <p className="mt-2 text-sm text-white font-normal">
+          The height of luxury living elevated above island and sea.{" "}
+        </p>
+        <p className="mt-4 text-sm max-w-sm text-center text-white">
+          The Bvlgari community, including The Lighthouse, provides a balanced
+          lifestyle, offering diverse opportunities for fitness, dining,
+          shopping, and well-being.{" "}
         </p>
       </div>
     </section>

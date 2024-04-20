@@ -4,11 +4,7 @@ import React from "react";
 
 export default function page() {
   const images = [
-    { url: "/assets/about/1.jpg", wide: true },
-    { url: "/assets/about/4.jpg", wide: false },
-    { url: "/assets/about/17.jpeg", wide: false },
     { url: "/assets/about/3.jpg", wide: true },
-    { url: "/assets/about/2.jpg", wide: true },
     { url: "/assets/about/5.jpg", wide: true },
     { url: "/assets/about/6.jpg", wide: true },
     { url: "/assets/about/7.jpeg", wide: true },
@@ -26,10 +22,10 @@ export default function page() {
     { url: "/assets/about/17.jpeg", wide: false },
     { url: "/assets/about/18.jpeg", wide: false },
     { url: "/assets/about/26.jpeg", wide: false },
-    { url: "/assets/about/19.jpeg", wide: true },
     { url: "/assets/about/20.jpeg", wide: true },
-    { url: "/assets/about/21.jpeg", wide: false },
+    { url: "/assets/about/19.jpeg", wide: true },
     { url: "/assets/about/22.jpeg", wide: true },
+    { url: "/assets/about/21.jpeg", wide: false },
     { url: "/assets/about/25.jpeg", wide: false },
     { url: "/assets/about/27.jpeg", wide: true },
     // Add more image objects as needed
@@ -40,6 +36,14 @@ export default function page() {
       <div className="max-w-6xl mx-auto my-12">
         <h1 className="text-4xl text-center my-8">Gallery</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4  gap-2">
+        <div  className={`col-span-1 sm:col-span-2 md:col-span-4`}>
+            <img
+              src="/assets/about/1.jpg"
+              className="w-full h-full object-cover rounded-md"
+              alt={`Image`}
+            />
+          </div>
+
           {images.map((image, index) => (
             <div
               key={index}
@@ -54,6 +58,21 @@ export default function page() {
               />
             </div>
           ))}
+           <div  className={`col-span-1 sm:col-span-2 md:col-span-4`}>
+            <img
+              src="/assets/about/28.jpeg"
+              className="w-full h-full object-cover rounded-md"
+              alt={`Image`}
+            />
+          </div>
+
+          <div  className={`col-span-1 sm:col-span-2 md:col-span-4`}>
+            <img
+              src="/assets/about/2.jpg"
+              className="w-full h-full object-cover rounded-md"
+              alt={`Image`}
+            />
+          </div>
         </div>
       </div>
       <Footer />

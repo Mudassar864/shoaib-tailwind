@@ -11,7 +11,7 @@ export default function page() {
     <>
       <HeaderBlack />
       <div className="flex  flex-col-reverse lg:flex-row pt-20 md:pt-36">
-        <div className="basis-full   lg:basis-[65%] px-4 md:px-20 py-10">
+        <div className="basis-full flex flex-col justify-center  lg:basis-[65%] px-4 md:px-20 py-10">
           <div className="flex flex-col gap-6">
             <span className="text-3xl md:text-6xl capitalize text-sothebys-blue">
               Contact

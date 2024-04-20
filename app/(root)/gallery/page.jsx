@@ -33,7 +33,7 @@ export default function page() {
   return (
     <>
       <HeaderBlack />
-      <div className="max-w-6xl mx-auto my-12 pt-10 md:pt-20">
+      <div className="max-w-6xl mx-auto my-12 pt-12 md:pt-20">
         <h1 className="text-4xl text-center my-8">Gallery</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4  gap-2">
         <div  className={`col-span-1 sm:col-span-2 md:col-span-4`}>

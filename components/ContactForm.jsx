@@ -8,6 +8,7 @@ export default function ContactForm() {
 
   return (
     <form
+    className="mt-4"
       action={async (formData) => {
         const { data, error } = await sendEmailContact(formData);
             

@@ -10,8 +10,8 @@ export default function page() {
   return (
     <>
       <HeaderBlack />
-      <div className="flex min-h-[500px] flex-col-reverse lg:flex-row pt-20 md:pt-36">
-        <div className="basis-full  flex flex-col justify-center lg:basis-[55%] px-4 md:px-20 py-10">
+      <div className="flex  flex-col-reverse lg:flex-row pt-20 md:pt-36">
+        <div className="basis-full   lg:basis-[65%] px-4 md:px-20 py-10">
           <div className="flex flex-col gap-6">
             <span className="text-3xl md:text-6xl capitalize text-sothebys-blue">
               Contact
@@ -23,7 +23,7 @@ export default function page() {
               </span>
             </h1>
           </div>
-          <div className="flex flex-col gap-4 mt-8">
+          <div className="flex flex-col gap-4 mt-8 md:mt-24">
             <p>
               Please complete the form below, and your message will be promptly
               delivered to the appropriate personnel who will respond within the
@@ -44,9 +44,9 @@ export default function page() {
           </div>
           <ContactForm />
         </div>
-        <div className="basis-full lg:basis-[45%] relative ">
+        <div className="basis-full lg:basis-[35%] relative overflow-hidden">
           <Image
-            className="w-full object-cover"
+            className="w-full object-cover "
             src="/assets/about-sec3.jpg"
             width={900}
             height={1200}

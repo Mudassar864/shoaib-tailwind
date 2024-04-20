@@ -4,7 +4,7 @@ import Footer from "@/app/ui/footer";
 import HeaderSection from "@/app/ui/headerSection";
 import Image from "next/image";
 import React from "react";
-import image1 from "@/public/assets/service.jpg";
+import image1 from "@/public/assets/service.jpeg";
 import ServicsDetails from "@/app/ui/ServicesDetail";
 export default function page() {
   return (

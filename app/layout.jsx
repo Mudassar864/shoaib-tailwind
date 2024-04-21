@@ -16,7 +16,7 @@ export const metadata = {
   ogType: "website",
   ogUrl: "https://www.theshoaibshahid.com/", // Replace with actual URL
   ogImage:
-    "https://shoaib-tailwind.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fabout.d3bd4028.jpg&w=1920&q=75", // Replace with actual image URL
+    "https://www.theshoaibshahid.com/assets/a.png", // Replace with actual image URL
   twitterTitle: "Shoaib Shahid - Global Real Estate Consultant",
   twitterDescription:
     "Shoaib Shahid is a international real estate management consultant with over 15 years of experience. He has overseen property sales worth $1.5 billion, specializing in off-plan properties, luxury real estate, and prestigious locations.",

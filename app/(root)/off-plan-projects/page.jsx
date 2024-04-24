@@ -84,7 +84,7 @@ export default async function page() {
                       </h3>
                       {project?.price && (
                         <div className="font-acta">
-                          Starting Price {project.price}
+                          Starting Price {project.price} AED
                         </div>
                       )}
                     </section>

@@ -27,7 +27,7 @@ const page = () => {
           <h2 className="text-3xl md:text-5xl font-normal mb-4 font-benton">
             Welcome to the world's capital of ambition
           </h2>
-          <p className="text-sm md:text-sm leading-10 font-benton text-gray-700  max-w-2xl">
+          <p className="text-sm md:text-sm font-benton text-gray-700  max-w-2xl">
             Dubai delivers efficiency, access to growth markets, security and a
             forward-looking ecosystem for accelerated growth. Dubai brings
             people, process and technology seamlessly together to create an
@@ -35,10 +35,10 @@ const page = () => {
           </p>
         </div>
       </section>
-      <section className="py-12 max-w-4xl mx-auto">
+      <section className="px-4 py-12 max-w-4xl mx-auto">
         <h2 className="text-4xl font-benton font-normal">Why Dubai</h2>
         <div className="grid grid-cols-1 gap-4 mt-12">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mx-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 ">
             <div className="bg-[#005F66] rounded-xl p-4">
               <div className="flex items-center">
                 <Image
@@ -77,7 +77,7 @@ const page = () => {
               </p>
             </div>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mx-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 ">
             <div className="bg-[#005F66] rounded-xl p-4">
               <div className="flex flex-col items-center">
                 <Image
@@ -127,7 +127,7 @@ const page = () => {
         <h2 className="text-3xl font-benton font-normal my-4">
           Dubai your global partner of choice
         </h2>
-        <span className="text-sm md:text-sm leading-10 font-benton text-gray-700 max-w-2xl">
+        <span className="text-sm md:text-sm font-benton text-gray-700 max-w-2xl">
           Dubai is a magnet for foreign investment and a fast-growing hub for
           investors and entrepreneurs. Learn more about Dubai's pro-business
           environment built for growth.

@@ -38,7 +38,7 @@ const page = () => {
       <section className="py-12 max-w-4xl mx-auto">
         <h2 className="text-4xl font-benton font-normal">Why Dubai</h2>
         <div className="grid grid-cols-1 gap-4 mt-12">
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mx-4">
             <div className="bg-[#005F66] rounded-xl p-4">
               <div className="flex items-center">
                 <Image
@@ -77,7 +77,7 @@ const page = () => {
               </p>
             </div>
           </div>
-          <div className="grid grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mx-4">
             <div className="bg-[#005F66] rounded-xl p-4">
               <div className="flex flex-col items-center">
                 <Image
@@ -123,7 +123,7 @@ const page = () => {
           </div>
         </div>
       </section>
-      <section className="py-12 max-w-4xl mx-auto">
+      <section className="py-12 px-4 max-w-4xl mx-auto">
         <h2 className="text-3xl font-benton font-normal my-4">
           Dubai your global partner of choice
         </h2>
@@ -132,7 +132,7 @@ const page = () => {
           investors and entrepreneurs. Learn more about Dubai's pro-business
           environment built for growth.
         </span>
-        <div className="grid grid-cols-4 mt-12 gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-4 mt-12 gap-4">
           <div className="rounded-md overflow-hidden">
             <img
               src="/assets/innovation-technology-business-in-dubai.webp"
@@ -172,7 +172,7 @@ const page = () => {
         </div>
       </section>
       <section>
-        <h2 className="max-w-4xl mx-auto text-4xl font-benton font-bold m-4">
+        <h2 className="px-4 max-w-4xl mx-auto text-4xl font-benton font-bold m-4">
           Dubai Economic Agenda 'D33'
         </h2>
         <img
@@ -181,7 +181,7 @@ const page = () => {
           className="w-full h-screen object-cover"
         />
       </section>
-      <section className="max-w-4xl mx-auto">
+      <section className="px-4 max-w-4xl mx-auto">
         <p className="text-sm font-benton font-medium max-w-xl my-4">
           The Dubai Economic Agenda 'D33' seeks to firmly establish Dubai as one
           of the top 3 cities to invest, live and work in.
@@ -191,7 +191,7 @@ const page = () => {
             D33 - Dubai City Ambitions
           </h2>
           <div className="grid grid-cols-1 gap-4 mt-12">
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div className="bg-[#005F66] rounded-xl p-4">
                 <div className="flex items-center">
                   <Image
@@ -226,7 +226,7 @@ const page = () => {
                 </p>
               </div>
             </div>
-            <div className="grid grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div className="bg-[#005F66] rounded-xl p-4">
                 <div className="flex flex-col items-center">
                   <Image
@@ -269,7 +269,7 @@ const page = () => {
             </div>
           </div>
         </div>
-        <div className="bg-[#005F66] my-16 rounded-tr-[100px] rounded-bl-[100px] p-20 ">
+        <div className="bg-[#005F66] my-16 rounded-tr-[100px] rounded-bl-[100px] p-20">
           <p className="text-white text-lg">
             "2033 will mark 200 years since the foundation of Dubai: the year in
             which Dubai will be the most important global business centre, and
@@ -292,7 +292,7 @@ const page = () => {
           </div>
         </div>
       </section>
-      <section className="max-w-4xl mx-auto">
+      <section className="px-4 max-w-4xl mx-auto">
         <h2 className="text-4xl font-benton font-medium my-8">
           Construction and real estate
         </h2>
@@ -315,7 +315,7 @@ const page = () => {
             with more than 42% stemming from non-resident foreign investors.
           </p>
         </div>
-        <div className="grid grid-cols-4 mt-12 gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-4 mt-12 gap-4">
           <div className="rounded-md overflow-hidden">
             <img
               src="/assets/dubai-cityscape-burj-khalifa.jpg"
@@ -360,7 +360,7 @@ const page = () => {
             and a premier destination for investment and development.
           </p>
         </div>
-        <div className="grid grid-cols-2 gap-4 my-10 text-white">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-10 text-white">
           <div className="bg-[#005F66] p-4 rounded-xl">
             <h3 className="text-3xl mb-4">60% of Dubai's land area</h3>
             <p>will comprise nature reserves & rural areas by year 2040.</p>

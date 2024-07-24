@@ -1,6 +1,7 @@
 import Footer from "@/app/ui/footer";
 import HeaderBlack from "@/app/ui/headerBlack";
 import HeaderSection from "@/app/ui/headerSection";
+import List from "@/app/ui/list";
 import Image from "next/image";
 import React from "react";
 
@@ -15,8 +16,8 @@ const page = () => {
             alt="Invest in Dubai"
             className="w-full h-screen object-cover"
           />
-          <div className="absolute inset-0 flex items-center justify-center">
-            <h1 className="text-white text-4xl md:text-6xl font-bold">
+          <div className="absolute inset-0 flex items-center justify-start">
+            <h1 className="text-white text-4xl md:text-6xl font-bold pl-20">
               Invest in Dubai
             </h1>
           </div>
@@ -293,6 +294,78 @@ const page = () => {
         </div>
       </section>
       <section className="px-4 max-w-4xl mx-auto">
+        <h2 className="text-4xl font-benton font-medium">
+          Multinational corporations
+        </h2>
+        <p className="my-4">
+          Attracting the world's best international businesses and conglomerates
+          to Dubai.
+        </p>
+        <div className="flex gap-4 flex-col font-benton p-4 bg-gray-100 rounded-xl">
+          <p className="text-sm ">
+            As one of the world's most diversified economies, Dubai is the
+            preferred location for multinational corporations (MNCs) and
+            conglomerates seeking a strategic location for multi-continent
+            operations and attracting the best talent. Emphasising productivity
+            and innovation, the city is committed to helping businesses expand
+            and grow in a competitive, innovation-centric environment.
+            <br />
+            <br /> Global corporate giants have leveraged Dubai's status as a
+            key trade gateway, enabling the seamless flow of goods and services
+            by bridging the east-west time zone gap. They have tapped into the
+            city's diverse workforce, strong regulatory framework and highly
+            integrated trade and transport network to scale their services to
+            new markets and demographics from this central geographic node.
+            <br />
+            <br />
+            The pro-business environment is supported by growth-focused
+            government strategies and programmes, such as the D33 Agenda, Dubai
+            Global and Operation 300bn. These seek to position the city as a
+            leading hub for business, finance, logistics and technology, as well
+            as new-economy sectors like fintech, blockchain, AI and Web3.
+          </p>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-10 text-white">
+          <div className="bg-[#005F66] p-4 rounded-xl">
+            <h3 className="text-3xl mb-4 font-benton">90%</h3>
+            <p>of top regional CEOs of global firms are based in the UAE</p>
+          </div>
+          <div className="bg-[#005F66] p-4 rounded-xl">
+            <h3 className="text-3xl mb-4 font-benton">In top 10</h3>
+            <p>most competitive economies in the world in 2023</p>
+          </div>
+        </div>
+        <div className="flex gap-4 flex-col font-benton p-4 bg-[#ecf6fa] rounded-xl mt-16">
+          <h3 className="text-2xl font-normal">
+            Benefits for global companies in Dubai
+          </h3>
+          <p className="text-sm ">
+            The agile and resilient business ecosystem offers numerous unique
+            advantages to multinational corporations in Dubai, including
+            specially designated lower tax options and the opportunity to list
+            on the Dubai Financial Markets (DFM). Dubai is also a top venture
+            capital and FDI destination, offering a range of corporate support
+            mechanisms through a dynamic network of angels, accelerators and the
+            region’s largest concentration of venture capitalists.
+            <br />
+            <br />
+            More than 20 business-first free zones provide advantages tailored
+            to specific industries, from 100% foreign ownership, business
+            set-up, licensing and visa assistance, to regulatory and legal
+            support, access to ports and logistics facilities, and flexibility
+            in working models.
+            <br />
+            <br />
+            These include Dubai Internet City, which caters to technology and
+            ICT-related businesses; the Dubai Multi Commodities Centre (DMCC),
+            focused on facilitating trade across a range of commodities; and
+            Dubai International Financial Centre (DIFC), with its business-led
+            ecosystem under a common law English framework that offers
+            familiarity and stability to MNCs.
+          </p>
+        </div>
+      </section>
+      <section className="px-4 max-w-4xl mx-auto">
         <h2 className="text-4xl font-benton font-medium my-8">
           Construction and real estate
         </h2>
@@ -374,6 +447,51 @@ const page = () => {
             <p>in Dubai's property market, second fastest worldwide.</p>
           </div>
         </div>
+      </section>
+      <section className="px-4 max-w-4xl mx-auto">
+        <h2 className="text-4xl font-benton font-medium my-8">
+          Key Investment Sectors Under the D_33
+        </h2>
+
+        <ul className="grid grid-cols-1 gap-4 my-10 text-white">
+          <List
+            title="Real Estate Mega Projects"
+            text="Dubai continues to lead with groundbreaking real estate developments.
+          We are currently focusing on several mega projects that promise to
+          redefine the cityscape, including The palm Jabal Ali , Dubai Creek
+          Harbour, Dubai South, and Meydan One. These projects are designed to
+          offer unmatched residential, commercial, and recreational spaces,
+          providing excellent opportunities for substantial returns on
+          investment."
+          />
+          <List
+            title="Foreign Investment in Real Estate"
+            text="Dubai offers a conducive environment for foreign investors, with incentives such as the Golden Visa program, relaxed foreign ownership laws, and the introduction of Real Estate Investment Trusts (REITs). These initiatives are aimed at attracting top global investors and ensuring a robust and profitable investment landscape."
+          />
+          <List
+            title="Hospitality"
+            text="As a global tourism hub, Dubai is expanding its hospitality sector with new luxury hotels, resorts, and the development of existing properties. The Dubai Tourism Strategy 2025 and the legacy of Expo 2020 continue to drive growth, offering lucrative opportunities in the hospitality industry."
+          />
+          <List
+            title="Beachfront Resorts"
+            text="Our beachfront developments are at the forefront of innovation and sustainability. Projects such as Jumeirah Beachfront and La Mer are designed to integrate eco-friendly practices and smart technologies, providing unique investment opportunities in one of the most sought-after segments of the market."
+          />
+          <List
+            title="Education"
+            text="Dubai is investing heavily in its educational infrastructure, with plans for new schools, universities, research centres and partnerships with leading global institutions. The government's commitment to educational reforms, funding, and scholarships presents a promising avenue for investment in the education sector."
+          />
+        </ul>
+        <h2 className="text-2xl font-benton font-medium my-4">
+          Sustainable and Green Initiatives
+        </h2>
+        <p className="text-normal font-benton my-4">
+          Saving the planet for the future generation. Aligned with the D33
+          agenda, our focus on sustainability is unwavering. We are implementing
+          green building standards, renewable energy projects, and smart city
+          technologies across all sectors. These initiatives not only contribute
+          to a healthier environment but also ensure long-term economic
+          viability and growth.
+        </p>
       </section>
       <Footer />
     </>

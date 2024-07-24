@@ -77,7 +77,12 @@ export default function HeaderSection() {
           <Link href="/services" className="capitalize">
             services
           </Link>
-
+          <Link
+            className="text-sm capitalize hover:text-gray-400 transition-all"
+            href="/invest-in-dubai"
+          >
+            Invest In Dubai
+          </Link>
           <Link
             className="text-sm capitalize hover:text-gray-400 transition-all"
             href="/gallery"
@@ -128,7 +133,18 @@ export default function HeaderSection() {
           >
             services
           </Link>
-          <Link href="/gallery" className="capitalize" onClick={() => setMenu(false)}>
+          <Link
+            className="capitalize"
+            onClick={() => setMenu(false)}
+            href="/invest-in-dubai"
+          >
+            Invest In Dubai
+          </Link>
+          <Link
+            href="/gallery"
+            className="capitalize"
+            onClick={() => setMenu(false)}
+          >
             Gallery
           </Link>
           <Link

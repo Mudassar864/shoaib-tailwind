@@ -84,6 +84,12 @@ export default function HeaderBlack() {
           </Link>
           <Link
             className="text-sm capitalize hover:text-gray-400 transition-all"
+            href="/invest-in-dubai"
+          >
+            Invest In Dubai
+          </Link>
+          <Link
+            className="text-sm capitalize hover:text-gray-400 transition-all"
             href="/gallery"
           >
             Gallery
@@ -131,6 +137,13 @@ export default function HeaderBlack() {
             onClick={() => setMenu(false)}
           >
             services
+          </Link>
+          <Link
+            className="capitalize"
+            onClick={() => setMenu(false)}
+            href="/invest-in-dubai"
+          >
+            Invest In Dubai
           </Link>
           <Link
             href="/gallery"

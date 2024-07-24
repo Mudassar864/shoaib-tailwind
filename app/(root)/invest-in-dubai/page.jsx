@@ -12,9 +12,9 @@ const page = () => {
       <div>
         <div className="relative">
           <img
-            src="/assets/burj.jpg" // Replace with your image URL
+            src="/assets/museum-of-the-future-dubai.jpg" // Replace with your image URL
             alt="Invest in Dubai"
-            className="w-full h-screen object-cover"
+            className="w-full h-auto object-cover"
           />
           <div className="absolute inset-0 flex items-center justify-start">
             <h1 className="text-white text-4xl md:text-6xl font-bold pl-20">
@@ -177,7 +177,7 @@ const page = () => {
           Dubai Economic Agenda 'D33'
         </h2>
         <img
-          src="/assets/museum-of-the-future-dubai.jpg" // Replace with your image URL
+          src="/assets/burj.jpg" // Replace with your image URL
           alt="Invest in Dubai"
           className="w-full h-screen object-cover"
         />

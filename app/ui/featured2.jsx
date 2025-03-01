@@ -1,7 +1,9 @@
 import Image from "next/image";
 import React from "react";
 import Bvlgari from "../icons/Bvlgari";
-import beach from "@/public/assets/beach.jpg";
+import redseaicon from "@/public/assets/logo-hero.svg";
+
+import beach from "@/public/assets/four_season.jpg";
 export default function Featured2() {
   return (
     <section className="w-full h-screen relative">
@@ -11,18 +13,19 @@ export default function Featured2() {
           className="object-cover"
           placeholder="blur"
           fill={true}
+          
           alt="beach"
         />
       </div>
-      <div className="absolute top-12  w-full flex  flex-col justify-center items-center ">
-        <Bvlgari />
-        <p className="mt-2 text-sm text-white font-normal">
-          The height of luxury living elevated above island and sea.{" "}
+      <div className="absolute top-12 right-20 flex flex-col items-center justify-center">
+        <Image src={redseaicon} width={80} height={80} alt="featured" className="w-21 h-21"/>
+        <p className="mt-2 text-lg text-white font-normal">
+          Four Seasons Private Residences Red Sea{" "}
         </p>
         <p className="mt-4 text-sm max-w-sm text-center text-white">
-          The Bvlgari community, including The Lighthouse, provides a balanced
-          lifestyle, offering diverse opportunities for fitness, dining,
-          shopping, and well-being.{" "}
+          Four Seasons is a globally renowned luxury hospitality brand, known
+          for its exceptional service, elegant properties, and personalized
+          experiences.
         </p>
       </div>
     </section>

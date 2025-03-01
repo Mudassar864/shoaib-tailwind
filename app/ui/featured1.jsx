@@ -1,12 +1,13 @@
 import Image from "next/image";
 import React from "react";
 import Baccarat from "../icons/Baccarat";
+import redseaicon from "@/public/assets/red_sea-icon.svg";
 import Link from "next/link";
-import feature from "@/public/assets/featured.jpg";
-import featureBack from "@/public/assets/featureBack.jpg";
+import feature from "@/public/assets/featured_four_seasons.jpg";
+import featureBack from "@/public/assets/red_sea_beach.jpg";
 export default function Featured1() {
   return (
-    <section className="w-full lg:h-[150vh] relative overflow-hidden">
+    <section className="w-full lg:h-[120vh] relative overflow-hidden">
       <div className="fixed top-0 left-0 -z-10  w-full h-full hidden lg:block ">
         <Image
           src={featureBack}
@@ -27,7 +28,13 @@ export default function Featured1() {
           />
         </div>
         <div className="flex flex-col gap-8 items-center lg:px-8 justify-center ">
-          <Baccarat />
+          <Image
+            src={redseaicon}
+            width={306}
+            height={118}
+            className="w-21 h-21"
+            alt="featured"
+          />
           <p className="text-sm">Excellence that endures</p>
           <Link
             className="py-3 px-9 max-w-max font-benton text-bkack border border-black transition-all duration-300 hover:bg-sothebys-blue hover:border-sothebys-blue hover:text-white"

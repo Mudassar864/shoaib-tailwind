@@ -1,45 +1,43 @@
 "use client";
-import React from "react";
-import Image from "next/image";
-import image1 from "@/public/assets/beach.jpg";
+import React, { useState } from "react";
 import Link from "next/link";
-
 import { CldVideoPlayer } from "next-cloudinary";
 import "next-cloudinary/dist/cld-video-player.css";
-export default function Banner() {
-  return (
-    <section className="w-full relative  pt-[48%] overflow-hidden bg-black">
-      {/* <Image src={image1} placeholder="blur" alt="first iamge" fill  /> */}
-      <div className="absolute top-0 left-0 w-full   bg-[url('/assets/beach.jpg')] bg-cover bg-center bg-no-repeat ">
-        <CldVideoPlayer
-          src="VELA_VIENTO_-_Intro_Film_Horizontal_16x9_lkyobt"
-          controls={false}
-          autoplay={true}
-          playsinline={true}
-          loop
-          muted
-          posterOptions={{
-            publicId: "gzphvg7gj7pybifcmdib",
-          }}
-          className=""
-        />
 
-        {/* <video
-          className="w-full h-full object-cover"
-          autoPlay
+export default function Banner() {
+  const [isLoading, setIsLoading] = useState(true);
+
+  return (
+    <section className="w-full relative pt-[48%] overflow-hidden bg-black">
+      {/* Video background with spinner overlay */}
+      <div className="absolute top-0 left-0 w-full h-full bg-[url('/assets/four_season.jpg')] bg-cover bg-center bg-no-repeat">
+        {isLoading && (
+          <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
+            <div className="w-12 h-12 border-4 border-white border-t-transparent rounded-full animate-spin"></div>
+          </div>
+        )}
+
+        <CldVideoPlayer
+          src="ernmlpvl5kgvcou52azt"
+          controls={false}
+          autoplay
+          playsinline
           loop
           muted
-          playsInline
-        >
-          <source type="video/mp4" src="/api/video" />
-        </video> */}
+          onMetadataLoad={() => setIsLoading(false)} // Hide spinner when ready
+        />
       </div>
-      <div className="absolute bottom-[12%] left-[5%] max-w-96 hidden lg:block">
+
+      {/* Text content */}
+      <div className="absolute bottom-[12%] left-[5%] max-w-96 hidden lg:block z-20">
         <h2 className="md:text-lg text-white font-normal mb-4">
           <span className="font-semibold">Pioneering Prestige:</span> Where
           Luxury Meets Exceptional Service
         </h2>
-        <Link href="/off-plan-projects/amali-island" className="py-3 px-9 font-benton text-white border transition-all duration-300 hover:bg-sothebys-blue hover:border-sothebys-blue">
+        <Link
+          href="/off-plan-projects/amali-island"
+          className="py-3 px-9 font-benton text-white border transition-all duration-300 hover:bg-sothebys-blue hover:border-sothebys-blue"
+        >
           Explore
         </Link>
       </div>

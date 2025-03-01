@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 import project1 from "@/public//assets/project1.jpg";
 import project2 from "@/public//assets/project2.jpg";
-import project3 from "@/public//assets/project3.jpg";
+import project3 from "@/public//assets/four_season.jpg";
 export default function Developments() {
   return (
     <section className="py-12 px-4 bg-white">
@@ -19,11 +19,11 @@ export default function Developments() {
           </p>
         </div>
         <div className="grid grid-cols-1 pt-7 gap-8 md:grid-cols-2 lg:grid-cols-3 ">
-          <div className="flex flex-col">
-            <div className="w-full h-[300px] overflow-hidden relative">
+          <div className="flex flex-col ">
+            <div className="w-full h-[300px] rounded-lg overflow-hidden relative">
               <Image
                 src={project1}
-                className="object-cover"
+                className="object-cover cursor-pointer transition-all hover:scale-125"
                 fill={true}
                 alt="project one"
                 placeholder="blur"
@@ -43,16 +43,19 @@ export default function Developments() {
                 renowned Palm Jumeirah, boasting a host of cutting-edge features
                 and amenities
               </p>
-              <Link className="btn-underline" href="/off-plan-projects/palm-jebel-ali">
+              <Link
+                className="btn-underline"
+                href="/off-plan-projects/palm-jebel-ali"
+              >
                 Explore
               </Link>
             </div>
           </div>
           <div className="flex flex-col">
-            <div className="w-full h-[300px] overflow-hidden relative">
+            <div className="w-full h-[300px] rounded-lg overflow-hidden relative">
               <Image
                 src={project2}
-                className="object-cover"
+                className="object-cover cursor-pointer transition-all hover:scale-125"
                 fill={true}
                 alt="project two"
                 placeholder="blur"
@@ -80,10 +83,10 @@ export default function Developments() {
             </div>
           </div>
           <div className="flex flex-col">
-            <div className="w-full h-[300px] overflow-hidden relative">
+            <div className="w-full h-[300px] rounded-lg overflow-hidden relative">
               <Image
                 src={project3}
-                className="object-cover"
+                className="object-cover cursor-pointer transition-all hover:scale-125"
                 fill={true}
                 placeholder="blur"
                 priority
@@ -92,18 +95,23 @@ export default function Developments() {
             </div>
             <div className="flex flex-col flex-grow flex-shrink pt-4 gap-3 justify-between ">
               <h3 className="text-base font-normal text-black ">
-                <span className="font-semibold text-sothebys-blue">Baccarat Residences:</span>{" "}
-                Exquisite Luxury Living in Downtown Dubai
+                <span className="font-semibold text-sothebys-blue">
+                  Four Season:
+                </span>{" "}
+                Where Luxury Meets Legendary Hospitality.
               </h3>
               <p className="text-sm mb-2">
-                Baccarat Residences in Downtown Dubai present exclusive luxury
-                living near Dubai Mall and Burj Khalifa. Featuring 42 private
-                residences influenced by the brand's crystal artistry, designed
-                by Studio Libeskind and 1508 London. Offering three to
-                four-bedroom apartments and penthouses with breathtaking city
-                vistas.
+                Four Seasons is a globally renowned luxury hospitality brand,
+                known for its exceptional service, elegant properties, and
+                personalized experiences. Combining timeless sophistication with
+                innovative design, Four Seasons creates unforgettable stays in
+                iconic destinations, setting the gold standard for modern luxury
+                travel.
               </p>
-              <Link className="btn-underline" href="/off-plan-projects/baccarat-hotel-and-residences">
+              <Link
+                className="btn-underline"
+                href="/off-plan-projects/baccarat-hotel-and-residences"
+              >
                 Explore
               </Link>
             </div>

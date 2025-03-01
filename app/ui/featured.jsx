@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import c1 from "@/public/assets/c1.jpg";
-import services2 from "@/public/assets/l.jpg";
+import services2 from "@/public/assets/fourseasonsbeach.jpg";
 export default function Featured() {
   return (
     <section className="px-4 py-16 bg-white">

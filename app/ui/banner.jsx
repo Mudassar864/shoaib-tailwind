@@ -8,7 +8,7 @@ export default function Banner() {
   const [isLoading, setIsLoading] = useState(true);
 
   return (
-    <section className="w-full relative pt-[48%] overflow-hidden bg-black">
+    <section className="w-full relative pt-[48%] overflow-hidden ">
       {/* Video background with spinner overlay */}
       <div className="absolute top-0 left-0 w-full h-full bg-[url('/assets/four_season.jpg')] bg-cover bg-center bg-no-repeat">
         {isLoading && (

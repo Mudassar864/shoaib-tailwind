@@ -1298,3 +1298,13 @@ p#breadcrumbs {
 .video-js{
   background: transparent !important;
 }
+.video-container div{
+  height: 100%;
+}
+.video-js.vjs-fluid:not(.vjs-audio-only-mode) {
+  height: 100% !important;
+  object-fit: cover;
+}
+.video-container div video{
+  object-fit: cover;
+}

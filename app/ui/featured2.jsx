@@ -6,14 +6,13 @@ import redseaicon from "@/public/assets/logo-hero.svg";
 import beach from "@/public/assets/Shura MASTER PLAN.jpg";
 export default function Featured2() {
   return (
-    <section className="w-full">
+    <section className="w-full h-screen relative">
       <Image
         src={beach}
-        width={1920}
-        height={1200}
         className="object-cover"
         placeholder="blur"
         alt="beach"
+        fill
       />
     </section>
   );

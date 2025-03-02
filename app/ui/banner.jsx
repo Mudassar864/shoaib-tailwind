@@ -8,9 +8,9 @@ export default function Banner() {
   const [isLoading, setIsLoading] = useState(true);
 
   return (
-    <section className="w-full relative pt-[48%] overflow-hidden ">
+    <section className="w-full relative h-screen overflow-hidden ">
       {/* Video background with spinner overlay */}
-      <div className="absolute top-0 left-0 w-full h-full bg-[url('/assets/four_season.jpg')] bg-cover bg-center bg-no-repeat">
+      <div className="video-container absolute top-0 left-0 w-full h-full bg-[url('/assets/four_season.jpg')] bg-cover bg-center bg-no-repeat">
         {isLoading && (
           <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
             <div className="w-12 h-12 border-4 border-white border-t-transparent rounded-full animate-spin"></div>
@@ -20,6 +20,8 @@ export default function Banner() {
         <CldVideoPlayer
           src="ernmlpvl5kgvcou52azt"
           controls={false}
+          width={"100%"}
+          height={"100%"}
           autoplay
           playsinline
           loop

@@ -6,6 +6,53 @@ import Image from "next/image";
 import React from "react";
 import image1 from "@/public/assets/service.jpeg";
 import ServicsDetails from "@/app/ui/ServicesDetail";
+export const metadata = {
+  title: "Real Estate Services | Shoaib Shahid Property Consulting",
+  description:
+    "Explore real estate services offered by Shoaib Shahid — from investment consulting to off-plan property guidance, luxury property acquisition, and international sales strategies.",
+
+  keywords: [
+    "real estate services",
+    "property consulting",
+    "Dubai real estate advisor",
+    "Shoaib Shahid services",
+    "off-plan project consulting",
+    "luxury property services",
+    "international property management",
+    "investment property services",
+    "property acquisition Dubai",
+    "real estate expert UAE"
+  ],
+
+  alternates: {
+    canonical: "https://www.theshoaibshahid.com/services",
+  },
+
+  openGraph: {
+    title: "Real Estate Services | Shoaib Shahid",
+    description:
+      "Shoaib Shahid offers personalized real estate services, including off-plan property consulting, luxury sales, and investment advisory for local and international clients.",
+    url: "https://www.theshoaibshahid.com/services",
+    type: "website",
+    images: [
+      {
+        url: "https://www.theshoaibshahid.com/assets/services-cover.jpg", // Update with actual path
+        width: 1200,
+        height: 630,
+        alt: "Shoaib Shahid Real Estate Services",
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Property Services | Shoaib Shahid Real Estate Consulting",
+    description:
+      "Discover a full suite of property services from Shoaib Shahid — tailored for investors, buyers, and global property seekers.",
+    images: ["https://www.theshoaibshahid.com/assets/services-cover.jpg"],
+  },
+};
+
 export default function page() {
   return (
     <>

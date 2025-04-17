@@ -4,6 +4,52 @@ import HeaderSection from "@/app/ui/headerSection";
 import List from "@/app/ui/list";
 import Image from "next/image";
 import React from "react";
+export const metadata = {
+  title: "Invest in Dubai | Real Estate Opportunities with Shoaib Shahid",
+  description:
+    "Discover why Dubai is a top global destination for real estate investment. Shoaib Shahid guides you through off-plan opportunities, ROI potential, and luxury property deals in the UAE.",
+
+  keywords: [
+    "invest in Dubai",
+    "Dubai real estate investment",
+    "property investment UAE",
+    "off-plan projects Dubai",
+    "Dubai ROI properties",
+    "Shoaib Shahid real estate",
+    "luxury investment Dubai",
+    "Dubai property market",
+    "buy property in Dubai",
+    "global real estate opportunities"
+  ],
+
+  alternates: {
+    canonical: "https://www.theshoaibshahid.com/invest-in-dubai",
+  },
+
+  openGraph: {
+    title: "Invest in Dubai | Property Market Insights by Shoaib Shahid",
+    description:
+      "Learn how to invest in Dubai real estate with confidence. Backed by 15+ years of experience, Shoaib Shahid offers insights into high-performing properties and market trends.",
+    url: "https://www.theshoaibshahid.com/invest-in-dubai",
+    type: "article",
+    images: [
+      {
+        url: "https://www.theshoaibshahid.com/assets/invest-dubai-cover.jpg", // Update with actual image path
+        width: 1200,
+        height: 630,
+        alt: "Invest in Dubai - Shoaib Shahid",
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Invest in Dubai | Real Estate by Shoaib Shahid",
+    description:
+      "Explore top real estate investment opportunities in Dubai. Expert guidance from Shoaib Shahid with a proven record in global property sales.",
+    images: ["https://www.theshoaibshahid.com/assets/invest-dubai-cover.jpg"],
+  },
+};
 
 const page = () => {
   return (

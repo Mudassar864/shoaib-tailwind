@@ -5,6 +5,52 @@ import ContactForm from "@/components/ContactForm";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+export const metadata = {
+  title: "Contact Shoaib Shahid | Get in Touch for Real Estate Consultation",
+  description:
+    "Reach out to Shoaib Shahid for expert advice on luxury property investments, off-plan projects, and international real estate opportunities.",
+
+  keywords: [
+    "contact Shoaib Shahid",
+    "real estate consultation",
+    "property advisor Dubai",
+    "get in touch",
+    "Dubai real estate expert",
+    "off-plan property advice",
+    "luxury real estate consultant",
+    "real estate contact",
+    "investment property guidance",
+    "contact real estate expert"
+  ],
+
+  alternates: {
+    canonical: "https://www.theshoaibshahid.com/contact",
+  },
+
+  openGraph: {
+    title: "Contact Shoaib Shahid | Real Estate Advisor",
+    description:
+      "Have questions or need expert property guidance? Contact Shoaib Shahid for premium real estate services across Dubai and global markets.",
+    url: "https://www.theshoaibshahid.com/contact",
+    type: "website",
+    images: [
+      {
+        url: "https://www.theshoaibshahid.com/assets/contact-cover.jpg", // Update with actual image
+        width: 1200,
+        height: 630,
+        alt: "Contact Shoaib Shahid",
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Contact Shoaib Shahid | International Property Consultant",
+    description:
+      "Connect with Shoaib Shahid for tailored real estate advice and global property solutions.",
+    images: ["https://www.theshoaibshahid.com/assets/contact-cover.jpg"],
+  },
+};
 
 export default function page() {
   return (

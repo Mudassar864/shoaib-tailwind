@@ -1,6 +1,52 @@
 import Footer from "@/app/ui/footer";
 import HeaderBlack from "@/app/ui/headerBlack";
 import React from "react";
+export const metadata = {
+  title: "Property Gallery | Shoaib Shahid Real Estate Portfolio",
+  description:
+    "Explore a curated gallery of luxury properties, off-plan developments, and real estate projects presented by Shoaib Shahid across Dubai and international markets.",
+
+  keywords: [
+    "real estate gallery",
+    "property portfolio",
+    "Shoaib Shahid properties",
+    "Dubai property photos",
+    "luxury real estate gallery",
+    "off-plan property visuals",
+    "investment property images",
+    "property showcase",
+    "villa gallery Dubai",
+    "real estate project images"
+  ],
+
+  alternates: {
+    canonical: "https://www.theshoaibshahid.com/gallery",
+  },
+
+  openGraph: {
+    title: "Property Gallery | Shoaib Shahid Real Estate Portfolio",
+    description:
+      "Browse stunning visuals of premium villas, off-plan projects, and luxury developments guided by Shoaib Shahid.",
+    url: "https://www.theshoaibshahid.com/gallery",
+    type: "website",
+    images: [
+      {
+        url: "https://www.theshoaibshahid.com/assets/gallery-cover.jpg", // Update with actual image
+        width: 1200,
+        height: 630,
+        alt: "Luxury Property Gallery - Shoaib Shahid",
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Gallery | Shoaib Shahid's Luxury Property Portfolio",
+    description:
+      "Explore high-end real estate through our gallery of international and Dubai-based properties curated by Shoaib Shahid.",
+    images: ["https://www.theshoaibshahid.com/assets/gallery-cover.jpg"],
+  },
+};
 
 export default function page() {
   const images = [

@@ -8,21 +8,49 @@ import { GoogleAnalytics } from '@next/third-parties/google'
 export const metadata = {
   title: "Shoaib Shahid - International Real Estate Management Consultant",
   description:
-    "Shoaib Shahid is a international real estate management consultant with over 15 years of experience. He has overseen property sales worth $1.5 billion, specializing in off-plan properties, luxury real estate, and prestigious locations.",
-  // Social Media Meta Tags
-  ogTitle: "Shoaib Shahid - International Real Estate Management Consultant",
-  ogDescription:
-    "Shoaib Shahid is a international real estate management consultant with over 15 years of experience. He has overseen property sales worth $1.5 billion, specializing in off-plan properties, luxury real estate, and prestigious locations.",
-  ogType: "website",
-  ogUrl: "https://www.theshoaibshahid.com/", // Replace with actual URL
-  ogImage:
-    "https://www.theshoaibshahid.com/assets/service.jpeg", // Replace with actual image URL
-  twitterTitle: "Shoaib Shahid - Global Real Estate Consultant",
-  twitterDescription:
-    "Shoaib Shahid is a international real estate management consultant with over 15 years of experience. He has overseen property sales worth $1.5 billion, specializing in off-plan properties, luxury real estate, and prestigious locations.",
-  twitterCard: "summary_large_image",
-  twitterImage:
-    "https://www.theshoaibshahid.com/assets/service.jpeg", // Replace with actual image URL
+    "Shoaib Shahid is an international real estate management consultant with 15+ years of experience. Specializing in off-plan properties, luxury real estate, and prestigious locations worldwide.",
+
+  keywords: [
+    "Shoaib Shahid",
+    "real estate consultant",
+    "Dubai real estate",
+    "luxury properties",
+    "off-plan investments",
+    "international property sales",
+    "real estate management",
+    "property advisor UAE",
+    "global real estate consultant",
+    "invest in Dubai"
+  ],
+
+  alternates: {
+    canonical: "https://www.theshoaibshahid.com",
+  },
+
+  openGraph: {
+    title: "Shoaib Shahid - International Real Estate Management Consultant",
+    description:
+      "With over $1.5 billion in property sales, Shoaib Shahid brings unparalleled expertise in luxury and off-plan real estate across global markets.",
+    url: "https://www.theshoaibshahid.com",
+    type: "website",
+    images: [
+      {
+        url: "https://www.theshoaibshahid.com/assets/service.jpeg",
+        width: 1200,
+        height: 630,
+        alt: "Shoaib Shahid Real Estate Banner",
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Shoaib Shahid - Global Real Estate Consultant",
+    description:
+      "Over $1.5B in luxury real estate sales. Trusted advisor in off-plan investments and international property management.",
+    images: ["https://www.theshoaibshahid.com/assets/service.jpeg"],
+    creator: "@shoaibshahid", // Optional if you have a Twitter account
+  },
 };
 
 export default function RootLayout({ children }) {

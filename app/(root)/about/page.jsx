@@ -2,8 +2,55 @@ import Footer from "@/app/ui/footer";
 import HeaderBlack from "@/app/ui/headerBlack";
 import Image from "next/image";
 import React from "react";
+export const metadata = {
+  title: "About Shoaib Shahid | International Real Estate Consultant",
+  description:
+    "Learn about Shoaib Shahid's journey as a global real estate consultant. With over 15 years of experience and $1.5B+ in sales, he brings unmatched expertise to clients worldwide.",
+
+  keywords: [
+    "Shoaib Shahid",
+    "about Shoaib Shahid",
+    "real estate expert",
+    "Dubai property consultant",
+    "luxury real estate",
+    "international real estate advisor",
+    "property investment specialist",
+    "off-plan real estate Dubai",
+    "real estate leadership",
+    "trusted property advisor"
+  ],
+
+  alternates: {
+    canonical: "https://www.theshoaibshahid.com/about",
+  },
+
+  openGraph: {
+    title: "About Shoaib Shahid | International Real Estate Consultant",
+    description:
+      "Discover the story of Shoaib Shahid, a real estate leader with 15+ years of experience in global property markets and over $1.5 billion in sales.",
+    url: "https://www.theshoaibshahid.com/about",
+    type: "profile",
+    images: [
+      {
+        url: "https://www.theshoaibshahid.com/assets/about-cover.jpg", // Update with your actual image path
+        width: 1200,
+        height: 630,
+        alt: "Shoaib Shahid - About",
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "About Shoaib Shahid | Global Real Estate Expert",
+    description:
+      "Get to know Shoaib Shahid — 15+ years in luxury property sales, international consulting, and real estate leadership.",
+    images: ["https://www.theshoaibshahid.com/assets/about-cover.jpg"],
+  },
+};
 
 export default function page() {
+  
   return (
     <>
       <HeaderBlack />

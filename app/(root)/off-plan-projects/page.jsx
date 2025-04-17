@@ -5,6 +5,54 @@ import { urlForImage } from "@/sanity/lib/image";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+export const metadata = {
+  title: "Off-Plan Projects in Dubai | Shoaib Shahid Real Estate",
+  description:
+    "Explore premium off-plan real estate opportunities in Dubai with Shoaib Shahid. Handpicked developments, high ROI potential, and expert investment guidance.",
+
+  keywords: [
+    "off-plan projects Dubai",
+    "Dubai real estate",
+    "property investment",
+    "off-plan property",
+    "luxury developments",
+    "Dubai property market",
+    "Shoaib Shahid real estate",
+    "invest in Dubai",
+    "real estate consultant",
+    "property listings Dubai"
+  ],
+
+  alternates: {
+    canonical: "https://www.theshoaibshahid.com/off-plan-projects",
+  },
+
+  openGraph: {
+    title: "Off-Plan Projects in Dubai | Shoaib Shahid",
+    description:
+      "Browse the top off-plan projects curated by Shoaib Shahid — featuring luxury properties, trusted developers, and excellent investment potential.",
+    url: "https://www.theshoaibshahid.com/off-plan-projects",
+    type: "website",
+    images: [
+      {
+        url: "https://www.theshoaibshahid.com/assets/offplan-cover.jpg", // Replace with actual image path
+        width: 1200,
+        height: 630,
+        alt: "Dubai Off-Plan Projects",
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Dubai Off-Plan Projects | Curated by Shoaib Shahid",
+    description:
+      "Discover luxury off-plan developments with Shoaib Shahid — the trusted name in Dubai real estate investments.",
+    images: ["https://www.theshoaibshahid.com/assets/offplan-cover.jpg"],
+  },
+};
+
+
 async function getData() {
   const query = `
     *[_type == "offPlanProject"]`;

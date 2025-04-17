@@ -9,14 +9,64 @@ import { AddForm } from "@/components/AddForm";
 import Footer from "@/app/ui/footer";
 export const revalidate = 300; // revalidate at most 30 seconds
 
-async function getData(slug) {
-  const query = `
-    *[_type == "offPlanProject" && slug.current == '${slug}'][0]`;
 
-  const data = await client.fetch(query);
+// 1️⃣ Fetch function
+async function getData(slug) {
+  const query = `*[_type == "offPlanProject" && slug.current == $slug][0]`;
+  const data = await client.fetch(query, { slug });
   return data;
 }
 
+// 2️⃣ Dynamic Metadata
+export async function generateMetadata({ params }) {
+  const data = await getData(params.slug);
+
+  if (!data) {
+    return {
+      title: "Project Not Found | Shoaib Shahid",
+      description: "Sorry, the project you're looking for does not exist.",
+    };
+  }
+
+  const {
+    title,
+    overview,
+    mainImage,
+    slug,
+    location = "Dubai", // Fallbacks
+  } = data;
+
+  const fullUrl = `https://www.theshoaibshahid.com/off-plan-projects/${slug.current}`;
+  const imageUrl = mainImage?.asset?.url || "https://www.theshoaibshahid.com/assets/fallback-project.jpg";
+
+  return {
+    title: `${title} | Off-Plan Project in ${location}`,
+    description: overview || `Explore ${title}, a premium off-plan real estate opportunity in ${location}.`,
+    alternates: {
+      canonical: fullUrl,
+    },
+    openGraph: {
+      title: `${title} | Off-Plan in ${location}`,
+      description: overview,
+      url: fullUrl,
+      type: "article",
+      images: [
+        {
+          url: imageUrl,
+          width: 1200,
+          height: 630,
+          alt: `${title} - Shoaib Shahid`,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${title} | Off-Plan Project`,
+      description: overview,
+      images: [imageUrl],
+    },
+  };
+}
 export default async function page({ params }) {
   const { slug } = params;
   const data = await getData(slug);

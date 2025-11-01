@@ -38,7 +38,7 @@ export default function Banner() {
         </h2>
         <Link
           href="/off-plan-projects/amali-island"
-          className="py-3 px-9 font-benton text-white border transition-all duration-300 hover:bg-sothebys-blue hover:border-sothebys-blue"
+          className="py-3 px-9 font-benton text-black border transition-all duration-300 bg-[#f7f7f7]"
         >
           Explore
         </Link>

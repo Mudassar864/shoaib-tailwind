@@ -63,7 +63,7 @@ const page = () => {
             className="w-full h-auto object-cover"
           />
           <div className="absolute inset-0 flex items-center justify-start">
-            <h1 className="text-white text-2xl md:text-6xl font-bold ml-4 md:ml-20">
+            <h1 className="text-black text-2xl md:text-6xl font-bold ml-4 md:ml-20">
               Invest in Dubai
             </h1>
           </div>
@@ -86,7 +86,7 @@ const page = () => {
         <h2 className="text-4xl font-benton font-normal">Why Dubai</h2>
         <div className="grid grid-cols-1 gap-4 mt-12">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 ">
-            <div className="bg-sothebys-blue rounded-xl p-4">
+            <div className="bg-[#f7f7f7] rounded-xl p-4">
               <div className="flex items-center">
                 <Image
                   src={"/assets/finance-money-fdi-white.svg"}
@@ -94,18 +94,19 @@ const page = () => {
                   height={100}
                   className="w-[200px] h-[100px]"
                   alt="home"
+                  className="invert"
                 />
-                <h3 className="text-2xl md:text-4xl text-white font-benton font-bold ">
+                <h3 className="text-2xl md:text-4xl text-black font-benton font-bold ">
                   Global Financial Hub
                 </h3>
               </div>
-              <p className="m-4 text-white">
+              <p className="m-4 text-black">
                 Dubai's position at the centre of the world means professionals
                 can manage markets in the far east and the Americas all within
                 the same day - your new "power 8 till 8" time zone.
               </p>
             </div>
-            <div className="bg-sothebys-blue rounded-xl p-4">
+            <div className="bg-[#f7f7f7] rounded-xl p-4">
               <div className="flex items-center gap-4 ">
                 <Image
                   src={"/assets/money-bag-1-dirham-white-small-size.webp"}
@@ -113,19 +114,20 @@ const page = () => {
                   height={100}
                   className="w-[200px] h-[100px]"
                   alt="home"
+                  className="invert"
                 />
-                <h3 className="text-2xl md:text-4xl text-white font-benton font-bold ">
+                <h3 className="text-2xl md:text-4xl text-black font-benton font-bold ">
                   A magnet for businesses and investors
                 </h3>
               </div>
-              <p className="m-4 text-white">
+              <p className="m-4 text-black">
                 The world's leading companies, family offices, investment funds
                 and entrepreneurs already call Dubai home.
               </p>
             </div>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 ">
-            <div className="bg-sothebys-blue rounded-xl p-4">
+            <div className="bg-[#f7f7f7] rounded-xl p-4">
               <div className="flex flex-col items-center">
                 <Image
                   src={"/assets/blockchain-business-white.svg"}
@@ -133,13 +135,14 @@ const page = () => {
                   height={100}
                   className="w-[200px] h-[100px]"
                   alt="home"
+                  className="invert"
                 />
-                <h3 className="text-2xl md:text-4xl text-white font-benton font-bold text-center">
+                <h3 className="text-2xl md:text-4xl text-black font-benton font-bold text-center">
                   Connecting the world
                 </h3>
               </div>
             </div>
-            <div className="bg-sothebys-blue rounded-xl p-4">
+            <div className="bg-[#f7f7f7] rounded-xl p-4">
               <div className="flex flex-col items-center">
                 <Image
                   src={"/assets/eligibility-white.svg"}
@@ -147,13 +150,14 @@ const page = () => {
                   height={100}
                   className="w-[200px] h-[100px]"
                   alt="home"
+                  className="invert"
                 />
-                <h3 className="text-2xl md:text-4xl text-white font-benton font-bold text-center">
+                <h3 className="text-2xl md:text-4xl text-black font-benton font-bold text-center">
                   Global hub for talent
                 </h3>
               </div>
             </div>
-            <div className="bg-sothebys-blue  rounded-xl p-4">
+            <div className="bg-[#f7f7f7]  rounded-xl p-4">
               <div className="flex flex-col items-center">
                 <Image
                   src={"/assets/technology-and-ict-2-white.svg"}
@@ -161,8 +165,9 @@ const page = () => {
                   height={100}
                   className="w-[200px] h-[100px]"
                   alt="home"
+                  className="invert"
                 />
-                <h3 className="text-2xl md:text-4xl text-white font-benton font-bold text-center">
+                <h3 className="text-2xl md:text-4xl text-black font-benton font-bold text-center">
                   Future Forward
                 </h3>
               </div>
@@ -239,76 +244,82 @@ const page = () => {
           </h2>
           <div className="grid grid-cols-1 gap-4 mt-12">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <div className="bg-sothebys-blue rounded-xl p-4">
+              <div className="bg-[#f7f7f7] rounded-xl p-4">
                 <div className="flex items-center">
                   <Image
                     src={"/assets/globe-white.svg"}
                     width={200}
                     height={100}
                     alt="home"
+                    className="invert"
+                    
                   />
-                  <h3 className="text-2xl md:text-4xl text-white font-benton font-bold ">
+                  <h3 className="text-2xl md:text-4xl text-black font-benton font-bold ">
                     Dubai
                   </h3>
                 </div>
-                <p className="m-4 text-white">
+                <p className="m-4 text-black">
                   The fastest, safest and most connected city in the world.
                 </p>
               </div>
-              <div className="bg-sothebys-blue rounded-xl p-4">
+              <div className="bg-[#f7f7f7] rounded-xl p-4">
                 <div className="flex items-center">
                   <Image
                     src={"/assets/finance-money-fdi-white.svg"}
                     width={200}
                     height={100}
                     alt="home"
+                    className="invert"
                   />
-                  <h3 className="text-2xl md:text-4xl text-white font-benton font-bold ">
+                  <h3 className="text-2xl md:text-4xl text-black font-benton font-bold ">
                     Investment
                   </h3>
                 </div>
-                <p className="m-4 text-white">
+                <p className="m-4 text-black">
                   Conducive business environment for domestic and foreign direct
                   investment.
                 </p>
               </div>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-              <div className="bg-sothebys-blue rounded-xl p-4">
+              <div className="bg-[#f7f7f7] rounded-xl p-4">
                 <div className="flex flex-col items-center">
                   <Image
                     src={"/assets/finance-money-marketing-assets-white.svg"}
                     width={200}
                     height={100}
                     alt="home"
+                    className="invert"
                   />
-                  <h3 className="text-2xl md:text-4xl text-white font-benton font-bold ">
+                  <h3 className="text-2xl md:text-4xl text-black font-benton font-bold ">
                     Economic Hub
                   </h3>
                 </div>
               </div>
-              <div className="bg-sothebys-blue rounded-xl p-4">
+              <div className="bg-[#f7f7f7] rounded-xl p-4">
                 <div className="flex flex-col items-center">
                   <Image
                     src={"/assets/business-destination-white.svg"}
                     width={200}
                     height={100}
                     alt="home"
+                    className="invert"
                   />
-                  <h3 className="text-2xl md:text-4xl text-white font-benton font-bold ">
+                  <h3 className="text-2xl md:text-4xl text-black font-benton font-bold ">
                     Global leader
                   </h3>
                 </div>
               </div>
-              <div className="bg-sothebys-blue  rounded-xl p-4">
+              <div className="bg-[#f7f7f7]  rounded-xl p-4">
                 <div className="flex flex-col items-center">
                   <Image
                     src={"/assets/public-relations-conversation-white.svg"}
                     width={200}
                     height={100}
                     alt="home"
+                    className="invert"
                   />
-                  <h3 className="text-2xl md:text-4xl text-white font-benton font-bold ">
+                  <h3 className="text-2xl md:text-4xl text-black font-benton font-bold ">
                     Talent Hub
                   </h3>
                 </div>
@@ -316,8 +327,8 @@ const page = () => {
             </div>
           </div>
         </div>
-        <div className="bg-sothebys-blue my-16 rounded-tr-[100px] rounded-bl-[100px] p-20">
-          <p className="text-white text-lg">
+        <div className="bg-[#f7f7f7] my-16 rounded-tr-[100px] rounded-bl-[100px] p-20">
+          <p className="text-black text-lg">
             "2033 will mark 200 years since the foundation of Dubai: the year in
             which Dubai will be the most important global business centre, and
             by then we would have completed the Dubai Economic Agenda 2033. "
@@ -329,10 +340,10 @@ const page = () => {
               alt="highness"
             />
             <div>
-              <span className="text-white font-bold font-benton">
+              <span className="text-black font-bold font-benton">
                 His Highness Sheikh Mohammed bin Rashid Al Maktoum
               </span>
-              <p className="text-white">
+              <p className="text-black">
                 Vice President and Prime Minister of the UAE and Ruler of Dubai
               </p>
             </div>
@@ -347,7 +358,7 @@ const page = () => {
           Attracting the world's best international businesses and conglomerates
           to Dubai.
         </p>
-        <div className="flex gap-4 flex-col font-benton p-4 bg-sothebys-blue text-white rounded-xl">
+        <div className="flex gap-4 flex-col font-benton p-4 bg-[#f7f7f7] text-black rounded-xl">
           <p className="text-sm ">
             As one of the world's most diversified economies, Dubai is the
             preferred location for multinational corporations (MNCs) and
@@ -371,17 +382,17 @@ const page = () => {
             as new-economy sectors like fintech, blockchain, AI and Web3.
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-10 text-white">
-          <div className="bg-sothebys-blue p-4 rounded-xl">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-10 text-black">
+          <div className="bg-[#f7f7f7] p-4 rounded-xl">
             <h3 className="text-3xl mb-4 font-benton">90%</h3>
             <p>of top regional CEOs of global firms are based in the UAE</p>
           </div>
-          <div className="bg-sothebys-blue p-4 rounded-xl">
+          <div className="bg-[#f7f7f7] p-4 rounded-xl">
             <h3 className="text-3xl mb-4 font-benton">In top 10</h3>
             <p>most competitive economies in the world in 2023</p>
           </div>
         </div>
-        <div className="flex gap-4 flex-col p-4 bg-sothebys-blue text-white rounded-xl mt-16">
+        <div className="flex gap-4 flex-col p-4 bg-[#f7f7f7] text-black rounded-xl mt-16">
           <h3 className="text-2xl font-normal font-octa">
             Benefits for global companies in Dubai
           </h3>
@@ -415,7 +426,7 @@ const page = () => {
         <h2 className="text-4xl font-octa font-medium my-8">
           Construction and real estate
         </h2>
-        <div className="flex gap-4 flex-col  p-4 bg-sothebys-blue text-white rounded-xl">
+        <div className="flex gap-4 flex-col  p-4 bg-[#f7f7f7] text-black rounded-xl">
           <h3 className="text-2xl font-normal font-octa">
             Market-leading property sector
           </h3>
@@ -464,7 +475,7 @@ const page = () => {
             <p className="p-4 font-medium">Long-term residency</p>
           </div>
         </div>
-        <div className="flex gap-4 flex-col  p-4 bg-sothebys-blue rounded-xl mt-16 text-white">
+        <div className="flex gap-4 flex-col  p-4 bg-[#f7f7f7] rounded-xl mt-16 text-black">
           <h3 className="text-2xl font-normal font-octa">
             Growing economic momentum
           </h3>
@@ -481,8 +492,8 @@ const page = () => {
             and a premier destination for investment and development.
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-10 text-white">
-          <div className="bg-sothebys-blue p-4 rounded-xl">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-10 text-black">
+          <div className="bg-[#f7f7f7] p-4 rounded-xl">
             <h3 className="text-3xl mb-4 font-octa">
               60% of Dubai's land area
             </h3>
@@ -490,7 +501,7 @@ const page = () => {
               will comprise nature reserves & rural areas by year 2040.
             </p>
           </div>
-          <div className="bg-sothebys-blue p-4 rounded-xl">
+          <div className="bg-[#f7f7f7] p-4 rounded-xl">
             <h3 className="text-3xl mb-4 font-octa">
               +16% year-on-year price rise
             </h3>
@@ -505,7 +516,7 @@ const page = () => {
           Key Investment Sectors Under the D-33
         </h2>
 
-        <ul className="grid grid-cols-1 gap-4 my-10 text-white">
+        <ul className="grid grid-cols-1 gap-4 my-10 text-black">
           <List
             title="Real Estate Mega Projects"
             text="Dubai continues to lead with groundbreaking real estate developments.

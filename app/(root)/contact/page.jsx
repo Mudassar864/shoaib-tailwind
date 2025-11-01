@@ -59,12 +59,12 @@ export default function page() {
       <div className="flex  flex-col-reverse lg:flex-row pt-20 md:pt-36">
         <div className="basis-full flex flex-col justify-center  lg:basis-[65%] px-4 md:px-20 py-10">
           <div className="flex flex-col gap-6">
-            <span className="text-3xl md:text-6xl capitalize text-sothebys-blue">
+            <span className="text-3xl md:text-6xl capitalize text-black">
               Contact
             </span>
             <h1 className=" text-3xl md:text-6xl  ">
               Shoaib{" "}
-              <span className="font-semibold text-sothebys-blue ">
+              <span className="font-semibold text-black ">
                 Shahid.
               </span>
             </h1>
@@ -80,7 +80,7 @@ export default function page() {
               <b>call or whatsapp</b> us on{" "}
               <span className="inline-block">
                 <Link href="tel:+971527180606">
-                  <strong className="text-sothebys-blue">
+                  <strong className="text-black">
                     +971 52 7180606
                   </strong>
                 </Link>

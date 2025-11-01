@@ -5,7 +5,7 @@ export default function List({ title, text }) {
   const [visible, setVisible] = useState(false);
   return (
     <li
-      className="bg-sothebys-blue  p-4 rounded-xl cursor-pointer text-white"
+      className="bg-[#f7f7f7]  p-4 rounded-xl cursor-pointer text-black"
       onClick={() => setVisible(!visible)}
     >
       <b className="font-octa">{title}</b>

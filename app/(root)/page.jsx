@@ -18,7 +18,7 @@ export default function Home() {
       <Banner />
       <Developments />
       <About />
-      {/* <section className="flex w-full h-[600px] overflow-hidden bg-sothebys-blue relative">
+      {/* <section className="flex w-full h-[600px] overflow-hidden bg-[#f7f7f7] relative">
         <div className="w-[800px] h-full bg-red-300">
           <Image
             src="/assets/c1.jpg"
@@ -40,7 +40,7 @@ export default function Home() {
       <Featured1 />
       <section className="w-full bg-white overflow-hidden relative ">
         <div className="w-full lg:h-[600px] overflow-hidden">
-          <div className="md:absolute md:top-[50%] md:-translate-y-[50%] p-8 left-10 w-full md:w-[50%] font-benton bg-sothebys-blue text-white">
+          <div className="md:absolute md:top-[50%] md:-translate-y-[50%] p-8 left-10 w-full md:w-[50%] font-benton bg-[#f7f7f7] text-black">
             <div className="flex flex-col gap-4">
               <h3 className="text-2xl md:text-4xl font-bold font-acta">
                 Global Real Estate Consultant
@@ -52,7 +52,7 @@ export default function Home() {
                 locations.
               </p>
               <span className="font-medium text-lg">Property Sold</span>
-              <div className="flex gap-4 border-b pb-3">
+              <div className="flex gap-4 border-b pb-3 border-black">
                 <span className="text-2xl md:text-4xl basis-1/2 font-bold">
                   $1.5 Billion
                 </span>

@@ -65,7 +65,7 @@ export default function ContactForm() {
         </div>
         <input
           type="submit"
-          className="py-3 px-12 uppercase cursor-pointer max-w-max font-benton text-bkack border  transition-all duration-300 hover:bg-sothebys-blue hover:border-sothebys-blue hover:text-white"
+          className="py-3 px-12 uppercase cursor-pointer max-w-max font-benton text-bkack border  transition-all duration-300 hover:bg-white hover:border-black "
           value="submit"
         />
       </div>

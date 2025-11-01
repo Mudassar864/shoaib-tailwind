@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useCallback } from "react";
 import Link from "next/link";
 import { CldVideoPlayer } from "next-cloudinary";
 import "next-cloudinary/dist/cld-video-player.css";
@@ -7,30 +7,45 @@ import "next-cloudinary/dist/cld-video-player.css";
 export default function Banner() {
   const [isLoading, setIsLoading] = useState(true);
 
+  const handleVideoLoad = useCallback(() => {
+    setIsLoading(false);
+  }, []);
+
   return (
-    <section className="w-full relative h-screen overflow-hidden ">
-      {/* Video background with spinner overlay */}
-      <div className="video-container absolute top-0 left-0 w-full h-full bg-[url('/assets/four_season.jpg')] bg-cover bg-center bg-no-repeat">
+    <section
+      className="relative w-full h-screen overflow-hidden"
+      aria-label="Hero banner with video background"
+    >
+      {/* Video Background Container */}
+      <div className="absolute top-0 left-0 w-full h-full bg-white">
+        {/* Loading Spinner Overlay */}
         {isLoading && (
-          <section className="absolute inset-0 bg-black/50 flex items-center justify-center">
-            <section className="w-12 h-12 border-4 border-white border-t-transparent rounded-full animate-spin"></section>
-          </section>
+          <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
+            <div className="w-12 h-12 border-4 border-white border-t-transparent rounded-full animate-spin"></div>
+          </div>
         )}
 
+        {/* Video Player */}
         <CldVideoPlayer
           src="1101_rgop5u"
           controls={false}
-          width={"100%"}
-          height={"100%"}
+          width="100%"
+          height="100%"
           autoplay
           playsinline
           loop
           muted
-          onMetadataLoad={() => setIsLoading(false)} // Hide spinner when ready
+          onMetadataLoad={handleVideoLoad}
         />
       </div>
 
-      {/* Text content */}
+      {/* Overlay Gradient for Better Text Readability */}
+      <div
+        className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent pointer-events-none"
+        aria-hidden="true"
+      />
+
+      {/* Text Content */}
       <div className="absolute bottom-[12%] left-[5%] max-w-96 hidden lg:block z-20">
         <h2 className="md:text-lg text-white font-normal mb-4">
           <span className="font-semibold">Pioneering Prestige:</span> Where
@@ -38,7 +53,8 @@ export default function Banner() {
         </h2>
         <Link
           href="/off-plan-projects/amali-island"
-          className="py-3 px-9 font-benton text-white border transition-all duration-300 hover:bg-sothebys-blue hover:border-sothebys-blue"
+          className="inline-block py-3 px-9 font-benton text-white border border-white transition-all duration-300 hover:bg-white hover:border-black focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-transparent"
+          aria-label="Explore Amali Island project"
         >
           Explore
         </Link>

@@ -80,8 +80,8 @@ export default async function page() {
       </section>
       <section className="container !mx-auto my-4 px-4">
         <div className="py-3 md:py-6 flex items-center justify-between font-benton">
-          <div className="flex items-center text-sm font-normal text-sothebys-blue">
-            <h1 className="font-benton font-medium text-lg text-sothebys-blue">
+          <div className="flex items-center text-sm font-normal text-black">
+            <h1 className="font-benton font-medium text-lg text-black">
               Projects in UAE
             </h1>
             <span className="font-medium text-gray-400 text-base ml-2">
@@ -127,7 +127,7 @@ export default async function page() {
                           </div>
                         ))}
                       </div>
-                      <h3 className="text-3xl capitalize h-[72px] line-clamp-2 font-normal text-sothebys-blue">
+                      <h3 className="text-3xl capitalize h-[72px] line-clamp-2 font-normal text-black">
                         {project.title}
                       </h3>
                       {project?.price && (

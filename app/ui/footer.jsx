@@ -3,7 +3,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="footer bg-white  border-t border-sothebys-blue pt-18 pb-8 md:pb-3 font-benton text-xs tracking-tight !mx-auto footer-text">
+    <footer className="footer bg-white  border-t border-[#f7f7f7] pt-18 pb-8 md:pb-3 font-benton text-xs tracking-tight !mx-auto footer-text">
       <div className="max-w-6xl mx-auto px-4 ">
         <div className="md:block">
           <div className="md:border  md:border-x-0 md:border-b-0 md:border-t border-footer-line mx-auto text-center">

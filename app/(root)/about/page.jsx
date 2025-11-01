@@ -67,7 +67,7 @@ export default function page() {
                         </div>
                         <div className="ip-about-sec1-text-title wow fadeInRight !capitalize">
                           Shoaib
-                          <div className="!text-sothebys-blue">Shahid</div>
+                          <div className="!text-black">Shahid</div>
                         </div>
 
                         <div className="ip-about-sec1-text-excerpt wow fadeInRight !font-benton">
@@ -99,7 +99,7 @@ export default function page() {
                   </div>
 
                   <section className="py-2 tracking-normal">
-                    <div className="contaier lg:mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 bg-[#112548]">
+                    <div className="contaier lg:mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 bg-[#f7f7f7]">
                       <div className="md:col-span-2">
                         <img
                           src="https://d196t24mb8gljn.cloudfront.net/sothebys-assets/about-us-a.jpg"
@@ -108,11 +108,11 @@ export default function page() {
                         />
                       </div>
                       <div className="md:col-span-1 flex flex-col justify-center text-center md:text-left">
-                        <h2 className="text-3xl md:text-4xl font-normal !mb-2 text-[#ffffff]">
+                        <h2 className="text-3xl md:text-4xl font-normal !mb-2 text-black">
                           Unmatched Global Real Estate Expertise, Wherever You
                           Need It
                         </h2>
-                        <div className="p-2 md:p-0 font-benton my-2 text-left text-white text-sm">
+                        <div className="p-2 md:p-0 font-benton my-2 text-left text-black text-sm">
                           Led by Shoaib Sahid—an internationally acclaimed real
                           estate consultant with over 15 years of experience and
                           more than $1.5 billion in property sales—Dubai
@@ -123,7 +123,7 @@ export default function page() {
                           Shoaib brings unrivalled insight, precision, and a
                           results-driven approach to every transaction.
                         </div>
-                        <div className="p-2 md:p-0 font-benton text-left text-white text-sm">
+                        <div className="p-2 md:p-0 font-benton text-left text-black text-sm">
                           Specializing in off-plan properties, luxury estates,
                           and prime land acquisitions for private developers,
                           Shoaib combines deep local knowledge with a powerful
@@ -136,7 +136,7 @@ export default function page() {
                     </div>
                   </section>
                   {/* <section className="py-2 tracking-normal">
-                    <div className="contaier lg:mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 border border-sothebys-blue">
+                    <div className="contaier lg:mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 border border-[#f7f7f7]">
                       <div className="md:col-span-2">
                         <img
                           src="https://d196t24mb8gljn.cloudfront.net/sothebys-assets/about-us-1.jpg"
@@ -183,7 +183,7 @@ export default function page() {
                     </div>
                     <div className="ip-about-sec2-col col-right">
                       <div className="ip-about-sec2-text">
-                        <div className="ip-about-sec2-text-heading wow fadeInUp !text-sothebys-blue">
+                        <div className="ip-about-sec2-text-heading wow fadeInUp !text-black">
                           Global Real Estate Consultant
                         </div>
                         <div
@@ -232,7 +232,7 @@ export default function page() {
                     <div className="ip-about-sec3-inner-wrap flex flex-col md:flex-row">
                       <div className="ip-about-sec3-inner-col col-left">
                         <div className="ip-about-sec3-text">
-                          <div className=" !text-sothebys-blue text-4xl font-benton  pr-4">
+                          <div className=" !text-black text-4xl font-benton  pr-4">
                             Global Expertise, Local Excellence:{" "}
                             <span className="font-bold">
                               We're International
@@ -240,9 +240,9 @@ export default function page() {
                           </div>
                           <div className="text-base text-black leading-7 mt-6 pr-4 font-acta">
                             <p className="font-acta">
-                              <b>Chris Whitehead</b>, Managing Partner: With
+                              <b>Chris-blackhead</b>, Managing Partner: With
                               over three decades of expertise in residential
-                              sales and developments, Chris Whitehead stands as
+                              sales and developments, Chris-blackhead stands as
                               a visionary leader in the real estate industry. As
                               the Managing Partner of Dubai Sotheby's
                               International Realty, Chris brings unparalleled
@@ -279,7 +279,7 @@ export default function page() {
                   <div className="new-ip-about-sec5">
                     <div className="sec-inner-wrapper">
                       <div className="sec-col right">
-                        <div className="ip-about-sec5-text-heading wow fadeInUp !text-sothebys-blue">
+                        <div className="ip-about-sec5-text-heading wow fadeInUp !text-black">
                           Personal Life
                         </div>
                         <div className="ip-about-sec5-text-excerpt wow fadeInLeft">

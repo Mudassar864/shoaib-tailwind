@@ -45,7 +45,7 @@ export default function Featured1() {
           />
           <p className="text-sm font-medium">Excellence that endures</p>
           <Link
-            className="py-3 px-9 max-w-max font-benton text-black border border-black transition-all duration-300 hover:bg-sothebys-blue hover:border-sothebys-blue hover:text-white"
+            className="py-3 px-9 max-w-max font-benton text-black border border-[#e8e8e8] transition-all duration-300 hover:bg-white hover:border-black "
             href="/off-plan-projects/four-seasons-private-residences-red-sea-global"
           >
             Explore

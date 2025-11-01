@@ -135,7 +135,7 @@ export default async function page({ params }) {
                   <div className="flex md:ml-[30px] items-center property-bottom-links">
                     <Link
                       href="#contact"
-                      className="text-sm py-3 px-9 max-w-max font-benton text-bkack border border-black transition-all duration-300 hover:bg-sothebys-blue hover:border-sothebys-blue hover:text-white"
+                      className="text-sm py-3 px-9 max-w-max font-benton text-bkack border border-black transition-all duration-300 hover:bg-white hover:border-black "
                     >
                       Request information
                     </Link>

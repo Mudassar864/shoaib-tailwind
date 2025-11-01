@@ -34,13 +34,13 @@ export default function Featured() {
             />
           </div>
           <p className="text-sm my-3 font-benton">
-            <b>George Azar:</b> Visionary Chairman & CEO of Dubai, United Kingdom, and
-            Saudi Arabia Sotheby's International Realty. With a foundation in
-            financial consultancy at Merrill Lynch, George's expertise spans
-            borders, driving growth and creating opportunities across diverse
-            markets.
+            Shoaib <span className="font-bold">Shahid</span> oversees corporate investments and super-prime
+            properties for the world's most discerning clients. 
+            <br/>
+            Renowned for his vision and discretion, he curates landmark projects with unmatched
+            precision. Every investment he manages reflects exclusivity,
+            strategic brilliance, and lasting value.
           </p>
-        
         </div>
       </div>
     </section>
